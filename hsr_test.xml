@@ -1,0 +1,185 @@
+<model id="{8754bbb7-18f0-40aa-a7c3-6ed30ff9f581}" shortName="Model 1" formatXmlVersion="2.0" description="Model 1">
+<class id="{786ce8d5-33e0-4105-8df3-a74900db1521}" shortName="Model 1">
+<parameters/>
+<rules>
+<rule id="36ece773-a0d7-4587-bfdb-5735a97ee89e" shortName="check_rule" relation="eb979a65-0a4e-4959-b544-358bb1afea15" resultId="c:87c1a7d3-63cf-4f60-b69a-db570a11f5e3" initId="a:e279262e-8efb-474d-af0e-a0a3af045f9e;b:22e8da2c-2480-4db8-be22-d3388b31db7e"/>
+<rule id="38d2bbb8-e7a8-41f4-b5ad-2c710a1b7756" shortName="Гармония в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:a8b128ec-2c14-414c-b03a-094788b503f8" initId="a:f3a5c5e3-661b-4cb1-9f94-fb06f466f719;b:3dbea545-2f53-4174-9b10-edb25360b1f6"/>
+<rule id="3de295ea-9665-4297-8993-82f646461ffa" shortName="check_rule2" relation="eb979a65-0a4e-4959-b544-358bb1afea15" resultId="c:bebc8d29-398b-41d7-9b92-dfd9017a9c78" initId="a:3818b96f-5a47-43f9-aa66-5cee022de7f0;b:1496815d-0702-4f38-aefa-6493a963f3f5"/>
+<rule id="5c9af837-8762-435c-900a-4da4029e24a6" shortName="Гармония в Sub DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:44f7bedf-562b-4c14-8577-4033b4179157" initId="a:3818b96f-5a47-43f9-aa66-5cee022de7f0;b:c1af278f-fd10-41dc-a83b-b8753b9f6f6d"/>
+<rule id="72205cc5-e627-4e2f-be4c-34e164c23cfa" shortName="Гармония в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:ffa1fec8-d953-4fd0-8dae-c0c2635d7079" initId="a:e279262e-8efb-474d-af0e-a0a3af045f9e;b:22e8da2c-2480-4db8-be22-d3388b31db7e"/>
+<rule id="d233ba87-6594-46e0-b0ce-9999b64c3727" shortName="Гармония в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:4784fdc0-5c6e-46da-96d5-8970b861b773" initId="a:ffa80e28-563a-4f3b-9ee0-e7fcabf907a0;b:0df7c1c6-c64c-4bd1-9c6d-815eb31f8246"/>
+</rules>
+<constraints/>
+<classes>
+<class id="40763c4e-e6cf-4186-9c50-2dcd8298adbc" shortName="Стихия">
+<parameters>
+<parameter id="77069ed9-d45a-48ef-85c1-965226c4b899" shortName="1. Название стихии" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="4918e81e-78fa-4fda-a51b-b17bef514792" shortName="команда">
+<parameters/>
+<rules/>
+<constraints/>
+<classes>
+<class id="1aeba937-f55c-42e1-b88f-337e8c12e4ac" shortName="4.support">
+<parameters/>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="39290840-305c-444d-9ecd-c0aa4359ef23" shortName="3.effect dealer">
+<parameters/>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="a9cede00-5abc-406c-9b89-beb223303f7f" shortName="1.main DD">
+<parameters/>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="f0620e53-b707-47af-993f-f22fc79cb2a3" shortName="2.sub DD">
+<parameters/>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+</classes>
+</class>
+<class id="6266d473-e3f5-4f94-925e-497be58f9f61" shortName="Путь">
+<parameters/>
+<rules/>
+<constraints/>
+<classes>
+<class id="26877644-279e-4286-8f03-db302168118f" shortName="Разрушение">
+<parameters>
+<parameter id="71303ca3-77a7-43ff-a7b0-0c8fa5e7019a" shortName="3. ED+" defaultValue="0.00" type="double"/>
+<parameter id="c627a3b9-2143-4a14-8af0-a19e936be9ff" shortName="4. Support+" defaultValue="0.00" type="double"/>
+<parameter id="d147d96d-e477-46df-bdc8-529ce8abd722" shortName="2. Sub DD+" defaultValue="2.00" type="double"/>
+<parameter id="f3bc5aad-692a-4d3c-aacd-6c7dbc6e4b5e" shortName="1. DD+" defaultValue="4.00" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="51b6fd0b-75c8-44fc-8504-1329d610f91c" shortName="Гармония">
+<parameters>
+<parameter id="0df7c1c6-c64c-4bd1-9c6d-815eb31f8246" shortName="4. Support+" defaultValue="2.00" type="double"/>
+<parameter id="22e8da2c-2480-4db8-be22-d3388b31db7e" shortName="1. DD+" defaultValue="0.00" type="double"/>
+<parameter id="3dbea545-2f53-4174-9b10-edb25360b1f6" shortName="3. ED+" defaultValue="4.00" type="double"/>
+<parameter id="c1af278f-fd10-41dc-a83b-b8753b9f6f6d" shortName="2. Sub DD+" defaultValue="2.00" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="6363e764-2c53-4829-9891-82b032a06089" shortName="Небытие">
+<parameters>
+<parameter id="127cb1ba-e998-4bf9-a8fd-83a751fb1519" shortName="4. Support+" defaultValue="0.00" type="double"/>
+<parameter id="362db0e5-170e-423b-8848-6869bff252b8" shortName="2. Sub DD+" defaultValue="2.00" type="double"/>
+<parameter id="a68df1c4-c464-4781-bf0a-e42bad9e419e" shortName="3. ED+" defaultValue="4.00" type="double"/>
+<parameter id="f0fa95ff-7b93-44ee-bb5c-a852962d0aa3" shortName="1. DD+" defaultValue="0.00" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="8adea222-5252-4ea4-9789-144a1fadd7a2" shortName="Эрудиция">
+<parameters>
+<parameter id="0d351437-cd2c-4997-8ac0-3d720f7b7e16" shortName="1. DD+" defaultValue="2.00" type="double"/>
+<parameter id="bcb0bf88-597d-48b6-9619-aa6841838399" shortName="2. Sub DD+" defaultValue="4.00" type="double"/>
+<parameter id="ed5ace80-3a6d-469c-ab60-be38be15da6f" shortName="4. Support+" defaultValue="0.00" type="double"/>
+<parameter id="fbcd3cdd-cbd6-446b-be89-f27df3a2e903" shortName="3. ED+" defaultValue="0.00" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="9166fb9f-428c-450e-86ef-341f50405863" shortName="Изобилие">
+<parameters>
+<parameter id="106303dc-815e-4660-bcde-0c780aee0078" shortName="4. Support+" defaultValue="4.00" type="double"/>
+<parameter id="1496815d-0702-4f38-aefa-6493a963f3f5" shortName="3. ED+" defaultValue="2.00" type="double"/>
+<parameter id="87c1a7d3-63cf-4f60-b69a-db570a11f5e3" shortName="1. DD+" defaultValue="0.00" type="double"/>
+<parameter id="c366c661-5007-4ad4-b594-f286f1643957" shortName="2. Sub DD+" defaultValue="0.00" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes>
+<class id="7bed328a-ce25-4949-98b7-239487f10e3a" shortName="subизоб">
+<parameters>
+<parameter id="bebc8d29-398b-41d7-9b92-dfd9017a9c78" shortName="check_par" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+</classes>
+</class>
+<class id="b814bbc3-b8c8-47e8-bbec-c1ade05fe857" shortName="Сохранение">
+<parameters>
+<parameter id="8df1d230-4755-4467-bf95-6c99d6cf8a14" shortName="3. ED+" defaultValue="2.00" type="double"/>
+<parameter id="b9d1ef18-2474-48a7-8fcd-3848c3d5dc9e" shortName="1. DD+" defaultValue="0.00" type="double"/>
+<parameter id="cc99964a-9a55-4d22-a5bb-2077a3787a12" shortName="2. Sub DD+" defaultValue="0.00" type="double"/>
+<parameter id="ee1592f9-173c-4837-bce3-b52ecad7cd8f" shortName="4. Support+" defaultValue="4.00" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="e6d55be1-6c50-4cd4-9618-f4e709783dc1" shortName="Охота">
+<parameters>
+<parameter id="1ed622b2-91ad-4af7-b0d4-a57d5cdbb0d7" shortName="2. Sub DD+" defaultValue="2.00" type="double"/>
+<parameter id="676083ea-b92f-448e-a104-bd891ed0d97c" shortName="3. ED+" defaultValue="0.00" type="double"/>
+<parameter id="7a6678b0-df62-4529-9096-36b0b4ea9a9f" shortName="1. DD+" defaultValue="4.00" type="double"/>
+<parameter id="c0369233-da92-423f-b863-71a5d91177be" shortName="4. Support+" defaultValue="0.00" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+</classes>
+</class>
+<class id="bb207fa9-03b2-4284-a033-aafe500f6321" shortName="0.зеркало">
+<parameters/>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="bb9c7885-c096-4aaf-87e6-b31044753af1" shortName="персонаж">
+<parameters/>
+<rules/>
+<constraints/>
+<classes>
+<class id="2ea28a13-e4b0-475e-bb81-ed390df9a661" shortName="Искорка">
+<parameters>
+<parameter id="14a318ff-44b4-4bd0-a9aa-3a7a9350298b" shortName="9. В коллекции" type="double"/>
+<parameter id="3818b96f-5a47-43f9-aa66-5cee022de7f0" shortName="6. Sub DD потенциал" type="double"/>
+<parameter id="44f7bedf-562b-4c14-8577-4033b4179157" shortName="92. Sub DD ранг" type="double"/>
+<parameter id="4784fdc0-5c6e-46da-96d5-8970b861b773" shortName="94. Support ранг" type="double"/>
+<parameter id="65212c33-4a16-45e3-91fa-308543160d89" shortName="2. Стихия" type="string"/>
+<parameter id="83b50a94-3ede-4332-8b61-cc111de7f038" shortName="3. Путь" type="string"/>
+<parameter id="a8b128ec-2c14-414c-b03a-094788b503f8" shortName="93. Effect Dealer ранг" type="double"/>
+<parameter id="c26a7d84-d69d-4f9e-b9ce-359dd369a00a" shortName="4. SP голод" type="double"/>
+<parameter id="e279262e-8efb-474d-af0e-a0a3af045f9e" shortName="5. Main DD потенциал" type="double"/>
+<parameter id="f3a5c5e3-661b-4cb1-9f94-fb06f466f719" shortName="7. ED потенциал" defaultValue="1.00" type="double"/>
+<parameter id="f807e9bf-cea2-45cb-9df9-71726410e492" shortName="1. Имя" defaultValue="Искорка" type="string"/>
+<parameter id="ffa1fec8-d953-4fd0-8dae-c0c2635d7079" shortName="91. Main DD ранг" type="double"/>
+<parameter id="ffa80e28-563a-4f3b-9ee0-e7fcabf907a0" shortName="8. Support потенциал" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+</classes>
+</class>
+</classes>
+</class>
+<relations>
+<relation id="c55e959e-d94b-4121-802f-08a1f17ba6dc" shortName="Путь в Класс" inObj="a:double;b:double" relationType="simple" outObj="c:double">c=a+b</relation>
+<relation id="eb979a65-0a4e-4959-b544-358bb1afea15" shortName="check" inObj="a:double;b:double" relationType="simple" outObj="c:double">c=a-b</relation>
+</relations>
+</model>

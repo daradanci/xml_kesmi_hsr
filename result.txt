@@ -1,0 +1,450 @@
+
+<class id="047eefe0-acf4-4b3c-9e84-ef2b8ef6a1b0" shortName="Аргенти">
+<parameters>
+<parameter id="e7c4c974-fbdd-44fa-9acf-3fa9998ea52c" shortName="1. Имя" defaultValue="Аргенти" type="string"/>
+<parameter id="ebbe34cb-f481-4d2b-b7af-2956580bd7a0" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="294a8a00-1a5b-4d80-be01-d684550d9b4d" shortName="3. Стихия" defaultValue="Физический" type="string"/>
+<parameter id="0941b176-66dc-4a6b-a68a-cff4318a7a87" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
+<parameter id="e768e2c2-a3b4-4a59-8b87-4aaae7b6c5ad" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="1c033e06-0367-4631-aef3-9e8d57f75d2d" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="f4733b56-c20c-421f-8b71-ed3af6481213" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
+<parameter id="c69d970e-d5c0-459b-a690-fa985a88dc20" shortName="8. ED потенциал" defaultValue="4" type="double"/>
+<parameter id="a28c4f43-a5ae-4127-8f67-29e0ac746bd2" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="dc67ca89-f9ef-444e-8429-e1615f3e2d89" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="f823af63-d666-42ee-a23f-b01473435e0f" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="c1a0c586-271b-4fd2-8c45-614255f5ae82" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="2b1a354c-931b-41fd-9796-36391ac6af82" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="fcbf8ba8-917d-4764-a79e-5a19f466e6a9" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="5c1b8647-7315-4367-a378-9f2d3b144787" shortName ="Ранг Аргенти" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:fcbf8ba8-917d-4764-a79e-5a19f466e6a9" initId="a:dc67ca89-f9ef-444e-8429-e1615f3e2d89;d:f823af63-d666-42ee-a23f-b01473435e0f;b:c1a0c586-271b-4fd2-8c45-614255f5ae82;c:2b1a354c-931b-41fd-9796-36391ac6af82"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="f95cef16-1e51-494e-8bd8-932d0c61aae5" shortName="Арлан">
+<parameters>
+<parameter id="ff2773a2-60ef-4038-93f4-f306d54a8c7c" shortName="1. Имя" defaultValue="Арлан" type="string"/>
+<parameter id="f67db16f-eee3-4fa6-b6bc-946df5ecf456" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="93d47a9c-eedb-4ac1-9a38-8a49f664503c" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
+<parameter id="91d4297c-7407-42b7-aa59-8867cce659ab" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
+<parameter id="60089d7a-92ad-417e-9995-91d5465085cd" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="377b90c3-6ee4-439d-8645-c9a4f646677e" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="0aaa89aa-65d1-49ee-9cc3-851c0473c51e" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
+<parameter id="ed8679ef-4b7c-406b-88f0-e8b5dc702eb0" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="535dd2e0-0eef-48fb-8015-85954cd4079c" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="a3befdff-5388-467f-8a2c-49f9a59fb756" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="a480a759-310d-4f46-ab27-25c3353e7d16" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="f25a8cda-9dd8-45f2-8ad1-65253b423063" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="c912249e-e663-4d7e-b595-67ce394e0e6c" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="1a4efdf8-ac4c-41cc-bb33-fb894de144a7" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="abbc6960-102a-4078-b48a-addfebe09b4a" shortName ="Ранг Арлан" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:1a4efdf8-ac4c-41cc-bb33-fb894de144a7" initId="a:a3befdff-5388-467f-8a2c-49f9a59fb756;d:a480a759-310d-4f46-ab27-25c3353e7d16;b:f25a8cda-9dd8-45f2-8ad1-65253b423063;c:c912249e-e663-4d7e-b595-67ce394e0e6c"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="4423e632-9185-4939-86c8-cf12f11292f6" shortName="Аста">
+<parameters>
+<parameter id="b62411a2-257c-4db6-80f2-73de9a3a882a" shortName="1. Имя" defaultValue="Аста" type="string"/>
+<parameter id="dc12978e-4b80-4bff-8b85-9ba81a4a331b" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="8ef961d3-7778-43df-b69e-e826a7049517" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
+<parameter id="4b14c75a-367f-4155-93f4-63f3556dbdda" shortName="4. Путь" defaultValue="Гармония" type="string"/>
+<parameter id="0519c03d-9085-4673-8afa-c232188dac56" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="292c807f-b5b2-420f-8adf-c10fc64cb4b3" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="8319c721-fe5f-42f3-b59b-eb56ea725d4f" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="465d96fb-6b58-4d97-8b91-865b4d47195c" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="28e82cf8-0c32-4d49-997f-5156d04ce72f" shortName="9. Support потенциал" defaultValue="2" type="double"/>
+<parameter id="a855fb16-53cd-4ab6-bd48-31a26cccb1c1" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="40831c57-343f-4ccd-847a-2bb0827dd80e" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="5c3f357c-9655-4ae1-bc22-a3207da3c79c" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="3dafec9b-4799-406e-b729-ddf05b89726e" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="00ffdd32-7926-473b-a8d3-c21f82e94d72" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="bd43f025-1945-4b6e-91de-de492d213ad3" shortName ="Ранг Аста" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:00ffdd32-7926-473b-a8d3-c21f82e94d72" initId="a:a855fb16-53cd-4ab6-bd48-31a26cccb1c1;d:40831c57-343f-4ccd-847a-2bb0827dd80e;b:5c3f357c-9655-4ae1-bc22-a3207da3c79c;c:3dafec9b-4799-406e-b729-ddf05b89726e"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="a855c2cb-ae72-498d-9d74-077245869ad8" shortName="Байлу">
+<parameters>
+<parameter id="a9309c55-f664-4397-a606-5ad352d1d699" shortName="1. Имя" defaultValue="Байлу" type="string"/>
+<parameter id="54f001de-e5e6-4a75-91ff-56c07d0963be" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="f3f8f30e-9952-43a7-9ef9-edf1710c0717" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
+<parameter id="426afaf0-a8d4-45a0-926b-e8034bb7c05d" shortName="4. Путь" defaultValue="Изобилие" type="string"/>
+<parameter id="9171901e-d9c6-42c5-85d2-03d4b9afedd7" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="f7ed0af3-314e-4177-be75-beab7c4666c3" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="090877b8-befe-456c-bfce-36b388df4bc3" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="396f2b4d-7897-43df-a562-7f989aa4057f" shortName="8. ED потенциал" defaultValue="4" type="double"/>
+<parameter id="298bb0eb-75eb-4e72-bf11-c19d05fbeefd" shortName="9. Support потенциал" defaultValue="8" type="double"/>
+<parameter id="4bf6f777-9978-4fed-b8b0-f29f51ce3285" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="26269b73-3ede-4b5a-9f19-c90715d92bd6" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="78a65a98-7d9b-451d-82e1-f98b73e16b78" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="0ce0b567-8ff5-4b95-8ec1-68fd282f7e19" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="53b1cc1b-9c5a-480a-b1b7-6b4536404375" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="1be9b32d-5a81-4a9b-b433-60f4e8aeb10e" shortName ="Ранг Байлу" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:53b1cc1b-9c5a-480a-b1b7-6b4536404375" initId="a:4bf6f777-9978-4fed-b8b0-f29f51ce3285;d:26269b73-3ede-4b5a-9f19-c90715d92bd6;b:78a65a98-7d9b-451d-82e1-f98b73e16b78;c:0ce0b567-8ff5-4b95-8ec1-68fd282f7e19"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="bba58bb5-1091-45ab-a242-95f904b1d52b" shortName="Блэйд">
+<parameters>
+<parameter id="b118ee8e-4a18-4830-8fd7-37392c1433c7" shortName="1. Имя" defaultValue="Блэйд" type="string"/>
+<parameter id="ea410469-6be5-4072-b7be-eefa04b9ef29" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="8b2d8533-a7e8-4f3e-b472-7821948a703a" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
+<parameter id="13f4a714-594f-49a6-b7df-c06eed29637e" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
+<parameter id="359d2243-0b46-4491-9126-41908a6ebf1c" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="c7569e13-432c-41e0-bcd2-245c32cdbdad" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
+<parameter id="c4d26821-fc8a-44b9-83fd-170d21d93d4d" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
+<parameter id="db09e4e3-310d-4563-b2b1-93a72702bd80" shortName="8. ED потенциал" defaultValue="0" type="double"/>
+<parameter id="dba2d801-235f-4598-bf2e-c08a57363fef" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="cb1e1b0f-28ee-40b6-91b3-50aeee4586ae" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="16ce3693-d965-4100-91c6-ebbaea76cc65" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="b6159b2a-c08c-4b9a-abd2-ef86f1d11f6c" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="f8c3ab00-f53f-4433-ab56-53630f795735" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="b00120d0-d187-41ec-9b4b-0aba21a8dbd5" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="58234958-64be-4493-bb50-e5c98b261156" shortName ="Ранг Блэйд" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:b00120d0-d187-41ec-9b4b-0aba21a8dbd5" initId="a:cb1e1b0f-28ee-40b6-91b3-50aeee4586ae;d:16ce3693-d965-4100-91c6-ebbaea76cc65;b:b6159b2a-c08c-4b9a-abd2-ef86f1d11f6c;c:f8c3ab00-f53f-4433-ab56-53630f795735"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="4db87896-9984-4815-81d8-661249190180" shortName="Броня">
+<parameters>
+<parameter id="cb054a35-ad4b-42ad-ab12-746d36c9e334" shortName="1. Имя" defaultValue="Броня" type="string"/>
+<parameter id="df51f73f-76e8-4d0d-94b2-91c9a37118c5" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="4b76a10e-db94-413c-ab85-ba09c87ca8d2" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
+<parameter id="be068b2a-3bf4-4ea5-826a-00748c3b5434" shortName="4. Путь" defaultValue="Гармония" type="string"/>
+<parameter id="1522c691-e509-45b3-950e-85a8999b6307" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="72e08fee-95b5-41f7-9a4c-1a9d49c8db3e" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="f495ef39-d2c3-40ca-918c-73c0b03d5f9d" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="2a405373-96c2-47e0-8f40-fb714ea2751b" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="6326021b-e01c-4d78-9cc7-3d32fb125c5c" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="5e0bfc13-5b0c-4a79-b37b-325da6142619" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="322c000c-0bde-4c31-8879-3d026b3a9b98" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="4f44e988-13dc-466b-aeb8-9db8a295eac1" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="25ce0c57-dd83-4f38-8417-ee133d616583" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="b4f6ac7f-115d-467a-a5f7-b45767378a61" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="e9535f8d-eaa2-472a-9a05-7f99f8990102" shortName ="Ранг Броня" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:b4f6ac7f-115d-467a-a5f7-b45767378a61" initId="a:5e0bfc13-5b0c-4a79-b37b-325da6142619;d:322c000c-0bde-4c31-8879-3d026b3a9b98;b:4f44e988-13dc-466b-aeb8-9db8a295eac1;c:25ce0c57-dd83-4f38-8417-ee133d616583"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="88d95456-f3f4-469a-a91d-b43c0156a9ce" shortName="Вельт">
+<parameters>
+<parameter id="a1c2fb19-4940-4a26-9f4f-27c8314eaedf" shortName="1. Имя" defaultValue="Вельт" type="string"/>
+<parameter id="fc65a05d-bfd9-4063-9007-faefb6191b5a" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="5a2d9f00-d097-4844-9a55-98f1e6a3d948" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
+<parameter id="c87bd10d-ae99-44bf-a3a4-6560523f755a" shortName="4. Путь" defaultValue="Небытие" type="string"/>
+<parameter id="a4b93361-48e8-4ea7-8b1a-499cb786b98f" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="bdadb08b-bab0-4d3b-9076-16b4d130b61b" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="78281d54-e8c2-41e2-bd64-5f0b494a8dbc" shortName="7. Sub DD потенциал" defaultValue="2" type="double"/>
+<parameter id="de135d05-2f9d-46b8-a46b-c63b1b54c5da" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="f1ddbaed-fa5e-46a3-b4b1-4883c0bb738d" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="3c8b0a91-11b4-4c1a-915a-15e23a02be0a" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="e87e9011-8220-411a-8a02-2c1326a4822f" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="4544128f-154c-415b-a015-90e2c6d2de16" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="3025a4e8-f150-41d2-80db-a1fbdae55907" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="83e8f942-2406-4c17-90c9-a03084582344" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="cb49a7eb-7f49-4954-b0da-5dbeebfac42b" shortName ="Ранг Вельт" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:83e8f942-2406-4c17-90c9-a03084582344" initId="a:3c8b0a91-11b4-4c1a-915a-15e23a02be0a;d:e87e9011-8220-411a-8a02-2c1326a4822f;b:4544128f-154c-415b-a015-90e2c6d2de16;c:3025a4e8-f150-41d2-80db-a1fbdae55907"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="0159aeac-01d5-42e3-82f9-3bbc08bb9839" shortName="Гепард">
+<parameters>
+<parameter id="77702860-7120-43ab-b2d5-1bff42278738" shortName="1. Имя" defaultValue="Гепард" type="string"/>
+<parameter id="e66bee27-71e8-4650-913f-b927f1e76532" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="647eccb7-6c05-454b-af33-d6d6e0d9cffd" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
+<parameter id="043350a5-910f-4dd5-9342-81b0c47ad7d4" shortName="4. Путь" defaultValue="Сохранение" type="string"/>
+<parameter id="45b516a0-3249-4646-92fd-e87b8ff1108c" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="0c081e40-676f-487b-b5ad-725ea436355c" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="ace3b07a-a32d-417d-8a1a-e50899ad957a" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="285753b7-d1e3-46de-8599-0e316ff6bef6" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="ea289ff0-db9f-458e-a226-f40ca44a9315" shortName="9. Support потенциал" defaultValue="8" type="double"/>
+<parameter id="4562ef1a-4ede-4384-ad31-fcbceafb6bb3" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="5704b55e-f524-4459-a7d5-4ca33b131da4" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="a45fef45-9f8b-410d-aeed-e3e7ffc81c19" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="594bdbb3-de38-4436-ab01-c7e01eb4010a" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="aab7c2ae-a2c9-46a4-bdc6-94df0c7de60b" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="ff585c86-edd1-42dc-8306-46b510d1003c" shortName ="Ранг Гепард" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:aab7c2ae-a2c9-46a4-bdc6-94df0c7de60b" initId="a:4562ef1a-4ede-4384-ad31-fcbceafb6bb3;d:5704b55e-f524-4459-a7d5-4ca33b131da4;b:a45fef45-9f8b-410d-aeed-e3e7ffc81c19;c:594bdbb3-de38-4436-ab01-c7e01eb4010a"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="30493793-a4ee-4951-8244-fd369be7c00a" shortName="Герта">
+<parameters>
+<parameter id="518fdca6-d185-4431-ad01-5ba2aca47718" shortName="1. Имя" defaultValue="Герта" type="string"/>
+<parameter id="28800008-1776-4b10-9b96-a9405c00d9ea" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="b82a8d94-4cf4-4ae9-b606-b3827819bd37" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
+<parameter id="b04ba862-ce1c-4e26-bf95-14e4eaba9078" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
+<parameter id="d160cfb9-f367-43b8-a4b2-dd5502e0e82f" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="0036e8e2-b34b-4515-baa7-6d6bb9f67cb6" shortName="6. Main DD потенциал" defaultValue="4" type="double"/>
+<parameter id="1bb6c6aa-b6cf-49e5-9a10-f7f274fa3f25" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
+<parameter id="03ff4f3d-eeee-4a98-a691-dc8b5fa9b916" shortName="8. ED потенциал" defaultValue="0" type="double"/>
+<parameter id="e882a651-2f32-4026-9de6-d73c23d13b1d" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="22e1a7e6-b204-4f24-9ea6-490e995acdcc" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="63e6f4f3-6e39-4cd8-9ca6-d1dc702074fe" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="c9dd67db-ddea-4b35-b259-f11f5e987ada" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="12f013ce-66f6-4cd3-a5c4-76910f174ac8" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="c8c3e66e-c5c2-4475-9b6e-aee4160b91e1" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="58705380-18f4-4c29-ab28-6b81b21662e4" shortName ="Ранг Герта" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:c8c3e66e-c5c2-4475-9b6e-aee4160b91e1" initId="a:22e1a7e6-b204-4f24-9ea6-490e995acdcc;d:63e6f4f3-6e39-4cd8-9ca6-d1dc702074fe;b:c9dd67db-ddea-4b35-b259-f11f5e987ada;c:12f013ce-66f6-4cd3-a5c4-76910f174ac8"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="37e61e5f-8a23-41da-85f7-dfb15d44ca8b" shortName="Гуйнайфэнь">
+<parameters>
+<parameter id="79c8daf4-bfef-4541-9c4d-7b7a7143d5c4" shortName="1. Имя" defaultValue="Гуйнайфэнь" type="string"/>
+<parameter id="b3df27bb-10bd-4c09-a110-9601e0abd89f" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="0506b006-c811-49d1-9fd7-7e7fb080f736" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
+<parameter id="8097173f-e051-4c58-a50b-972f33a1948a" shortName="4. Путь" defaultValue="Небытие" type="string"/>
+<parameter id="50a1a952-2dc3-4d78-a75d-1734222a6534" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="45ce53e3-9cce-4792-8f6b-f387873cc8ae" shortName="6. Main DD потенциал" defaultValue="2" type="double"/>
+<parameter id="4ca4b665-7d1a-4351-ad10-d33a1b015c60" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="0382bbd0-0536-4bd1-93ec-667d0674c623" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="a419092b-22d9-42f5-8c82-df41812d7bc3" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="ee6c5c98-aab1-4537-9127-c38fd5bc5b3c" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="1520ef79-4148-4cfe-9338-c73b9db8a2cd" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="36cef47b-78ac-4d6d-bfab-35595a68395b" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="c36e42f3-a52b-48f3-9c61-4d8cf3ac54b4" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="2c0f70e2-40c7-4653-a1d7-ef77dc971082" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="9152b1af-2634-4592-8d55-c9161b0da8b6" shortName ="Ранг Гуйнайфэнь" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:2c0f70e2-40c7-4653-a1d7-ef77dc971082" initId="a:ee6c5c98-aab1-4537-9127-c38fd5bc5b3c;d:1520ef79-4148-4cfe-9338-c73b9db8a2cd;b:36cef47b-78ac-4d6d-bfab-35595a68395b;c:c36e42f3-a52b-48f3-9c61-4d8cf3ac54b4"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="8771ce89-5a24-469a-8c55-1fff156d7fb0" shortName="Дань Хэн">
+<parameters>
+<parameter id="5c06a539-9bc4-482b-8aa3-70661a89163e" shortName="1. Имя" defaultValue="Дань Хэн" type="string"/>
+<parameter id="c129b07f-1552-4084-8be6-6b672c03c664" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="87bc11da-9695-4355-a99d-5c189bc9bca4" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
+<parameter id="e7ffd343-c174-4137-8a62-f4a140549def" shortName="4. Путь" defaultValue="Охота" type="string"/>
+<parameter id="0268994c-4139-4ffa-8bfd-15294323722a" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="94e94250-03ad-4fba-aaf0-14c72e5b5a9d" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="26b3ab31-fff7-4b58-8248-6a6b69bf278f" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="85f31264-5dcf-4bb5-90d0-e36abca70a48" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="5d406c1a-c3d8-438d-bb11-9cbcad3e8a86" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="6264c185-2504-4d8c-9ecd-0ff39add9f23" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="cb5acc8c-5a05-4d3e-b01d-96b369cc8101" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="6719e883-b1c2-4135-9237-b7b8ee503d6a" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="52b3c8fb-6cd3-4ab3-8fcb-52df2e90e09f" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="335ffbb4-f10a-407e-88ae-54c796a21e62" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="0d45c71b-cf4a-4431-bd3a-32c8f0ead454" shortName ="Ранг Дань Хэн" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:335ffbb4-f10a-407e-88ae-54c796a21e62" initId="a:6264c185-2504-4d8c-9ecd-0ff39add9f23;d:cb5acc8c-5a05-4d3e-b01d-96b369cc8101;b:6719e883-b1c2-4135-9237-b7b8ee503d6a;c:52b3c8fb-6cd3-4ab3-8fcb-52df2e90e09f"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="210e4346-2cd0-4e9f-adc3-f38f7ac3153b" shortName="Пожиратель Луны">
+<parameters>
+<parameter id="e644fb1e-0932-471e-b724-0051c1207541" shortName="1. Имя" defaultValue="Пожиратель Луны" type="string"/>
+<parameter id="00f7e2c1-3a74-47f1-8720-eff57d742317" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="e892f48a-69cb-449b-9c9b-6112bd3531b9" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
+<parameter id="42dcb58b-ded3-4c75-abab-6fecf8d8879a" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
+<parameter id="a1423869-fd47-441b-85d8-1abbb9e5bc67" shortName="5. SP голод" defaultValue="8" type="double"/>
+<parameter id="406457c2-3eb8-4567-b444-c54adcb61f5e" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
+<parameter id="7e9def88-92aa-45c2-8407-8192d8789528" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
+<parameter id="fd611bc2-1093-4d9a-a154-9529880c793e" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="e1c5dedf-09d0-4860-8c92-de596f7cd1ab" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="9f3afd4a-6de5-42e2-afad-dca27cff2e68" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="c82df18e-4325-4b51-8e8d-cf5773ad21c9" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="5571ec03-23f9-43b9-829a-f60e54288c3a" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="ac68c7cb-84e5-4f3b-be36-ffcf61b61222" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="9fed877f-1aa4-4638-9037-4e04980ba8b2" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="08c13284-b128-4845-9716-b9d1bf37d0d9" shortName ="Ранг Пожиратель Луны" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:9fed877f-1aa4-4638-9037-4e04980ba8b2" initId="a:9f3afd4a-6de5-42e2-afad-dca27cff2e68;d:c82df18e-4325-4b51-8e8d-cf5773ad21c9;b:5571ec03-23f9-43b9-829a-f60e54288c3a;c:ac68c7cb-84e5-4f3b-be36-ffcf61b61222"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="51f5579a-d7ce-4c27-ad68-a98e1a3cdd96" shortName="Доктор Рацио">
+<parameters>
+<parameter id="6d49ec8e-c476-42de-a94f-653a56cd2a24" shortName="1. Имя" defaultValue="Доктор Рацио" type="string"/>
+<parameter id="a534fc48-e1b4-437e-809d-eb4b81fcf7a4" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="6ed7c143-ccd4-475c-bf64-c9c79a7760d3" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
+<parameter id="1f3027f4-e7cb-4129-9c61-65f9bd1a2b52" shortName="4. Путь" defaultValue="Охота" type="string"/>
+<parameter id="e011c735-6848-45a0-a27c-9ca4e6868b22" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="92fc6c61-23bd-4872-8884-8594696a72e7" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="916cb89b-2dc4-444b-82f7-438ed0f2bd4c" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
+<parameter id="06e825f8-82a4-41f6-954e-747ae193b253" shortName="8. ED потенциал" defaultValue="4" type="double"/>
+<parameter id="8d7521c8-f880-4ce9-b2c4-5ed70090d9a3" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="ce922cca-329e-4a08-84c5-0b062873401f" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="701795dd-23c6-428e-88a6-31945d72ff99" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="620948db-5e22-4e29-aaed-ea273d25a91b" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="34b8d0d6-82ba-485b-958f-469b2b79e768" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="4e6e3b70-ae0d-4bfc-a241-ab84861566fc" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="2f2ac621-0cda-4ea4-b7e5-b8b5a743d2ee" shortName ="Ранг Доктор Рацио" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:4e6e3b70-ae0d-4bfc-a241-ab84861566fc" initId="a:ce922cca-329e-4a08-84c5-0b062873401f;d:701795dd-23c6-428e-88a6-31945d72ff99;b:620948db-5e22-4e29-aaed-ea273d25a91b;c:34b8d0d6-82ba-485b-958f-469b2b79e768"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="392fa278-a7ad-4cc8-b4e3-ea5c8f8b71de" shortName="Жуань Мэй">
+<parameters>
+<parameter id="54497520-9491-4366-89ee-3e8d9eabb44e" shortName="1. Имя" defaultValue="Жуань Мэй" type="string"/>
+<parameter id="b600c9c2-c135-4100-9502-f3955b81e081" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="362db80e-d633-418c-9c33-609abf793fb8" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
+<parameter id="700c935f-7c2f-4b98-ad39-c2c4ad73e046" shortName="4. Путь" defaultValue="Гармония" type="string"/>
+<parameter id="29a7eb65-68aa-451e-8d03-6b958109f747" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="0f9f60f0-6f4f-4d82-8c82-e9efee5207a7" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="fcec37f4-251c-41c5-a0a8-64e4dd07c9c9" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="ea5fe714-4801-45ee-b136-1a486b839d86" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="bd4d609b-1b1d-43a0-84bb-99aadeb5685b" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="1fe2a83e-1e49-426d-b52d-df1abdcd098b" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="a4fd6b95-e3c9-4029-b157-b54980715684" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="e48bb651-df9d-4050-8ee0-ee79bded0488" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="c19e522c-03de-4f98-b237-7285cf3a42dd" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="b3bdabc7-f74a-431a-87ed-7916e21aa4ba" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="d29c9ac4-543c-4ebf-848b-9e1b3f615058" shortName ="Ранг Жуань Мэй" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:b3bdabc7-f74a-431a-87ed-7916e21aa4ba" initId="a:1fe2a83e-1e49-426d-b52d-df1abdcd098b;d:a4fd6b95-e3c9-4029-b157-b54980715684;b:e48bb651-df9d-4050-8ee0-ee79bded0488;c:c19e522c-03de-4f98-b237-7285cf3a42dd"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="a28cef6a-ccd0-4bab-abd0-4ccee5e01ea9" shortName="Зеле">
+<parameters>
+<parameter id="15c4c917-3185-4f60-9ef3-23faf0a1bf14" shortName="1. Имя" defaultValue="Зеле" type="string"/>
+<parameter id="87083a36-12d4-4989-bbee-e9961e3ab17d" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="f665024c-6c6f-4466-8431-566ce898513b" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
+<parameter id="0a286355-7295-4f9b-81d3-9d2da2304dac" shortName="4. Путь" defaultValue="Охота" type="string"/>
+<parameter id="312f0a5a-a567-4227-bf91-1d19f13a8f1d" shortName="5. SP голод" defaultValue="6" type="double"/>
+<parameter id="389cf4da-3006-47c4-a3f9-cdb8df9e5600" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
+<parameter id="c985670a-87b8-4bcc-84f6-8fc1b2395dca" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="a732f9fa-2dc4-4162-b6db-c538547fc822" shortName="8. ED потенциал" defaultValue="0" type="double"/>
+<parameter id="1d3df174-b7bd-4aac-a032-b187ffd6b4ad" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="9cdeec17-de35-4c1b-bbb3-eee5c4c9ec38" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="a3686714-5f1d-40aa-9c94-f77cce46bdab" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="69f3f7f1-3422-4752-af3d-113aadd19905" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="6776e8e8-faaa-46b4-983d-2e5662f7e330" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="804e8d87-563a-45fb-a679-2c7560abf1de" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="96d7f814-e210-4361-8e94-1a8eed52f47b" shortName ="Ранг Зеле" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:804e8d87-563a-45fb-a679-2c7560abf1de" initId="a:9cdeec17-de35-4c1b-bbb3-eee5c4c9ec38;d:a3686714-5f1d-40aa-9c94-f77cce46bdab;b:69f3f7f1-3422-4752-af3d-113aadd19905;c:6776e8e8-faaa-46b4-983d-2e5662f7e330"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+
+<class id="6f4071ca-b887-4109-9980-264dfdd83152" shortName="Искорка">
+<parameters>
+<parameter id="10fa8f7c-cb2c-4eb0-9d76-ab0a4526b37d" shortName="1. Имя" defaultValue="Искорка" type="string"/>
+<parameter id="1a0ef933-8943-4f2c-ade4-8a8a43bef9b4" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="0ae1179c-4a61-473a-b898-e88b80cbed57" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
+<parameter id="eaab1c0d-c429-49aa-b7d5-20ff5c061618" shortName="4. Путь" defaultValue="Гармония" type="string"/>
+<parameter id="5e4eeadf-1905-4fdc-8d3c-975442a99519" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="f2b5f2ee-0367-4ca3-be43-342900d20d41" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="4a638a52-6aba-4acb-97b5-32e84191a6aa" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="f5b8efa4-e8f9-49ff-a4ab-45d5f54cdc33" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="fdde7ff3-9fe5-40f1-9d7c-0f8c144fb8e6" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="e2f36633-292a-4067-b2bb-64714ac177dd" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="0e3e8482-aa23-4630-b927-52d6051489c7" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="533ed103-3b9b-42eb-92ee-1ce693842fc5" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="8f5b72d2-6fdd-43d4-b324-53dbd578ba07" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="2a8ab320-b0e0-4cb2-a3d9-1ba0202d3e49" shortName="Ранг" defaultValue="0" type="double"/>
+</parameters>
+<rules>
+<rule id="a8cbe0e0-fde8-4a1e-b93e-d56b9a33ddbf" shortName ="Ранг Искорка" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:2a8ab320-b0e0-4cb2-a3d9-1ba0202d3e49" initId="a:e2f36633-292a-4067-b2bb-64714ac177dd;d:0e3e8482-aa23-4630-b927-52d6051489c7;b:533ed103-3b9b-42eb-92ee-1ce693842fc5;c:8f5b72d2-6fdd-43d4-b324-53dbd578ba07"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
+EPIC RULES
+<rule id="6bcb79fc-352c-41f7-8e1c-dd061cddbb5b" shortName ="Аргенти: Эрудиция в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:dc67ca89-f9ef-444e-8429-e1615f3e2d89" initId="a:0d351437-cd2c-4997-8ac0-3d720f7b7e16;b:1c033e06-0367-4631-aef3-9e8d57f75d2d"/>
+<rule id="5749e505-0879-4374-8688-62426e02ee4a" shortName ="Аргенти: Эрудиция в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:f823af63-d666-42ee-a23f-b01473435e0f" initId="a:bcb0bf88-597d-48b6-9619-aa6841838399;b:f4733b56-c20c-421f-8b71-ed3af6481213"/>
+<rule id="af9f166e-7b2e-498f-8a01-934e5d002aa0" shortName ="Аргенти: Эрудиция в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:c1a0c586-271b-4fd2-8c45-614255f5ae82" initId="a:fbcd3cdd-cbd6-446b-be89-f27df3a2e903;b:c69d970e-d5c0-459b-a690-fa985a88dc20"/>
+<rule id="27c0f21b-fdc8-4917-afb5-0fa58342cafa" shortName ="Аргенти: Эрудиция в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:2b1a354c-931b-41fd-9796-36391ac6af82" initId="a:ed5ace80-3a6d-469c-ab60-be38be15da6f;b:a28c4f43-a5ae-4127-8f67-29e0ac746bd2"/>
+<rule id="6dbc5aea-ce8d-4806-9e86-1f5f214f7093" shortName ="Арлан: Разрушение в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:a3befdff-5388-467f-8a2c-49f9a59fb756" initId="a:f3bc5aad-692a-4d3c-aacd-6c7dbc6e4b5e;b:377b90c3-6ee4-439d-8645-c9a4f646677e"/>
+<rule id="64f95b93-b0cc-4084-8db3-37cc55e7ae64" shortName ="Арлан: Разрушение в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:a480a759-310d-4f46-ab27-25c3353e7d16" initId="a:d147d96d-e477-46df-bdc8-529ce8abd722;b:0aaa89aa-65d1-49ee-9cc3-851c0473c51e"/>
+<rule id="e672aeaf-a5a2-48bb-aa30-ced1d4130a3b" shortName ="Арлан: Разрушение в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:f25a8cda-9dd8-45f2-8ad1-65253b423063" initId="a:71303ca3-77a7-43ff-a7b0-0c8fa5e7019a;b:ed8679ef-4b7c-406b-88f0-e8b5dc702eb0"/>
+<rule id="acd948fa-629c-4dd7-bf8a-d2b865f12223" shortName ="Арлан: Разрушение в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:c912249e-e663-4d7e-b595-67ce394e0e6c" initId="a:c627a3b9-2143-4a14-8af0-a19e936be9ff;b:535dd2e0-0eef-48fb-8015-85954cd4079c"/>
+<rule id="4497f693-e246-411c-a6fb-c1b3f391e793" shortName ="Аста: Гармония в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:a855fb16-53cd-4ab6-bd48-31a26cccb1c1" initId="a:22e8da2c-2480-4db8-be22-d3388b31db7e;b:292c807f-b5b2-420f-8adf-c10fc64cb4b3"/>
+<rule id="cab34e6e-8c40-49c6-bbc6-ebc857783ad9" shortName ="Аста: Гармония в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:40831c57-343f-4ccd-847a-2bb0827dd80e" initId="a:c1af278f-fd10-41dc-a83b-b8753b9f6f6d;b:8319c721-fe5f-42f3-b59b-eb56ea725d4f"/>
+<rule id="c5ab77d6-5b49-4e58-a89b-1fc1d3037863" shortName ="Аста: Гармония в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:5c3f357c-9655-4ae1-bc22-a3207da3c79c" initId="a:3dbea545-2f53-4174-9b10-edb25360b1f6;b:465d96fb-6b58-4d97-8b91-865b4d47195c"/>
+<rule id="edca83cd-d3be-43c2-a226-101dcb9140d6" shortName ="Аста: Гармония в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:3dafec9b-4799-406e-b729-ddf05b89726e" initId="a:0df7c1c6-c64c-4bd1-9c6d-815eb31f8246;b:28e82cf8-0c32-4d49-997f-5156d04ce72f"/>
+<rule id="26648e78-907a-4b32-979d-144761b315cb" shortName ="Байлу: Изобилие в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:4bf6f777-9978-4fed-b8b0-f29f51ce3285" initId="a:87c1a7d3-63cf-4f60-b69a-db570a11f5e3;b:f7ed0af3-314e-4177-be75-beab7c4666c3"/>
+<rule id="6bf71af7-4f7f-419c-b3f0-0bf223f47f52" shortName ="Байлу: Изобилие в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:26269b73-3ede-4b5a-9f19-c90715d92bd6" initId="a:c366c661-5007-4ad4-b594-f286f1643957;b:090877b8-befe-456c-bfce-36b388df4bc3"/>
+<rule id="ff74cbbd-b0f3-437f-a11e-f353dceaa528" shortName ="Байлу: Изобилие в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:78a65a98-7d9b-451d-82e1-f98b73e16b78" initId="a:1496815d-0702-4f38-aefa-6493a963f3f5;b:396f2b4d-7897-43df-a562-7f989aa4057f"/>
+<rule id="730f15dc-9110-4d6b-bca4-8bb59aace4be" shortName ="Байлу: Изобилие в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:0ce0b567-8ff5-4b95-8ec1-68fd282f7e19" initId="a:106303dc-815e-4660-bcde-0c780aee0078;b:298bb0eb-75eb-4e72-bf11-c19d05fbeefd"/>
+<rule id="32287047-74f8-42a9-861e-21d417664c4e" shortName ="Блэйд: Разрушение в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:cb1e1b0f-28ee-40b6-91b3-50aeee4586ae" initId="a:f3bc5aad-692a-4d3c-aacd-6c7dbc6e4b5e;b:c7569e13-432c-41e0-bcd2-245c32cdbdad"/>
+<rule id="ccb95dd9-5891-4383-9366-2d44593ad752" shortName ="Блэйд: Разрушение в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:16ce3693-d965-4100-91c6-ebbaea76cc65" initId="a:d147d96d-e477-46df-bdc8-529ce8abd722;b:c4d26821-fc8a-44b9-83fd-170d21d93d4d"/>
+<rule id="b4dee3fc-442c-45f5-b054-a5a526306f06" shortName ="Блэйд: Разрушение в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:b6159b2a-c08c-4b9a-abd2-ef86f1d11f6c" initId="a:71303ca3-77a7-43ff-a7b0-0c8fa5e7019a;b:db09e4e3-310d-4563-b2b1-93a72702bd80"/>
+<rule id="572977f9-7aa2-4933-8757-f313b221dbd9" shortName ="Блэйд: Разрушение в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:f8c3ab00-f53f-4433-ab56-53630f795735" initId="a:c627a3b9-2143-4a14-8af0-a19e936be9ff;b:dba2d801-235f-4598-bf2e-c08a57363fef"/>
+<rule id="b436f589-6e45-48b4-83b3-fff09b2d8f2a" shortName ="Броня: Гармония в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:5e0bfc13-5b0c-4a79-b37b-325da6142619" initId="a:22e8da2c-2480-4db8-be22-d3388b31db7e;b:72e08fee-95b5-41f7-9a4c-1a9d49c8db3e"/>
+<rule id="44f6a19d-e9f7-4992-bf4b-e40558ff9d3d" shortName ="Броня: Гармония в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:322c000c-0bde-4c31-8879-3d026b3a9b98" initId="a:c1af278f-fd10-41dc-a83b-b8753b9f6f6d;b:f495ef39-d2c3-40ca-918c-73c0b03d5f9d"/>
+<rule id="91a667f4-4a03-47f4-aff5-ecd1f6fca6bc" shortName ="Броня: Гармония в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:4f44e988-13dc-466b-aeb8-9db8a295eac1" initId="a:3dbea545-2f53-4174-9b10-edb25360b1f6;b:2a405373-96c2-47e0-8f40-fb714ea2751b"/>
+<rule id="b1919f7a-5ccc-43b9-a2ea-8a96a54d38ae" shortName ="Броня: Гармония в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:25ce0c57-dd83-4f38-8417-ee133d616583" initId="a:0df7c1c6-c64c-4bd1-9c6d-815eb31f8246;b:6326021b-e01c-4d78-9cc7-3d32fb125c5c"/>
+<rule id="9b8b38f8-1fc9-4b7e-bc65-e417c094b574" shortName ="Вельт: Небытие в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:3c8b0a91-11b4-4c1a-915a-15e23a02be0a" initId="a:f0fa95ff-7b93-44ee-bb5c-a852962d0aa3;b:bdadb08b-bab0-4d3b-9076-16b4d130b61b"/>
+<rule id="eb51b538-8586-4bee-b59a-f98c073f4d52" shortName ="Вельт: Небытие в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:e87e9011-8220-411a-8a02-2c1326a4822f" initId="a:362db0e5-170e-423b-8848-6869bff252b8;b:78281d54-e8c2-41e2-bd64-5f0b494a8dbc"/>
+<rule id="402ee0e8-86dd-4c87-bb42-0c5f03373b2d" shortName ="Вельт: Небытие в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:4544128f-154c-415b-a015-90e2c6d2de16" initId="a:a68df1c4-c464-4781-bf0a-e42bad9e419e;b:de135d05-2f9d-46b8-a46b-c63b1b54c5da"/>
+<rule id="8bd51847-ae08-49a5-9582-b9d58fbf276d" shortName ="Вельт: Небытие в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:3025a4e8-f150-41d2-80db-a1fbdae55907" initId="a:127cb1ba-e998-4bf9-a8fd-83a751fb1519;b:f1ddbaed-fa5e-46a3-b4b1-4883c0bb738d"/>
+<rule id="55f1d923-7b22-4b95-9625-70ab8994c1cd" shortName ="Гепард: Сохранение в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:4562ef1a-4ede-4384-ad31-fcbceafb6bb3" initId="a:b9d1ef18-2474-48a7-8fcd-3848c3d5dc9e;b:0c081e40-676f-487b-b5ad-725ea436355c"/>
+<rule id="ea4c1582-be9b-4543-aab6-5f10dcf697c8" shortName ="Гепард: Сохранение в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:5704b55e-f524-4459-a7d5-4ca33b131da4" initId="a:cc99964a-9a55-4d22-a5bb-2077a3787a12;b:ace3b07a-a32d-417d-8a1a-e50899ad957a"/>
+<rule id="1f86f632-0a61-4aae-a11f-e2356dd81ac8" shortName ="Гепард: Сохранение в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:a45fef45-9f8b-410d-aeed-e3e7ffc81c19" initId="a:8df1d230-4755-4467-bf95-6c99d6cf8a14;b:285753b7-d1e3-46de-8599-0e316ff6bef6"/>
+<rule id="8fb82bb5-b32d-422e-a716-09089911fb12" shortName ="Гепард: Сохранение в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:594bdbb3-de38-4436-ab01-c7e01eb4010a" initId="a:ee1592f9-173c-4837-bce3-b52ecad7cd8f;b:ea289ff0-db9f-458e-a226-f40ca44a9315"/>
+<rule id="c34fd7e4-e34f-4957-8198-4ff861062927" shortName ="Герта: Эрудиция в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:22e1a7e6-b204-4f24-9ea6-490e995acdcc" initId="a:0d351437-cd2c-4997-8ac0-3d720f7b7e16;b:0036e8e2-b34b-4515-baa7-6d6bb9f67cb6"/>
+<rule id="631a41f9-cb8a-4d60-bca6-31ad6797cae0" shortName ="Герта: Эрудиция в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:63e6f4f3-6e39-4cd8-9ca6-d1dc702074fe" initId="a:bcb0bf88-597d-48b6-9619-aa6841838399;b:1bb6c6aa-b6cf-49e5-9a10-f7f274fa3f25"/>
+<rule id="e5e3f52b-8298-42ce-90f6-dac0211682d2" shortName ="Герта: Эрудиция в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:c9dd67db-ddea-4b35-b259-f11f5e987ada" initId="a:fbcd3cdd-cbd6-446b-be89-f27df3a2e903;b:03ff4f3d-eeee-4a98-a691-dc8b5fa9b916"/>
+<rule id="f3bf8265-080a-40e8-9cc7-545163c525cf" shortName ="Герта: Эрудиция в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:12f013ce-66f6-4cd3-a5c4-76910f174ac8" initId="a:ed5ace80-3a6d-469c-ab60-be38be15da6f;b:e882a651-2f32-4026-9de6-d73c23d13b1d"/>
+<rule id="5d270813-edae-47e5-813c-4616033a43a6" shortName ="Гуйнайфэнь: Небытие в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:ee6c5c98-aab1-4537-9127-c38fd5bc5b3c" initId="a:f0fa95ff-7b93-44ee-bb5c-a852962d0aa3;b:45ce53e3-9cce-4792-8f6b-f387873cc8ae"/>
+<rule id="49b137dd-5f52-4a29-a401-7c7104c8339e" shortName ="Гуйнайфэнь: Небытие в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:1520ef79-4148-4cfe-9338-c73b9db8a2cd" initId="a:362db0e5-170e-423b-8848-6869bff252b8;b:4ca4b665-7d1a-4351-ad10-d33a1b015c60"/>
+<rule id="f6d4b5fe-ed7b-4bab-90bc-5ba53b9b01af" shortName ="Гуйнайфэнь: Небытие в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:36cef47b-78ac-4d6d-bfab-35595a68395b" initId="a:a68df1c4-c464-4781-bf0a-e42bad9e419e;b:0382bbd0-0536-4bd1-93ec-667d0674c623"/>
+<rule id="0066849b-66ca-487a-9510-352b9de26bd7" shortName ="Гуйнайфэнь: Небытие в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:c36e42f3-a52b-48f3-9c61-4d8cf3ac54b4" initId="a:127cb1ba-e998-4bf9-a8fd-83a751fb1519;b:a419092b-22d9-42f5-8c82-df41812d7bc3"/>
+<rule id="5ca2b13c-9b20-4dd4-a592-b87a4ea71673" shortName ="Дань Хэн: Охота в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:6264c185-2504-4d8c-9ecd-0ff39add9f23" initId="a:7a6678b0-df62-4529-9096-36b0b4ea9a9f;b:94e94250-03ad-4fba-aaf0-14c72e5b5a9d"/>
+<rule id="dd85de75-ce8b-47da-a8f9-02da797c960b" shortName ="Дань Хэн: Охота в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:cb5acc8c-5a05-4d3e-b01d-96b369cc8101" initId="a:1ed622b2-91ad-4af7-b0d4-a57d5cdbb0d7;b:26b3ab31-fff7-4b58-8248-6a6b69bf278f"/>
+<rule id="ec9f7aeb-4cb9-4033-8bb4-d2cca8d5e544" shortName ="Дань Хэн: Охота в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:6719e883-b1c2-4135-9237-b7b8ee503d6a" initId="a:676083ea-b92f-448e-a104-bd891ed0d97c;b:85f31264-5dcf-4bb5-90d0-e36abca70a48"/>
+<rule id="b5b21dba-ac0b-4617-a218-9a082c215d07" shortName ="Дань Хэн: Охота в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:52b3c8fb-6cd3-4ab3-8fcb-52df2e90e09f" initId="a:c0369233-da92-423f-b863-71a5d91177be;b:5d406c1a-c3d8-438d-bb11-9cbcad3e8a86"/>
+<rule id="936fcfcb-fd58-4a5a-afe7-3e59d01c50c0" shortName ="Пожиратель Луны: Разрушение в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:9f3afd4a-6de5-42e2-afad-dca27cff2e68" initId="a:f3bc5aad-692a-4d3c-aacd-6c7dbc6e4b5e;b:406457c2-3eb8-4567-b444-c54adcb61f5e"/>
+<rule id="7fd6dce6-e03b-46c9-939a-d324076c0e51" shortName ="Пожиратель Луны: Разрушение в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:c82df18e-4325-4b51-8e8d-cf5773ad21c9" initId="a:d147d96d-e477-46df-bdc8-529ce8abd722;b:7e9def88-92aa-45c2-8407-8192d8789528"/>
+<rule id="23c760a2-8c8c-4358-8d7c-9db4486cd7d3" shortName ="Пожиратель Луны: Разрушение в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:5571ec03-23f9-43b9-829a-f60e54288c3a" initId="a:71303ca3-77a7-43ff-a7b0-0c8fa5e7019a;b:fd611bc2-1093-4d9a-a154-9529880c793e"/>
+<rule id="84a81cbc-2bda-46c0-a826-7975d7121f66" shortName ="Пожиратель Луны: Разрушение в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:ac68c7cb-84e5-4f3b-be36-ffcf61b61222" initId="a:c627a3b9-2143-4a14-8af0-a19e936be9ff;b:e1c5dedf-09d0-4860-8c92-de596f7cd1ab"/>
+<rule id="97048c6d-e365-4308-8eb4-e7715fbb736c" shortName ="Доктор Рацио: Охота в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:ce922cca-329e-4a08-84c5-0b062873401f" initId="a:7a6678b0-df62-4529-9096-36b0b4ea9a9f;b:92fc6c61-23bd-4872-8884-8594696a72e7"/>
+<rule id="c48a1533-a68d-460c-ad28-d074677cd5bd" shortName ="Доктор Рацио: Охота в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:701795dd-23c6-428e-88a6-31945d72ff99" initId="a:1ed622b2-91ad-4af7-b0d4-a57d5cdbb0d7;b:916cb89b-2dc4-444b-82f7-438ed0f2bd4c"/>
+<rule id="b78fa742-37cc-4db3-9f6c-15d62f635420" shortName ="Доктор Рацио: Охота в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:620948db-5e22-4e29-aaed-ea273d25a91b" initId="a:676083ea-b92f-448e-a104-bd891ed0d97c;b:06e825f8-82a4-41f6-954e-747ae193b253"/>
+<rule id="9733a361-7ea3-4283-bd82-9719000f0951" shortName ="Доктор Рацио: Охота в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:34b8d0d6-82ba-485b-958f-469b2b79e768" initId="a:c0369233-da92-423f-b863-71a5d91177be;b:8d7521c8-f880-4ce9-b2c4-5ed70090d9a3"/>
+<rule id="71bed009-81d9-4416-8493-d96c55f49fb1" shortName ="Жуань Мэй: Гармония в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:1fe2a83e-1e49-426d-b52d-df1abdcd098b" initId="a:22e8da2c-2480-4db8-be22-d3388b31db7e;b:0f9f60f0-6f4f-4d82-8c82-e9efee5207a7"/>
+<rule id="4d635176-4f29-4597-a921-f3a8f99460e3" shortName ="Жуань Мэй: Гармония в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:a4fd6b95-e3c9-4029-b157-b54980715684" initId="a:c1af278f-fd10-41dc-a83b-b8753b9f6f6d;b:fcec37f4-251c-41c5-a0a8-64e4dd07c9c9"/>
+<rule id="91f6e380-0f37-4caa-b0e0-dd4b6d051347" shortName ="Жуань Мэй: Гармония в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:e48bb651-df9d-4050-8ee0-ee79bded0488" initId="a:3dbea545-2f53-4174-9b10-edb25360b1f6;b:ea5fe714-4801-45ee-b136-1a486b839d86"/>
+<rule id="31523b57-e09c-4d2b-8a74-119fe8e9bf62" shortName ="Жуань Мэй: Гармония в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:c19e522c-03de-4f98-b237-7285cf3a42dd" initId="a:0df7c1c6-c64c-4bd1-9c6d-815eb31f8246;b:bd4d609b-1b1d-43a0-84bb-99aadeb5685b"/>
+<rule id="ebdb9430-4b44-42f3-95ca-1a32e2baf3ca" shortName ="Зеле: Охота в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:9cdeec17-de35-4c1b-bbb3-eee5c4c9ec38" initId="a:7a6678b0-df62-4529-9096-36b0b4ea9a9f;b:389cf4da-3006-47c4-a3f9-cdb8df9e5600"/>
+<rule id="85fd7483-2fdb-4f66-939c-825acd6dc13a" shortName ="Зеле: Охота в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:a3686714-5f1d-40aa-9c94-f77cce46bdab" initId="a:1ed622b2-91ad-4af7-b0d4-a57d5cdbb0d7;b:c985670a-87b8-4bcc-84f6-8fc1b2395dca"/>
+<rule id="c62d984e-2562-492f-963e-597e5e9f70a2" shortName ="Зеле: Охота в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:69f3f7f1-3422-4752-af3d-113aadd19905" initId="a:676083ea-b92f-448e-a104-bd891ed0d97c;b:a732f9fa-2dc4-4162-b6db-c538547fc822"/>
+<rule id="3062f9d7-515f-4475-9a0f-40e2d94c24d9" shortName ="Зеле: Охота в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:6776e8e8-faaa-46b4-983d-2e5662f7e330" initId="a:c0369233-da92-423f-b863-71a5d91177be;b:1d3df174-b7bd-4aac-a032-b187ffd6b4ad"/>
+<rule id="c11418f2-4230-449e-ae22-e3c61dda34ff" shortName ="Искорка: Гармония в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:e2f36633-292a-4067-b2bb-64714ac177dd" initId="a:22e8da2c-2480-4db8-be22-d3388b31db7e;b:f2b5f2ee-0367-4ca3-be43-342900d20d41"/>
+<rule id="30b66f1c-25e4-4f1e-833b-650310906c93" shortName ="Искорка: Гармония в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:0e3e8482-aa23-4630-b927-52d6051489c7" initId="a:c1af278f-fd10-41dc-a83b-b8753b9f6f6d;b:4a638a52-6aba-4acb-97b5-32e84191a6aa"/>
+<rule id="3ab7fa8b-5b33-496b-b4b2-a57423e0c259" shortName ="Искорка: Гармония в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:533ed103-3b9b-42eb-92ee-1ce693842fc5" initId="a:3dbea545-2f53-4174-9b10-edb25360b1f6;b:f5b8efa4-e8f9-49ff-a4ab-45d5f54cdc33"/>
+<rule id="e0e36dc7-8148-45cd-902e-60442e6e97b0" shortName ="Искорка: Гармония в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:8f5b72d2-6fdd-43d4-b324-53dbd578ba07" initId="a:0df7c1c6-c64c-4bd1-9c6d-815eb31f8246;b:fdde7ff3-9fe5-40f1-9d7c-0f8c144fb8e6"/>
+
