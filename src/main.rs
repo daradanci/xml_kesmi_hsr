@@ -51,13 +51,18 @@ fn simulators(path: &str) {
     let bosses = bosses_research("hsr_Sparkle.xml");
     let mut path_to_class_rules = String::new();
     let mut bosses_weaknesses_rules = String::new();
-    let log_file = File::create("result.txt").unwrap();
-    let mut output = OpenOptions::new()
+    let log_file1 = File::create("result_characters.txt").unwrap();
+    let log_file2 = File::create("result_rules.txt").unwrap();
+    let mut output_characters = OpenOptions::new()
         .write(true)
         .append(true)
-        .open("result.txt")
+        .open("result_characters.txt")
         .unwrap();
-
+    let mut output_rules = OpenOptions::new()
+        .write(true)
+        .append(true)
+        .open("result_rules.txt")
+        .unwrap();
 
     let mut xml = String::new();
     let mut reader = csv::Reader::from_path(path).unwrap();
@@ -95,6 +100,7 @@ fn simulators(path: &str) {
                     "string"
                 }
             ));
+
             // if head == "5. Main DD потенциал" {
             //     // let s_slice: &str = &cur_id[..];
             //     DD_pot_id = cur_id
@@ -179,7 +185,7 @@ fn simulators(path: &str) {
         ));
         xml.push_str("</rules>\n<constraints/>\n<classes/>\n</class>");
         // xml.push_str("</parameters>\n<rules/>\n<constraints/>\n<classes/>\n</class>");
-        if let Err(e) = writeln!(output, "{}", xml) {
+        if let Err(e) = writeln!(output_characters, "{}", xml) {
             eprintln!("Couldn't write to file: {}", e);
         }
         println!("{}", xml);
@@ -189,17 +195,14 @@ fn simulators(path: &str) {
 
         
     }
-    if let Err(e) = writeln!(output, "EPIC RULES") {
-        eprintln!("Couldn't write to file: {}", e);
-    }
-    println!("{}", "________EPIC RULES_______");
+    
 
-    if let Err(e) = writeln!(output, "{}", path_to_class_rules) {
+    if let Err(e) = writeln!(output_rules, "{}", path_to_class_rules) {
         eprintln!("Couldn't write to file: {}", e);
     }
     println!("{}", path_to_class_rules);
 
-    if let Err(e) = writeln!(output, "{}", bosses_weaknesses_rules) {
+    if let Err(e) = writeln!(output_rules, "{}", bosses_weaknesses_rules) {
         eprintln!("Couldn't write to file: {}", e);
     }
     println!("{}", bosses_weaknesses_rules);

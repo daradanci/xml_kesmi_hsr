@@ -1,0 +1,25 @@
+
+<class id="51173ebe-4342-464e-83f2-973261fc15df" shortName="Рысь">
+<parameters>
+<parameter id="7f974075-0350-4e4e-a4b2-f82fc712dfae" shortName="1. Имя" defaultValue="Рысь" type="string"/>
+<parameter id="f47f76bc-95f4-4c21-a7fc-658a76906829" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="383364b7-eceb-445f-8253-020791178905" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
+<parameter id="5d8e861a-05fa-4cb3-9d10-6cf854632458" shortName="4. Путь" defaultValue="Изобилие" type="string"/>
+<parameter id="3b25c21e-1722-4955-9cd5-92a7669d1798" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="e8d22058-f62e-4457-93a3-4dd659d93e63" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="6762b223-cc9b-4285-ad54-184e2832d4fa" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="4e0d65bc-231d-4159-bb68-acf1f7d99ff1" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="0af9a31c-9fc1-476f-b887-cd53b7670eeb" shortName="9. Support потенциал" defaultValue="6" type="double"/>
+<parameter id="d8fc312a-c395-455b-9ec0-d39a09924417" shortName="91. Main DD ранг" defaultValue="0" type="double"/>
+<parameter id="4b8cfa21-021d-4976-b462-2b42f3aac347" shortName="92. Sub DD ранг" defaultValue="0" type="double"/>
+<parameter id="45934b29-0f03-49d5-a69b-d5bd09e7864c" shortName="93. Effect Dealer ранг" defaultValue="0" type="double"/>
+<parameter id="0a165f50-c402-49e3-a017-a062bacde7ee" shortName="94. Support ранг" defaultValue="0" type="double"/>
+<parameter id="482cef62-1a61-46ca-b7e3-cd719d4bb7f4" shortName="95. Бонус стихии" defaultValue="0" type="double"/>
+<parameter id="258a8c19-2362-4b6c-800c-49d403f09f38" shortName="Ранг" defaultValue="" type="string"/>
+</parameters>
+<rules>
+<rule id="2c553d0f-f1cf-49d0-b8f0-435194ab8b9e" shortName ="Ранг Рысь" relation="08a58fba-7a38-4eef-ad89-0bf6934288ef" resultId="e:258a8c19-2362-4b6c-800c-49d403f09f38" initId="a:d8fc312a-c395-455b-9ec0-d39a09924417;d:4b8cfa21-021d-4976-b462-2b42f3aac347;b:45934b29-0f03-49d5-a69b-d5bd09e7864c;c:0a165f50-c402-49e3-a017-a062bacde7ee"/>
+</rules>
+<constraints/>
+<classes/>
+</class>
