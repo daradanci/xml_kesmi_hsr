@@ -13,6 +13,14 @@ struct Aeons_Blessings {
     ED: String,
     Support: String,
 }
+
+struct Boss{
+    name: String,
+    weakness1: String,
+    weakness2: String,
+    weakness3: String,
+}
+
 fn print_type_of<T>(_: &T) {
     println!("{}", std::any::type_name::<T>())
 }
@@ -20,6 +28,8 @@ fn print_type_of<T>(_: &T) {
 fn main() {
    simulators("test.csv");
     // bless_me_aeons("hsr_Sparkle.xml");
+    // bosses_research("hsr_Sparkle.xml");
+
 }
 
 fn selectors(path: &str) {
@@ -38,8 +48,10 @@ fn selectors(path: &str) {
 
 fn simulators(path: &str) {
     let aeons_blessings = bless_me_aeons("hsr_Sparkle.xml");
+    let bosses = bosses_research("hsr_Sparkle.xml");
     let mut path_to_class_rules = String::new();
-
+    let mut bosses_weaknesses_rules = String::new();
+    let log_file = File::create("result.txt").unwrap();
     let mut output = OpenOptions::new()
         .write(true)
         .append(true)
@@ -59,10 +71,12 @@ fn simulators(path: &str) {
         let mut Sub_id = String::from("Sub_id");
         let mut ED_id = String::from("ED_id");
         let mut Support_id = String::from("Support_id");
+        let mut Element_bonus_id = String::from("Element_bonus_id");
         let mut Rank_id = String::from("Rank_id");
         let mut char_name = "name";
         let record = result.unwrap();
         let mut My_Aeon = String::from("My_Aeon");
+        let mut Element_id = String::from("Element_id");
         xml.push_str(&format!(
             "\n<class id=\"{}\" shortName=\"{}\">\n<parameters>\n",
             uuid::Uuid::new_v4().to_string(),
@@ -94,8 +108,10 @@ fn simulators(path: &str) {
                 "92. Sub DD ранг"           => Sub_id = cur_id,
                 "93. Effect Dealer ранг"    => ED_id = cur_id,
                 "94. Support ранг"          => Support_id = cur_id,
+                "95. Бонус стихии"          => Element_bonus_id=cur_id,
                 "Ранг"                      => Rank_id = cur_id,
                 "1. Имя"                    => char_name = rec,
+                "3. Стихия"                 => Element_id = cur_id,
                 "4. Путь"                   => My_Aeon = rec.to_string(),
                 _ => (),
             }
@@ -135,6 +151,20 @@ fn simulators(path: &str) {
             ));
         }
 
+        for b in &bosses{
+            bosses_weaknesses_rules.push_str(&format!(
+                "<rule id=\"{}\" shortName =\"{}\" relation=\"f46e9ddd-e40f-4109-9dc8-86153aa396f5\" resultId=\"d:{}\" initId=\"b3:{};c:{};b2:{};b1:{}\"/>\n",
+                uuid::Uuid::new_v4().to_string(),
+                &format!("{}-{}", b.name, char_name),
+                Element_bonus_id,
+                b.weakness3,
+                Element_id,
+                b.weakness2,
+                b.weakness1,
+                
+                
+            ));
+        }
 
         xml.push_str("</parameters>\n<rules>\n");
         xml.push_str(&format!(
@@ -169,8 +199,55 @@ fn simulators(path: &str) {
     }
     println!("{}", path_to_class_rules);
 
+    if let Err(e) = writeln!(output, "{}", bosses_weaknesses_rules) {
+        eprintln!("Couldn't write to file: {}", e);
+    }
+    println!("{}", bosses_weaknesses_rules);
+
 }
 
+fn bosses_research(path: &str) -> Vec<Boss>{
+    let data = fs::read_to_string(path).expect("Should have been able to read the file");
+    let mut xml_elements = Element::parse(data.as_bytes()).unwrap();
+    let classes = &xml_elements.get_mut_child("class").expect("No.").get_mut_child("classes").expect("No.").children;
+    let mut bosses_info = Element::new("");
+    for c in classes.iter(){
+        if c.as_element().expect("No.").attributes["shortName"]=="Босс"{
+            bosses_info=c.as_element().expect("No.").clone();
+            break;
+        }
+    }
+    let mut bosses = Vec::<Boss>::new();
+    // println!("{:#?}", bosses_info);
+    for e in &bosses_info.get_child("classes").expect("No.").children{
+        for b in &e.as_element().expect("No.").get_child("parameters"){
+            let mut temp_boss=Boss{
+                name: e.as_element().expect("No.").attributes["shortName"].clone(),
+                weakness1: String::new(),
+                weakness2: String::new(),
+                weakness3: String::new(),
+            };
+            for w in &b.children{
+                match w.as_element().expect("No.").attributes["shortName"].as_str()  {
+                    "Уязвимость1" => (temp_boss.weakness1=w.as_element().expect("No.").attributes["id"].parse().unwrap()),
+                    "Уязвимость2" => (temp_boss.weakness2=w.as_element().expect("No.").attributes["id"].parse().unwrap()),
+                    "Уязвимость3" => (temp_boss.weakness3=w.as_element().expect("No.").attributes["id"].parse().unwrap()),
+                    _ => (),
+                }
+            }
+            bosses.push(temp_boss);
+            
+        }
+    }
+    // for b in &bosses{
+    //     println!("{:#?}", b.name);
+
+    // }
+
+
+    return bosses
+    
+}
 
 fn bless_me_aeons(path: &str) -> Dict<Aeons_Blessings> {
 
@@ -197,11 +274,6 @@ fn bless_me_aeons(path: &str) -> Dict<Aeons_Blessings> {
                 Support: String::new(),
             };
             for w in &b.children{
-            //    println!("{:#?}", w.as_element().expect("No.").attributes);
-            //    println!("{:#?}", w.as_element().expect("No.").attributes["shortName"]);
-                // if w.as_element().expect("No.").attributes["shortName"]=="4. Support+"{
-                //     println!("YES");
-                // }
                 match w.as_element().expect("No.").attributes["shortName"].as_str()  {
                     "1. DD+" => (temp_blessing.DD=w.as_element().expect("No.").attributes["id"].parse().unwrap()),
                     "2. Sub DD+" => (temp_blessing.SubDD=w.as_element().expect("No.").attributes["id"].parse().unwrap()),
