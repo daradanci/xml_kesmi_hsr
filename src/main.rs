@@ -94,7 +94,7 @@ fn simulators(path: &str) {
                 cur_id,
                 head,
                 rec,
-                if rec.parse::<f64>().is_ok() {
+                if rec.parse::<f64>().is_ok() || rec==String::new(){
                     "double"
                 } else {
                     "string"
@@ -139,7 +139,7 @@ fn simulators(path: &str) {
             // println!("{:#?}", &aeons_blessings.get(&My_Aeon).unwrap().DD);
             
             path_to_class_rules.push_str(&format!(
-                "<rule id=\"{}\" shortName =\"{}\" relation=\"c55e959e-d94b-4121-802f-08a1f17ba6dc\" resultId=\"c:{}\" initId=\"a:{};b:{}\"/>\n",
+                "<rule id=\"{}\" shortName=\"{}\" relation=\"c55e959e-d94b-4121-802f-08a1f17ba6dc\" resultId=\"c:{}\" initId=\"a:{};b:{}\"/>\n",
                 uuid::Uuid::new_v4().to_string(),
                 &format!("{}: {} в {}", char_name, &My_Aeon, classes1[i]),
                 classes[i],
@@ -159,7 +159,7 @@ fn simulators(path: &str) {
 
         for b in &bosses{
             bosses_weaknesses_rules.push_str(&format!(
-                "<rule id=\"{}\" shortName =\"{}\" relation=\"f46e9ddd-e40f-4109-9dc8-86153aa396f5\" resultId=\"d:{}\" initId=\"b3:{};c:{};b2:{};b1:{}\"/>\n",
+                "<rule id=\"{}\" shortName=\"{}\" relation=\"f46e9ddd-e40f-4109-9dc8-86153aa396f5\" resultId=\"d:{}\" initId=\"b3:{};c:{};b2:{};b1:{}\"/>\n",
                 uuid::Uuid::new_v4().to_string(),
                 &format!("{}-{}", b.name, char_name),
                 Element_bonus_id,
@@ -174,7 +174,7 @@ fn simulators(path: &str) {
 
         xml.push_str("</parameters>\n<rules>\n");
         xml.push_str(&format!(
-            "<rule id=\"{}\" shortName =\"{}\" relation=\"08a58fba-7a38-4eef-ad89-0bf6934288ef\" resultId=\"e:{}\" initId=\"a:{};d:{};b:{};c:{}\"/>\n",
+            "<rule id=\"{}\" shortName=\"{}\" relation=\"08a58fba-7a38-4eef-ad89-0bf6934288ef\" resultId=\"e:{}\" initId=\"a:{};d:{};b:{};c:{}\"/>\n",
             uuid::Uuid::new_v4().to_string(),
             &format!("Ранг {}", char_name),
             Rank_id,
