@@ -77,7 +77,6 @@
 <rule id="2183761a-e3f7-4e0c-b592-8d482176d346" shortName="Что-то к смерти-Цинцюэ" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:8991db2c-4854-477f-bf8d-b4f49e94a272" initId="b3:84f48e2e-97a2-400a-bfaa-6a87c30c6a66;c:486fddf0-3952-4b5f-9eeb-d6c76afb7804;b2:06ead0d4-6145-4954-b757-7f55a00bf148;b1:5419a499-1bd5-4ca0-9996-8b49fc39f0f5"/>
 <rule id="21a7d4eb-444e-4067-a7a9-e57e7baa47ed" shortName="Сварог-Искорка" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:94df599f-ede0-4177-aa97-059d918d5cf2" initId="b3:17f5a71f-02c0-4b0d-8389-6dd0b9e82260;c:877a2053-4e37-40a2-814e-96c01c2c4620;b2:b92286e5-3b75-410a-b012-fffe74243ce1;b1:c5c099b5-5e2e-451d-b427-6da443577085"/>
 <rule id="21c15c05-80a1-4db5-9464-2ea6cffd0168" shortName="Клара: Разрушение в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:bc7c6c8c-4ea7-42fc-bb09-d5f22adfd0d0" initId="a:f3bc5aad-692a-4d3c-aacd-6c7dbc6e4b5e;b:0b90b843-33de-4ff7-8f56-a56ab1604b97"/>
-<rule id="23ee6440-bae0-46ee-a874-806e725fb6b0" shortName="Сравнение DD Аргенти" relation="f2686932-a341-4ce2-961a-6456942fbdac" resultId="r1:3191d623-0319-428e-a497-a5901df05187" initId="r:31160aca-5207-4bb2-91e4-249795fe36be;r0:a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64"/>
 <rule id="23f2a6cd-94c8-4699-a7ed-d88010ea49a5" shortName="Олень Изобилия-Рысь" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:9f25578c-095b-4689-87eb-2b2f68d31b77" initId="b3:0f1f5f39-13bd-4e3b-a3b2-bee236d6b4e1;c:4713eb2c-ee77-4427-92a3-918093da1a29;b2:436dd198-de15-490a-9ae6-447b252cdef3;b1:3a62eaed-fc9d-4c57-b0b6-19284842ec15"/>
 <rule id="245cd212-962d-409c-abfb-274ba0fb8864" shortName="Тинъюнь: Гармония в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:8389e6ad-eb93-434c-9d8e-84dc239b7720" initId="a:3dbea545-2f53-4174-9b10-edb25360b1f6;b:270b4f39-4755-4a89-8504-aac929169b91"/>
 <rule id="25107a04-6dcf-4867-a8a6-37eb3d0c27dc" shortName="Яньцин-Аргенти" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:cf23d53a-e42a-4be4-9da9-b52dcc4c7798" initId="b3:dcdec473-8eb1-4e3e-9231-cc3ffa2ebd0a;c:24c36293-cec1-43d1-a21b-cc73436c5f3f;b2:1f87ca6c-314b-44e1-b8c5-f1ffc6e7bd3d;b1:452d3cf2-f3bb-43f3-8570-6d35e9cc3774"/>
@@ -112,6 +111,7 @@
 <rule id="2ff4d653-7b96-4eaf-975d-98026d6e1de6" shortName="Лоча: Изобилие в DD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:e34ca813-cd95-4573-b55a-11368860fd91" initId="a:87c1a7d3-63cf-4f60-b69a-db570a11f5e3;b:d21c3fe2-00f4-4308-8cb3-b05d9fca2e9a"/>
 <rule id="3066b7be-0cdb-4836-8742-16a0366cad33" shortName="Сэм-Кафка" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:3bad2a3e-a1bc-4630-97fa-feea8bf58166" initId="b3:ec509070-5b5e-44bd-b0a1-c2b78f3563ca;c:09a515c4-6a8f-4ee9-9412-128d570d6877;b2:201040a0-6724-4385-9dd9-29fc441e41ba;b1:65c6e869-bbad-43f0-985c-147e3d73bffa"/>
 <rule id="310e9577-11c8-4b1c-b559-f034c6177288" shortName="Броня: Гармония в Support" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:070492d1-2477-4b2a-b17c-853ac2543d74" initId="a:0df7c1c6-c64c-4bd1-9c6d-815eb31f8246;b:f8cec5f7-b59f-4047-a2fc-dc3ede472258"/>
+<rule id="31c37c30-175e-4dee-a4a0-cd98f57c3515" shortName="DD_Iteration" relation="7269adf8-7c90-4b5f-92d2-15903648c9ae" resultId="rang:a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64;name:50145a28-17ad-424b-9dfc-446f9e46a9fc" initId="bla_name:268dad71-643d-4fc9-9de8-b7d39f452442;spa_name:153d0375-255b-40dc-a0b3-c836efc40231;arg_rang:31160aca-5207-4bb2-91e4-249795fe36be;spa_rang:7e06de37-9712-410d-be8d-393779f6ead1;bla_rang:9ebd770b-a601-44af-a764-77c0efc9621e;arg_name:d2a98829-48dd-4219-92fb-f8c1a2200d7b"/>
 <rule id="31d0e1e8-4762-4806-9a87-8a4742f75459" shortName="Что-то к смерти-Миша" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:01d0a9dc-dbb6-482e-9f8b-553b6ab5718e" initId="b3:84f48e2e-97a2-400a-bfaa-6a87c30c6a66;c:7ad6493c-54af-484b-8928-87951fac876a;b2:06ead0d4-6145-4954-b757-7f55a00bf148;b1:5419a499-1bd5-4ca0-9996-8b49fc39f0f5"/>
 <rule id="345d1312-aada-45bd-9159-71db96e2e27d" shortName="Яньцин-Химеко" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:eb8b2cde-6ecb-46a6-b5c8-c89b7277251b" initId="b3:dcdec473-8eb1-4e3e-9231-cc3ffa2ebd0a;c:2a4b2853-6ac8-4fc4-8c1e-ad5a92215527;b2:1f87ca6c-314b-44e1-b8c5-f1ffc6e7bd3d;b1:452d3cf2-f3bb-43f3-8570-6d35e9cc3774"/>
 <rule id="34728e8d-5fb7-45be-8249-0ae0d504cbb4" shortName="Броня-Герта" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:850b7f7b-ba10-4d8c-82f4-596bef334072" initId="b3:50d1e22e-cf0e-4254-ae61-2df71d4ebbc0;c:252f67bc-4fc3-46f6-b9fb-09e6c8a755b6;b2:f9507c5f-d486-4d4e-9f00-6ddd2bc678d5;b1:5672099f-4d5d-4815-a9d9-75d25ba8c844"/>
@@ -120,7 +120,6 @@
 <rule id="35e34e42-8beb-4216-809b-7b8dec50f9eb" shortName="Кафка-Зеле" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:79ab57fe-3317-4314-a314-2442b5a5f955" initId="b3:d0693706-e8b1-46a8-a35a-0ae8d780e672;c:84b23e8d-078f-4882-8452-707f3514a4d9;b2:4c7f146a-4c56-434b-8909-46afed36584a;b1:f697f70b-2a89-4e8e-9ab3-2357a48f5a87"/>
 <rule id="36653303-f1c8-4919-bf28-c3bcd81fb3f8" shortName="Яньцин-Сервал" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:ce42b9ad-e14f-419d-af84-600da078e0af" initId="b3:dcdec473-8eb1-4e3e-9231-cc3ffa2ebd0a;c:1f6a7ad0-a743-41b4-8ba3-65a3ea4b4f07;b2:1f87ca6c-314b-44e1-b8c5-f1ffc6e7bd3d;b1:452d3cf2-f3bb-43f3-8570-6d35e9cc3774"/>
 <rule id="36abad6e-8ed4-403f-b6d2-1b95b63a3cfa" shortName="Броня-Наташа" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:d490ba77-2568-41ca-a29a-1951ad8120ad" initId="b3:50d1e22e-cf0e-4254-ae61-2df71d4ebbc0;c:23c12b8e-5b06-4707-bd77-3fe0bc855dc2;b2:f9507c5f-d486-4d4e-9f00-6ddd2bc678d5;b1:5672099f-4d5d-4815-a9d9-75d25ba8c844"/>
-<rule id="37c18ca3-7ec4-4f2f-bbbd-d3c2f6987607" shortName="Перенос имени Блэйд в Main DD" relation="44e604f4-39a5-4170-8a73-b34f54a8d9a9" resultId="name:50145a28-17ad-424b-9dfc-446f9e46a9fc" initId="r:9ebd770b-a601-44af-a764-77c0efc9621e;r0:a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64;new_name:268dad71-643d-4fc9-9de8-b7d39f452442"/>
 <rule id="3854795d-27a8-46aa-a7d3-c130f7b6a0e4" shortName="Броня-Аста" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:eb8ab59e-c195-4487-b732-c84fc3317423" initId="b3:50d1e22e-cf0e-4254-ae61-2df71d4ebbc0;c:20ffc540-3fa6-4940-a76c-10666f5b9ae2;b2:f9507c5f-d486-4d4e-9f00-6ddd2bc678d5;b1:5672099f-4d5d-4815-a9d9-75d25ba8c844"/>
 <rule id="385df99d-a2fc-44e9-a502-bb4e4a3c470c" shortName="Сварог-Зеле" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:79ab57fe-3317-4314-a314-2442b5a5f955" initId="b3:17f5a71f-02c0-4b0d-8389-6dd0b9e82260;c:84b23e8d-078f-4882-8452-707f3514a4d9;b2:b92286e5-3b75-410a-b012-fffe74243ce1;b1:c5c099b5-5e2e-451d-b427-6da443577085"/>
 <rule id="38931ca7-25e1-402f-8482-38355d0c5aef" shortName="Броня-Юйкун" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:14db972a-ebcc-4e6c-a07a-229a72d8b7f8" initId="b3:50d1e22e-cf0e-4254-ae61-2df71d4ebbc0;c:d7d23bd7-726d-4b79-b463-8928eb155530;b2:f9507c5f-d486-4d4e-9f00-6ddd2bc678d5;b1:5672099f-4d5d-4815-a9d9-75d25ba8c844"/>
@@ -457,7 +456,6 @@
 <rule id="c7a85640-c03d-487a-b961-7532c089035b" shortName="Цзинлю: Разрушение в SubDD" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:d0840f6e-8301-4513-82d7-4b0929c40be8" initId="a:d147d96d-e477-46df-bdc8-529ce8abd722;b:84d81dda-7854-4644-a961-10dc95e80046"/>
 <rule id="c7db1f21-0d71-4067-959a-406ba2b23c72" shortName="Коколия-Дань Хэн" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:2a5277d7-4d25-4e50-998e-f2613847286e" initId="b3:a4db4f83-5f9e-4390-aa68-af0070c40b4f;c:e60b18c7-ea06-4326-b5f2-35598a341f84;b2:f4fcd9a8-0720-4a5c-953d-22e89d11e745;b1:00247fe5-e54c-4c09-a0ec-1b495c7423a8"/>
 <rule id="c7f852be-a2a2-4b78-b61e-1f3fdab97690" shortName="Гепард-Наташа" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:d490ba77-2568-41ca-a29a-1951ad8120ad" initId="b3:0ac5fafd-64ec-4543-8fb6-102a04aa01ad;c:23c12b8e-5b06-4707-bd77-3fe0bc855dc2;b2:58805482-8cfd-42aa-af06-29800598633a;b1:14150f1d-6dd8-4cbb-b510-649f4c91d57a"/>
-<rule id="c8189226-4feb-421c-9dd6-4ad035c9ec33" shortName="Сравнение DD Блэйда" relation="f2686932-a341-4ce2-961a-6456942fbdac" resultId="r1:3191d623-0319-428e-a497-a5901df05187" initId="r:9ebd770b-a601-44af-a764-77c0efc9621e;r0:a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64"/>
 <rule id="c835b0d3-f273-46f7-b1b5-4e0f03b5e823" shortName="Броня-Ханья" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:8412756d-8cc8-4995-b161-969280f308b0" initId="b3:50d1e22e-cf0e-4254-ae61-2df71d4ebbc0;c:5ece1d0e-7ffa-4a01-822e-e28045f1986a;b2:f9507c5f-d486-4d4e-9f00-6ddd2bc678d5;b1:5672099f-4d5d-4815-a9d9-75d25ba8c844"/>
 <rule id="c875abff-d94a-4b5e-821b-0cd852da9a02" shortName="Гепард-Ханья" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:8412756d-8cc8-4995-b161-969280f308b0" initId="b3:0ac5fafd-64ec-4543-8fb6-102a04aa01ad;c:5ece1d0e-7ffa-4a01-822e-e28045f1986a;b2:58805482-8cfd-42aa-af06-29800598633a;b1:14150f1d-6dd8-4cbb-b510-649f4c91d57a"/>
 <rule id="c8d45797-644c-4e32-bc5a-0e855b84c811" shortName="Лоча: Изобилие в ED" relation="c55e959e-d94b-4121-802f-08a1f17ba6dc" resultId="c:21c05ad5-c291-403c-93c3-564f002e69e2" initId="a:1496815d-0702-4f38-aefa-6493a963f3f5;b:5519e9f4-029a-46ae-8a96-71b65ec19bde"/>
@@ -504,7 +502,6 @@
 <rule id="dc8d5cdf-3d99-458f-9fbe-85c0d9d0a5a2" shortName="Сварог-Март 7" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:a652e94f-51fe-4704-b87c-d17ca4709d9c" initId="b3:17f5a71f-02c0-4b0d-8389-6dd0b9e82260;c:66fd80fa-097c-4d3a-be56-421802f710f1;b2:b92286e5-3b75-410a-b012-fffe74243ce1;b1:c5c099b5-5e2e-451d-b427-6da443577085"/>
 <rule id="dc96c7ea-6fd7-466e-b834-eb1b416d81b7" shortName="Гепард-Клара" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:19ace7e9-653a-4792-a2b0-c073f8538080" initId="b3:0ac5fafd-64ec-4543-8fb6-102a04aa01ad;c:963ef135-acf5-4c48-9dc4-1e6eef0cec0b;b2:58805482-8cfd-42aa-af06-29800598633a;b1:14150f1d-6dd8-4cbb-b510-649f4c91d57a"/>
 <rule id="dd16baf0-4e75-4c3f-b152-5a7adce940c0" shortName="Сэм-Аргенти" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:cf23d53a-e42a-4be4-9da9-b52dcc4c7798" initId="b3:ec509070-5b5e-44bd-b0a1-c2b78f3563ca;c:24c36293-cec1-43d1-a21b-cc73436c5f3f;b2:201040a0-6724-4385-9dd9-29fc441e41ba;b1:65c6e869-bbad-43f0-985c-147e3d73bffa"/>
-<rule id="dd2509bf-c71f-4ace-80ab-86f385d47077" shortName="Перенос имени Аргенти в Main DD" relation="44e604f4-39a5-4170-8a73-b34f54a8d9a9" resultId="name:85f8b186-6509-43a8-9189-5e1660e9bb93" initId="r0:a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64;r:31160aca-5207-4bb2-91e4-249795fe36be;new_name:d2a98829-48dd-4219-92fb-f8c1a2200d7b"/>
 <rule id="ddda119e-df08-4555-87ad-b11fe1200283" shortName="Сварог-Клара" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:19ace7e9-653a-4792-a2b0-c073f8538080" initId="b3:17f5a71f-02c0-4b0d-8389-6dd0b9e82260;c:963ef135-acf5-4c48-9dc4-1e6eef0cec0b;b2:b92286e5-3b75-410a-b012-fffe74243ce1;b1:c5c099b5-5e2e-451d-b427-6da443577085"/>
 <rule id="de80cfe8-1fc3-4e9b-bd02-fc1653d86e9f" shortName="Сэм-Гепард" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:5393212a-2c39-4e23-a866-790d671fa9d4" initId="b3:ec509070-5b5e-44bd-b0a1-c2b78f3563ca;c:da328d1f-9866-43ab-9c22-66a715b2f4bf;b2:201040a0-6724-4385-9dd9-29fc441e41ba;b1:65c6e869-bbad-43f0-985c-147e3d73bffa"/>
 <rule id="debb8163-1a36-40a6-8d8b-f9bedba3bd92" shortName="Сэм-Сервал" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:ce42b9ad-e14f-419d-af84-600da078e0af" initId="b3:ec509070-5b5e-44bd-b0a1-c2b78f3563ca;c:1f6a7ad0-a743-41b4-8ba3-65a3ea4b4f07;b2:201040a0-6724-4385-9dd9-29fc441e41ba;b1:65c6e869-bbad-43f0-985c-147e3d73bffa"/>
@@ -588,32 +585,17 @@
 <parameter id="861739f8-b139-4cc9-a26f-69ba989961bd" shortName="4. Support" type="string"/>
 <parameter id="db8d7e84-529b-40b5-b511-2441aa181e37" shortName="2. Sub DD" type="string"/>
 </parameters>
-<rules>
-<rule id="86eec701-4747-4c90-915e-3c46e5d937aa" shortName="Count Please (DD only)" relation="12b829da-8f8b-4b7b-983c-6e133d213abb" resultId="c1:7d8f7db0-ebac-48dc-962f-c5dd9dc8b595;name:50145a28-17ad-424b-9dfc-446f9e46a9fc" initId="c0:7b02b786-5399-4c09-953e-5038fe84d07e;cringe_name:85f8b186-6509-43a8-9189-5e1660e9bb93"/>
-</rules>
+<rules/>
 <constraints/>
 <classes>
-<class id="7e86a314-e6e6-4694-b991-ee5cbed0ba61" shortName="Кринжульки">
+<class id="7e86a314-e6e6-4694-b991-ee5cbed0ba61" shortName="Ранги">
 <parameters>
-<parameter id="02021d76-3852-423b-80b1-dba27194587e" shortName="2.1 Sub DD" defaultValue="0.00" type="double"/>
-<parameter id="3191d623-0319-428e-a497-a5901df05187" shortName="1.1 DD" defaultValue="0.00" type="double"/>
-<parameter id="4b17ade7-fd99-4f52-ae63-fcaeee5e59a7" shortName="3.0 ED" defaultValue="0.00" type="double"/>
-<parameter id="7b02b786-5399-4c09-953e-5038fe84d07e" shortName="5.0 Counter" defaultValue="0.00" type="double"/>
-<parameter id="7d8f7db0-ebac-48dc-962f-c5dd9dc8b595" shortName="5.1 Counter" defaultValue="0.00" type="double"/>
-<parameter id="85f8b186-6509-43a8-9189-5e1660e9bb93" shortName="Кринжовый никнейм" defaultValue="" type="string"/>
-<parameter id="a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64" shortName="1.0 DD" defaultValue="0.00" type="double"/>
-<parameter id="b79cde9e-a5fe-45ce-b219-f99d9a723860" shortName="2.0 Sub DD" defaultValue="0.00" type="double"/>
-<parameter id="cdf8b4e7-b1d3-4b59-ae1c-5f2952cbe2a9" shortName="4.0 Support" defaultValue="0.00" type="double"/>
-<parameter id="daabae28-042c-4e3d-87ca-ea69494326d7" shortName="4.1 Support" defaultValue="0.00" type="double"/>
-<parameter id="f94d0776-ec86-48fc-86d7-e07ca45edd04" shortName="3.1 ED" defaultValue="0.00" type="double"/>
+<parameter id="4b17ade7-fd99-4f52-ae63-fcaeee5e59a7" shortName="3 ED" defaultValue="0.00" type="double"/>
+<parameter id="a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64" shortName="1 DD" defaultValue="0.00" type="double"/>
+<parameter id="b79cde9e-a5fe-45ce-b219-f99d9a723860" shortName="2 Sub DD" defaultValue="0.00" type="double"/>
+<parameter id="cdf8b4e7-b1d3-4b59-ae1c-5f2952cbe2a9" shortName="4 Support" defaultValue="0.00" type="double"/>
 </parameters>
-<rules>
-<rule id="15f7dc40-8f9e-42a5-9c48-5096cf9267ba" shortName="3.0 ED = 3.1 ED" relation="e87cc453-8402-4c5b-9d3d-433859137812" resultId="r0:4b17ade7-fd99-4f52-ae63-fcaeee5e59a7" initId="r1:f94d0776-ec86-48fc-86d7-e07ca45edd04"/>
-<rule id="44a7d5c3-abd1-4d63-94a6-8d2f95d231fc" shortName="1.0 DD = 1.1 DD" relation="e87cc453-8402-4c5b-9d3d-433859137812" resultId="r0:a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64" initId="r1:3191d623-0319-428e-a497-a5901df05187"/>
-<rule id="49df538d-cdd7-4a8d-aa4f-d30fc9c95a17" shortName="2.0 Sub DD = 2.1 Sub DD" relation="e87cc453-8402-4c5b-9d3d-433859137812" resultId="r0:b79cde9e-a5fe-45ce-b219-f99d9a723860" initId="r1:02021d76-3852-423b-80b1-dba27194587e"/>
-<rule id="b8e5b77e-1592-49de-96f6-c08c6f68da74" shortName="5.0 Counter = 5.1 Counter" relation="e87cc453-8402-4c5b-9d3d-433859137812" resultId="r0:7b02b786-5399-4c09-953e-5038fe84d07e" initId="r1:7d8f7db0-ebac-48dc-962f-c5dd9dc8b595"/>
-<rule id="d6d8b55e-29f1-4ba8-a53b-dcb4192a973a" shortName="4.0 Support = 4.1 Support" relation="e87cc453-8402-4c5b-9d3d-433859137812" resultId="r0:cdf8b4e7-b1d3-4b59-ae1c-5f2952cbe2a9" initId="r1:daabae28-042c-4e3d-87ca-ea69494326d7"/>
-</rules>
+<rules/>
 <constraints/>
 <classes/>
 </class>
@@ -1785,6 +1767,7 @@
 <parameter id="0ac5fafd-64ec-4543-8fb6-102a04aa01ad" shortName="Уязвимость3" defaultValue="Мнимый" type="string"/>
 <parameter id="14150f1d-6dd8-4cbb-b510-649f4c91d57a" shortName="Уязвимость1" defaultValue="Физический" type="string"/>
 <parameter id="58805482-8cfd-42aa-af06-29800598633a" shortName="Уязвимость2" defaultValue="Электрический" type="string"/>
+<parameter id="6cd03525-a2c5-413f-a5d9-d0d37fc80015" shortName="Выбран" defaultValue="0.00" type="double"/>
 </parameters>
 <rules/>
 <constraints/>
@@ -1794,6 +1777,7 @@
 <parameters>
 <parameter id="1f87ca6c-314b-44e1-b8c5-f1ffc6e7bd3d" shortName="Уязвимость2" defaultValue="Мнимый" type="string"/>
 <parameter id="452d3cf2-f3bb-43f3-8570-6d35e9cc3774" shortName="Уязвимость1" defaultValue="Ветряной" type="string"/>
+<parameter id="94f034c1-0d09-416f-9c86-75fed9a52e57" shortName="Выбран" defaultValue="0.00" type="double"/>
 <parameter id="dcdec473-8eb1-4e3e-9231-cc3ffa2ebd0a" shortName="Уязвимость3" defaultValue="Электрический" type="string"/>
 </parameters>
 <rules/>
@@ -1805,6 +1789,7 @@
 <parameter id="0f1f5f39-13bd-4e3b-a3b2-bee236d6b4e1" shortName="Уязвимость3" defaultValue="Квантовый" type="string"/>
 <parameter id="3a62eaed-fc9d-4c57-b0b6-19284842ec15" shortName="Уязвимость1" defaultValue="Огненный" type="string"/>
 <parameter id="436dd198-de15-490a-9ae6-447b252cdef3" shortName="Уязвимость2" defaultValue="Ледяной" type="string"/>
+<parameter id="d7405036-9857-48e2-9ba3-04ef5aea9743" shortName="Выбран" defaultValue="0.00" type="double"/>
 </parameters>
 <rules/>
 <constraints/>
@@ -1813,6 +1798,7 @@
 <class id="417e2ec9-fe3e-43c0-87cc-564371d06388" shortName="Сварог">
 <parameters>
 <parameter id="17f5a71f-02c0-4b0d-8389-6dd0b9e82260" shortName="Уязвимость3" defaultValue="Ветряной" type="string"/>
+<parameter id="932c8442-35df-4fbb-ba41-b10b06d9ce9b" shortName="Выбран" defaultValue="0.00" type="double"/>
 <parameter id="b92286e5-3b75-410a-b012-fffe74243ce1" shortName="Уязвимость2" defaultValue="Электрический" type="string"/>
 <parameter id="c5c099b5-5e2e-451d-b427-6da443577085" shortName="Уязвимость1" defaultValue="Огненный" type="string"/>
 </parameters>
@@ -1822,6 +1808,7 @@
 </class>
 <class id="5b035ddd-afdd-48e1-bf43-ff187a80eb65" shortName="Броня">
 <parameters>
+<parameter id="05fd7c86-d2c8-41a6-b591-d01642694285" shortName="Выбран" defaultValue="0.00" type="double"/>
 <parameter id="50d1e22e-cf0e-4254-ae61-2df71d4ebbc0" shortName="Уязвимость3" defaultValue="Мнимый" type="string"/>
 <parameter id="5672099f-4d5d-4815-a9d9-75d25ba8c844" shortName="Уязвимость1" defaultValue="Физический" type="string"/>
 <parameter id="f9507c5f-d486-4d4e-9f00-6ddd2bc678d5" shortName="Уязвимость2" defaultValue="Огненный" type="string"/>
@@ -1834,6 +1821,7 @@
 <parameters>
 <parameter id="06ead0d4-6145-4954-b757-7f55a00bf148" shortName="Уязвимость2" defaultValue="Ветряной" type="string"/>
 <parameter id="5419a499-1bd5-4ca0-9996-8b49fc39f0f5" shortName="Уязвимость1" defaultValue="Огненный" type="string"/>
+<parameter id="5db81ce0-00f4-4bb1-bf5f-e759f53c4d1f" shortName="Выбран" defaultValue="0.00" type="double"/>
 <parameter id="84f48e2e-97a2-400a-bfaa-6a87c30c6a66" shortName="Уязвимость3" defaultValue="Мнимый" type="string"/>
 </parameters>
 <rules/>
@@ -1844,6 +1832,7 @@
 <parameters>
 <parameter id="201040a0-6724-4385-9dd9-29fc441e41ba" shortName="Уязвимость2" defaultValue="Квантовый" type="string"/>
 <parameter id="65c6e869-bbad-43f0-985c-147e3d73bffa" shortName="Уязвимость1" defaultValue="Электрический" type="string"/>
+<parameter id="748b874f-a14a-42b4-8b26-10eeae8e7c97" shortName="Выбран" defaultValue="0.00" type="double"/>
 <parameter id="ec509070-5b5e-44bd-b0a1-c2b78f3563ca" shortName="Уязвимость3" defaultValue="Мнимый" type="string"/>
 </parameters>
 <rules/>
@@ -1853,6 +1842,7 @@
 <class id="eba80037-2304-460b-9503-b0aa0f9efc25" shortName="Коколия">
 <parameters>
 <parameter id="00247fe5-e54c-4c09-a0ec-1b495c7423a8" shortName="Уязвимость1" defaultValue="Огненный" type="string"/>
+<parameter id="516f2c6f-8122-45ef-8dbe-62d7f80e6115" shortName="Выбран" defaultValue="0.00" type="double"/>
 <parameter id="a4db4f83-5f9e-4390-aa68-af0070c40b4f" shortName="Уязвимость3" defaultValue="Квантовый" type="string"/>
 <parameter id="f4fcd9a8-0720-4a5c-953d-22e89d11e745" shortName="Уязвимость2" defaultValue="Электрический" type="string"/>
 </parameters>
@@ -1864,6 +1854,7 @@
 <parameters>
 <parameter id="4c7f146a-4c56-434b-8909-46afed36584a" shortName="Уязвимость2" defaultValue="Ветряной" type="string"/>
 <parameter id="d0693706-e8b1-46a8-a35a-0ae8d780e672" shortName="Уязвимость3" defaultValue="Мнимый" type="string"/>
+<parameter id="e6556dee-bbcd-4b90-9f2e-d8e04c1ba70c" shortName="Выбран" defaultValue="0.00" type="double"/>
 <parameter id="f697f70b-2a89-4e8e-9ab3-2357a48f5a87" shortName="Уязвимость1" defaultValue="Физический" type="string"/>
 </parameters>
 <rules/>
@@ -1876,11 +1867,30 @@
 </class>
 <relations>
 <relation id="08a58fba-7a38-4eef-ad89-0bf6934288ef" shortName="Подсчет Ранга" inObj="a:double;d:double;b:double;c:double" relationType="simple" outObj="e:double">e=a+b+c+d</relation>
-<relation id="12b829da-8f8b-4b7b-983c-6e133d213abb" shortName="Count++" inObj="c0:double;cringe_name:string" relationType="ifclause" outObj="c1:double;name:string">if (c0&lt;2) {c1=c0+1;} else {name=cringe_name;}</relation>
-<relation id="44e604f4-39a5-4170-8a73-b34f54a8d9a9" shortName="Перенос имени" inObj="r:double;r0:double;new_name:string" relationType="ifclause" outObj="name:string">if (r>r0) {name=new_name;} else {0;}</relation>
+<relation id="7269adf8-7c90-4b5f-92d2-15903648c9ae" shortName="RANG_ITERATOR" inObj="bla_name:string;spa_name:string;arg_rang:double;spa_rang:double;bla_rang:double;arg_name:string" relationType="prog" outObj="rang:double;name:string">var tmp_name = "Noone";
+var tmp_rang=-1;
+var arg_name, arg_rang, bla_name, bla_rang, spa_name, spa_rang; 
+var list = [
+{ name: spa_name, rang: spa_rang, id: 3 },
+{ name: arg_name, rang: arg_rang, id: 1 },
+{ name: bla_name, rang: bla_rang, id: 2 }
+];
+
+var size = Object.keys(list).length;
+for (var i = 0; i &lt; size; i+=1) {
+	if (tmp_rang&lt;list[i].rang){
+		tmp_rang=list[i].rang;
+		tmp_name=list[i].name;
+	}
+
+};
+
+
+var name = tmp_name;
+var rang = tmp_rang;
+
+</relation>
 <relation id="c55e959e-d94b-4121-802f-08a1f17ba6dc" shortName="Путь в Класс" inObj="a:double;b:double" relationType="simple" outObj="c:double">c=a+b</relation>
-<relation id="e87cc453-8402-4c5b-9d3d-433859137812" shortName="r0=r1" inObj="r1:double" relationType="simple" outObj="r0:double">r0=r1*1</relation>
-<relation id="f2686932-a341-4ce2-961a-6456942fbdac" shortName="Сравнение r и r0" inObj="r:double;r0:double" relationType="ifclause" outObj="r1:double">if (r>r0) {r1=r;} else {0;}</relation>
 <relation id="f46e9ddd-e40f-4109-9dc8-86153aa396f5" shortName="Уязвимости" inObj="b3:string;c:string;b2:string;b1:string" relationType="ifclause" outObj="d:double">if (b1==c || b2==c || b3 ==c) {d=4;} else {d=-2;}</relation>
 </relations>
 </model>

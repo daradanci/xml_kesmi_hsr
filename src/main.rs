@@ -79,6 +79,7 @@ fn simulators(path: &str) {
         let mut Element_bonus_id = String::from("Element_bonus_id");
         let mut Rank_id = String::from("Rank_id");
         let mut char_name = "name";
+        let mut in_collection_id = String::from("in_collection_id");
         let record = result.unwrap();
         let mut My_Aeon = String::from("My_Aeon");
         let mut Element_id = String::from("Element_id");
@@ -118,6 +119,7 @@ fn simulators(path: &str) {
                 "Ранг"                      => Rank_id = cur_id,
                 "1. Имя"                    => char_name = rec,
                 "3. Стихия"                 => Element_id = cur_id,
+                "2. В коллекции"            => in_collection_id=cur_id,
                 "4. Путь"                   => My_Aeon = rec.to_string(),
                 _ => (),
             }
