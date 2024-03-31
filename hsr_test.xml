@@ -1,1 +1,90 @@
 <rule id="266e39c8-9195-4bcd-b9d0-34fe0d597159" shortName="Броня-Аргенти" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:34d37304-a5f7-4b96-b58f-41308bd14efa" initId="b3:50d1e22e-cf0e-4254-ae61-2df71d4ebbc0;c:5b283569-f8f6-46ed-b559-941653fb1260;b2:f9507c5f-d486-4d4e-9f00-6ddd2bc678d5;b1:5672099f-4d5d-4815-a9d9-75d25ba8c844"/>
+<rule id="31c37c30-175e-4dee-a4a0-cd98f57c3515" shortName="DD_Iteration" relation="7269adf8-7c90-4b5f-92d2-15903648c9ae" resultId="rang:a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64;name:50145a28-17ad-424b-9dfc-446f9e46a9fc" initId="bla_name:268dad71-643d-4fc9-9de8-b7d39f452442;spa_name:153d0375-255b-40dc-a0b3-c836efc40231;arg_rang:31160aca-5207-4bb2-91e4-249795fe36be;spa_rang:7e06de37-9712-410d-be8d-393779f6ead1;bla_rang:9ebd770b-a601-44af-a764-77c0efc9621e;arg_name:d2a98829-48dd-4219-92fb-f8c1a2200d7b"/>
+
+
+
+<relation id="bb26db40-9a62-481c-8e61-eae4823a6d0d" shortName="RANG_ITERATOR" inObj="name1:string;rang1:string;name2:string;rang2:string;name3:string;rang3:string;name4:string;rang4:string;name5:string;rang5:string;name6:string;rang6:string;name7:string;rang7:string;name8:string;rang8:string;name9:string;rang9:string;name10:string;rang10:string;name11:string;rang11:string;name12:string;rang12:string;name13:string;rang13:string;name14:string;rang14:string;name15:string;rang15:string;name16:string;rang16:string;name17:string;rang17:string;name18:string;rang18:string;name19:string;rang19:string;name20:string;rang20:string;name21:string;rang21:string;name22:string;rang22:string;name23:string;rang23:string;name24:string;rang24:string;name25:string;rang25:string;name26:string;rang26:string;name27:string;rang27:string;name28:string;rang28:string;name29:string;rang29:string;name30:string;rang30:string;name31:string;rang31:string;name32:string;rang32:string;name33:string;rang33:string;name34:string;rang34:string;name35:string;rang35:string;name36:string;rang36:string;name37:string;rang37:string;name38:string;rang38:string;name39:string;rang39:string;name40:string;rang40:string;name41:string;rang41:string;name42:string;rang42:string;name43:string;rang43:string;name44:string;rang44:string;" relationType="prog" outObj="rang:double;name:string">
+
+
+
+    var name1,rang1,name2,rang2,name3,rang3,name4,rang4,name5,rang5,name6,rang6,name7,rang7,name8,rang8,name9,rang9,name10,rang10,name11,rang11,name12,rang12,name13,rang13,name14,rang14,name15,rang15,name16,rang16,name17,rang17,name18,rang18,name19,rang19,name20,rang20,name21,rang21,name22,rang22,name23,rang23,name24,rang24,name25,rang25,name26,rang26,name27,rang27,name28,rang28,name29,rang29,name30,rang30,name31,rang31,name32,rang32,name33,rang33,name34,rang34,name35,rang35,name36,rang36,name37,rang37,name38,rang38,name39,rang39,name40,rang40,name41,rang41,name42,rang42,name43,rang43,name44,rang44; 
+    var list = [
+    { name: name1, rang: rang1, id: 1, text_id: Аргенти },
+    { name: name2, rang: rang2, id: 2, text_id: Арлан },
+    { name: name3, rang: rang3, id: 3, text_id: Аста },
+    { name: name4, rang: rang4, id: 4, text_id: Байлу },
+    { name: name5, rang: rang5, id: 5, text_id: Блэйд },
+    { name: name6, rang: rang6, id: 6, text_id: Броня },
+    { name: name7, rang: rang7, id: 7, text_id: Вельт },
+    { name: name8, rang: rang8, id: 8, text_id: Гепард },
+    { name: name9, rang: rang9, id: 9, text_id: Герта },
+    { name: name10, rang: rang10, id: 10, text_id: Гуйнайфэнь },
+    { name: name11, rang: rang11, id: 11, text_id: Дань Хэн },
+    { name: name12, rang: rang12, id: 12, text_id: Пожиратель Луны },
+    { name: name13, rang: rang13, id: 13, text_id: Доктор Рацио },
+    { name: name14, rang: rang14, id: 14, text_id: Жуань Мэй },
+    { name: name15, rang: rang15, id: 15, text_id: Зеле },
+    { name: name16, rang: rang16, id: 16, text_id: Искорка },
+    { name: name17, rang: rang17, id: 17, text_id: Кафка },
+    { name: name18, rang: rang18, id: 18, text_id: Клара },
+    { name: name19, rang: rang19, id: 19, text_id: Лоча },
+    { name: name20, rang: rang20, id: 20, text_id: Лука },
+    { name: name21, rang: rang21, id: 21, text_id: Март 7 },
+    { name: name22, rang: rang22, id: 22, text_id: Миша },
+    { name: name23, rang: rang23, id: 23, text_id: Наташа },
+    { name: name24, rang: rang24, id: 24, text_id: Пела },
+    { name: name25, rang: rang25, id: 25, text_id: Первопроходец },
+    { name: name26, rang: rang26, id: 26, text_id: Рысь },
+    { name: name27, rang: rang27, id: 27, text_id: Сампо },
+    { name: name28, rang: rang28, id: 28, text_id: Сервал },
+    { name: name29, rang: rang29, id: 29, text_id: Серебряный Волк },
+    { name: name30, rang: rang30, id: 30, text_id: Сушан },
+    { name: name31, rang: rang31, id: 31, text_id: Сюэи },
+    { name: name32, rang: rang32, id: 32, text_id: Тинъюнь },
+    { name: name33, rang: rang33, id: 33, text_id: Топаз },
+    { name: name34, rang: rang34, id: 34, text_id: Фу Сюань },
+    { name: name35, rang: rang35, id: 35, text_id: Ханья },
+    { name: name36, rang: rang36, id: 36, text_id: Химеко },
+    { name: name37, rang: rang37, id: 37, text_id: Хохо },
+    { name: name38, rang: rang38, id: 38, text_id: Хук },
+    { name: name39, rang: rang39, id: 39, text_id: Цзин Юань },
+    { name: name40, rang: rang40, id: 40, text_id: Цзинлю },
+    { name: name41, rang: rang41, id: 41, text_id: Цинцюэ },
+    { name: name42, rang: rang42, id: 42, text_id: Черный Лебедь },
+    { name: name43, rang: rang43, id: 43, text_id: Юйкун },
+    { name: name44, rang: rang44, id: 44, text_id: Яньцин }
+    ];
+    
+    var tmp_name = "Noone";
+    var tmp_rang=-1;
+    var size = Object.keys(list).length;
+    for (var i = 0; i &lt; size; i+=1) {
+        if (tmp_rang&lt;list[i].rang){
+            tmp_rang=list[i].rang;
+            tmp_name=list[i].name;
+        }
+    
+    };
+    var name = tmp_name;
+    var rang = tmp_rang;
+    
+</relation>
+
+
+<rule id="1f144c26-6df6-486a-b226-53dc7f216d19" shortName="DD_Iterator" relation="bb26db40-9a62-481c-8e61-eae4823a6d0d" resultId="rang:a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64;name:50145a28-17ad-424b-9dfc-446f9e46a9fc" initId="name1:0d884c0a-2190-4e51-86b8-71650455918f;rang1:46f76a54-b6d2-4083-850c-d8324e240eb3;name2:cbe7ddc7-f2fd-437d-b929-e79504699eaf;rang2:a067fb8c-06d9-4b85-9769-e5faf765e775;name3:8d1bcfcd-80e3-4e09-868b-ae09f9875040;rang3:bcb1c8ab-fd02-46fe-9a34-1a3320854998;name4:3fa76feb-9667-43f2-bb01-19df661fbe8c;rang4:768e6135-91a7-4517-8ba1-3e9ac0341a3d;name5:5f0c5405-2dcf-4460-b9ac-4863a4c1749c;rang5:df573aa1-a736-4dfa-8257-dc9aaad0908d;name6:d2786d19-f017-4b9b-be05-cc7e0f869ee2;rang6:c7889430-760c-4e4b-8208-3fa98a1b1ec8;name7:ddafc377-e4ee-4950-82fe-fd010856f52f;rang7:a3f25737-eaa8-497e-80d6-500ede1ea001;name8:24de2b75-1c29-4438-974b-e25fb782e657;rang8:5b02389e-e1c9-4e9c-be0e-39d5410e7b52;name9:aa67ae99-934a-4fd6-ad22-806e87bdf391;rang9:6276b343-b4cb-4af0-b77a-975b1e91fac7;name10:8b28be50-4ef3-4c11-b3fc-2934621eba91;rang10:5bba4df5-2fc3-4015-9006-b3ffb7dfee0b;name11:69504baf-6db0-4a26-b7dd-236137531687;rang11:9ab91e8f-4e0a-40ec-a539-caa974078932;name12:6e8dd674-faa8-4ddc-b6ac-6d34615f3ca7;rang12:f333adb6-4616-4b15-8701-fc1cc8c8ade6;name13:2d09d76d-f161-4694-9b78-b71fe5b5637a;rang13:0e5feb22-59e7-4abd-bd09-89172f33ddbe;name14:ae27970c-0d81-421a-8dc9-c382a1b99ba9;rang14:b462ab10-e269-435d-b748-e3c365a1b712;name15:e2ce6154-dc12-4f1e-97af-782822bdfcbc;rang15:17396f85-7265-41fb-a362-0b960435d663;name16:77bcf153-32df-4a58-bc09-2dc160303a62;rang16:88f4bd53-a148-493b-9461-3d4ad89f0ded;name17:e3fc929b-042a-46a5-adb6-90432e9a683f;rang17:3ff2726b-b8f3-437a-bd96-b906818c7bfe;name18:6ac3c07c-002a-492d-9279-de7a76fa7f46;rang18:3ed52307-eac6-46cb-85a2-db50b47a1b86;name19:c6689b85-bb02-4480-a948-5de8bf69b4d4;rang19:3f0e7dd4-6efc-43b0-9db4-e236ceac9f2d;name20:0096107d-77ed-45d7-9c45-03df6035e5bf;rang20:f1373e8d-5f7a-43e5-9e54-c664c9128588;name21:3a014fe7-7f33-46e7-a1fe-ebbd996c4882;rang21:854d5941-0ee6-4aaa-93f3-ccebf4a52e3f;name22:144b3209-4e96-42ce-8732-5c35b01db15b;rang22:3c69addc-8697-4b2d-a88a-5c50e0180ab6;name23:3906f258-ceb1-4109-bd31-c24e89234687;rang23:e2f996c8-bc8f-4a44-91fd-a5190984693a;name24:b829c942-7146-4a98-80d1-7a416785e28d;rang24:585edb70-e192-4d13-9ba8-58ac68dad6c1;name25:38999085-5ac0-4d75-8bde-2dfb3b7a25b7;rang25:acfa7dcb-76d0-48b9-89f5-de58d2abf1b4;name26:1c019a7a-d94b-4c72-9009-8a03c1286e5d;rang26:95a9cc93-793b-4d99-afa7-d752c5bb9104;name27:f0ce6417-85d7-44fa-831f-7038cdb8a3b6;rang27:326359d4-2161-41d9-afe1-272d93198d03;name28:01cd1deb-3f74-42c6-a9f1-e9cb898d598b;rang28:ed2ad508-3276-489d-bcb3-0253b6c5a88c;name29:7bee68d5-b837-44ef-a487-22a3d1c219bb;rang29:6463b0c6-7067-4acb-ac28-977431d3bef3;name30:6ac11828-6d76-4857-bbcd-bda53c74bd5e;rang30:0afeff92-a32d-49fe-bf4a-0626f377a4f9;name31:a50c7401-90fd-4e6a-8de0-793f549010e2;rang31:17735c40-d988-4c26-8d35-8537a89eda07;name32:60df4dca-b762-40d9-8adf-105085ad7b37;rang32:ef128f27-b42b-4a0a-8612-aeb3956a5d02;name33:25c3224b-b733-482d-8346-c79a93c282e8;rang33:79267457-efbc-46c6-903d-9bb58d4b3c23;name34:7e183298-0998-48d2-92cd-05ab943138df;rang34:947017f2-6814-460c-ad6c-9f3dffeaef94;name35:b5e835e6-012a-4169-a1e5-cf22bb96c03b;rang35:e1f8569a-a74d-4697-bb4c-a1e66b6ffda5;name36:9a216ba1-0962-4cf0-86a2-492656cc123b;rang36:0d9a15ad-2fc6-4908-8639-ca8e2674f6f3;name37:ff704cd9-9a28-4efc-a6cf-e42f49673bd7;rang37:142cc9bd-e8ab-4a70-9b24-50fa9f1a468e;name38:2c9a6637-eb4c-4643-b73a-8f824f9f0d58;rang38:4db86d94-a5fe-4140-acdf-d5bf36bd131b;name39:8dacd05c-694e-4b71-810e-a3b37afc6bf5;rang39:613bdd97-53ae-4c13-a99f-65e51d172df7;name40:743fb778-9e2d-4b8c-a062-ec9f0d147c53;rang40:58c91b9b-3849-42fd-82ea-89a0104ef8c1;name41:41a26bea-d787-4f99-80ff-23fe3be5c3a7;rang41:5c851e13-bf95-4f04-906f-48afd9b52dc2;name42:c0daae9f-ec29-4f6b-83c4-7f9649fa77e6;rang42:62e04d53-d953-4543-ac78-b86cec1ca103;name43:75e454db-cdf1-46f3-9153-6610ca7ca066;rang43:8bfab584-7631-4188-b716-cd6616ee8bea;name44:ba22765e-1005-47e3-8a15-1f0073ed022c;rang44:828aa7eb-bc85-4380-a234-a2ed79232e32;"/>
+
+
+<relation id="bb26db40-9a62-481c-8e61-eae4823a6d0d" shortName="RANG_ITERATOR" inObj="name1:string;rang1:string;name2:string;rang2:string" relationType="prog" outObj="rang:double;name:string">
+
+
+
+    var name1,rang1,name2,rang2;
+
+    
+    var tmp_name = "Noone";
+    var tmp_rang=-1;
+    
+    var name = tmp_name;
+    var rang = tmp_rang;
+    
+</relation>
