@@ -21,6 +21,7 @@ struct Boss{
     weakness1: String,
     weakness2: String,
     weakness3: String,
+    chosen: String,
 }
 
 #[derive(Clone)]
@@ -96,6 +97,7 @@ fn simulators(path: &str) {
         let mut Rank_id = String::from("Rank_id");
         let mut char_name = "name".to_string();
         let mut Name_id = String::from("Name_id");
+        let mut SP_id = String::from("SP_id");
         
         let mut in_collection_id = String::from("in_collection_id");
         let record = result.unwrap();
@@ -130,6 +132,7 @@ fn simulators(path: &str) {
                 "93. Effect Dealer ранг"    => ED_id = cur_id,
                 "94. Support ранг"          => Support_id = cur_id,
                 "95. Бонус стихии"          => Element_bonus_id=cur_id,
+                "5. SP голод"               => SP_id=cur_id,
                 "Ранг"                      => Rank_id = cur_id,
                 "1. Имя"                    => {
                     char_name = rec.to_string();
@@ -163,11 +166,15 @@ fn simulators(path: &str) {
 
         for i in 0..4{
             path_to_class_rules.push_str(&format!(
-                "<rule id=\"{}\" shortName=\"{}\" relation=\"c55e959e-d94b-4121-802f-08a1f17ba6dc\" resultId=\"c:{}\" initId=\"a:{};b:{}\"/>\n",
+                "<rule id=\"{}\" shortName=\"{}\" relation=\"b6028006-e460-496e-a93e-5f6b9be0e36a\" resultId=\"rang:{}\" \
+                initId=\"path:{};element:{};obtained:{};SP:{};potential:{}\"/>\n",
                 uuid::Uuid::new_v4().to_string(),
-                &format!("{}: {} в {}", &char_name, &My_Aeon, classes1[i]),
+                &format!("{} в {}", &char_name, classes1[i]),
                 classes[i],
                 wtf[i],
+                Element_bonus_id,
+                in_collection_id,
+                SP_id,
                 subclasses[i],
                 
                 
@@ -176,12 +183,15 @@ fn simulators(path: &str) {
 
         for b in &bosses{
             bosses_weaknesses_rules.push_str(&format!(
-                "<rule id=\"{}\" shortName=\"{}\" relation=\"f46e9ddd-e40f-4109-9dc8-86153aa396f5\" resultId=\"d:{}\" initId=\"b3:{};c:{};b2:{};b1:{}\"/>\n",
+                // <rule id="{}" shortName="test" relation="f46e9ddd-e40f-4109-9dc8-86153aa396f5" resultId="d:{}" initId="b3:{};c:{};chosen:{};b2:{};b1:{}"/>
+
+                "<rule id=\"{}\" shortName=\"{}\" relation=\"f46e9ddd-e40f-4109-9dc8-86153aa396f5\" resultId=\"d:{}\" initId=\"b3:{};c:{};chosen:{};b2:{};b1:{}\"/>\n",
                 uuid::Uuid::new_v4().to_string(),
                 &format!("{}-{}", b.name, char_name),
                 Element_bonus_id,
                 b.weakness3,
                 Element_id,
+                b.chosen,
                 b.weakness2,
                 b.weakness1,
                 
@@ -317,7 +327,7 @@ fn super_iterator(characters: Vec<Character>){
     let mut res = &format!(
     "{} \n {} \n {} \n
 var tmp_name = \"Noone\"; 
-var tmp_rang=-1; 
+var tmp_rang=0; 
 var size = Object.keys(list).length; 
 for (var i = 0; i &lt; size; i+=1) {{ 
     if (tmp_rang&lt;list[i].rang){{ 
@@ -388,12 +398,14 @@ fn bosses_research(path: &str) -> Vec<Boss>{
                 weakness1: String::new(),
                 weakness2: String::new(),
                 weakness3: String::new(),
+                chosen: String::new(),
             };
             for w in &b.children{
                 match w.as_element().expect("No.").attributes["shortName"].as_str()  {
                     "Уязвимость1" => (temp_boss.weakness1=w.as_element().expect("No.").attributes["id"].parse().unwrap()),
                     "Уязвимость2" => (temp_boss.weakness2=w.as_element().expect("No.").attributes["id"].parse().unwrap()),
                     "Уязвимость3" => (temp_boss.weakness3=w.as_element().expect("No.").attributes["id"].parse().unwrap()),
+                    "Выбран" => (temp_boss.chosen=w.as_element().expect("No.").attributes["id"].parse().unwrap()),
                     _ => (),
                 }
             }

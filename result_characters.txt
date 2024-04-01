@@ -1,21 +1,21 @@
 
-<class id="140c4c06-1635-4461-83b1-db9e9c0e410a" shortName="Аргенти">
+<class id="f6028307-7cd0-4a92-9534-a4d42749e8d3" shortName="Аргенти">
 <parameters>
-<parameter id="2b9bc7be-b450-473a-8280-252724166360" shortName="1. Имя" defaultValue="Аргенти" type="string"/>
-<parameter id="de773c46-60f0-4f16-8c71-52e5a79132ef" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="1afeb76b-1d66-4791-98f4-7f8dbc1a3ad9" shortName="3. Стихия" defaultValue="Физический" type="string"/>
-<parameter id="89eec115-742c-4294-b25b-ee897ddacda2" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
-<parameter id="b1c64c1b-80cd-4956-be84-e45d1814e473" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="04084829-ba8b-40ba-aeff-db2353b00d9f" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
-<parameter id="c8410fab-942b-49ed-8251-07c29751cd18" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
-<parameter id="98c188c1-df61-4b9c-a928-1d69e902d802" shortName="8. ED потенциал" defaultValue="4" type="double"/>
-<parameter id="87c37299-6aa4-411d-a995-fd5be2368231" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="9155f98b-b15d-4c7f-bf6b-f34b7bc419db" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="bcb82951-72fe-4561-a25e-4b456ae74fca" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="7f202733-e3a1-4fa1-94b0-5fed951e01ad" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="05b967d2-fdf9-4ae8-b89f-4f27b800b9f6" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="c4d258ca-da2a-4d37-a45a-4ec9abbaf20b" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="66a90995-2598-4a90-80c6-7ea5a8d5ae30" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="683e4b27-b2d0-4189-9437-c9591469eaf6" shortName="1. Имя" defaultValue="Аргенти" type="string"/>
+<parameter id="3ab8befd-3d61-422a-8629-6ad96f3a6744" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="b6788e65-4a89-422c-b73f-73a531d01d95" shortName="3. Стихия" defaultValue="Физический" type="string"/>
+<parameter id="554a120a-ae96-4b4a-aa1c-c323c1024bf7" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
+<parameter id="af22f214-a139-410c-8b24-197ee965e595" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="f1d91124-3181-4514-bc73-3cbcc60f26af" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="958032cb-a0a0-44fb-ae44-06569d1c1d65" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
+<parameter id="5a8c23fa-ee8a-4220-aa52-388467e38391" shortName="8. ED потенциал" defaultValue="4" type="double"/>
+<parameter id="15ce1d86-d583-4d09-8ab8-4ca5ae71bdd7" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="b075fbc3-3755-4aac-aa9d-a0d022c47a1e" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="20fa1740-cd70-4f85-98c1-d990e7e3fb3e" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="271865a6-07c0-488f-9850-aed64c36138a" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="622220d8-d147-4794-9b42-4b0b25039aec" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="e987ae78-3c0b-4a46-9539-3ab0b085473b" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="f8f96bbf-4d8e-4fa6-8930-778d4cf02a28" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -23,23 +23,23 @@
 <classes/>
 </class>
 
-<class id="bbcb989b-9f60-43d0-af0d-ab9f7a57500a" shortName="Арлан">
+<class id="bd5300a3-eb59-4806-8a86-fe311e3378ff" shortName="Арлан">
 <parameters>
-<parameter id="62b98aff-bf71-4977-854f-089694198897" shortName="1. Имя" defaultValue="Арлан" type="string"/>
-<parameter id="346b7613-6591-44f5-ad06-8ecb05017c33" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="0f52fad8-853a-4ff0-83b7-51657e5dee40" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
-<parameter id="a764533b-ee42-432a-b3b8-8a4b1b8f0f34" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
-<parameter id="74241e80-8579-42e7-bded-1a9aeb6ee034" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="ace4e812-3064-4c9a-aa09-4f85a77890b2" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
-<parameter id="138e59c9-8457-4992-a8a3-b2dfe472fdfd" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
-<parameter id="06924f58-b494-4b3f-a1fb-259e92410285" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="d3eb9a1f-b676-4cd8-ad96-862ead9a1c20" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="5b399d5c-dafd-4830-82a9-08927caac198" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="c03d8cc2-2156-40c4-baea-64be7d643631" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="e2a91b13-9080-4deb-a142-d6943d39f3ab" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="5a50eb33-407d-4c25-91bc-0c25f11ec5cd" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="e6a9dff1-36e8-47bf-87f7-1c3f021c6303" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="00a72011-9841-44fc-8dca-0c941ce56798" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="825f4c29-6c22-4025-ba9f-676992c80eea" shortName="1. Имя" defaultValue="Арлан" type="string"/>
+<parameter id="d92fd6f1-bbe1-4a14-b772-90055cc0ada8" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="27c8b9d5-20c8-4c04-96d6-97f4b8776515" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
+<parameter id="3556992e-b0ef-4f30-84e9-77ae5a219efe" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
+<parameter id="64aef777-e8dd-4695-9563-cdaa7d8dbe60" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="754ad3c9-0425-4574-b74d-3aeb15a59726" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="c43f6dd4-a402-44e6-bedf-711a7ddb804f" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
+<parameter id="f462be3b-647f-437d-a651-9a58001b943a" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="2f299c52-180f-4412-b798-f2e463f312a9" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="284dee3e-748e-4c06-a4cf-305766212188" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="8095597c-4f87-4317-b6ec-04d8b73f3a26" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="208fbfd0-606e-43bc-87da-770f4af83fc9" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="a66988d7-8d29-4a31-97b7-d4d0ceac206e" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="915a8b68-bb25-41aa-9fae-89604b0638ba" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="6ebd577f-8992-4de9-be1f-0ec2a6918dd4" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -47,23 +47,23 @@
 <classes/>
 </class>
 
-<class id="7e9b6906-aeda-4260-a281-a5689d176170" shortName="Аста">
+<class id="0e6b87c8-fe09-4dbb-9dde-5993d4cca993" shortName="Аста">
 <parameters>
-<parameter id="d410d3e9-78a4-42a3-9ad2-d14f97f9c9d7" shortName="1. Имя" defaultValue="Аста" type="string"/>
-<parameter id="bcb95e70-46fe-49bf-80f2-ea88720fb4fc" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="82764375-439d-43c0-864f-f8ce3e33d828" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
-<parameter id="0881c162-7b63-423b-9821-42ccedcb7b32" shortName="4. Путь" defaultValue="Гармония" type="string"/>
-<parameter id="18d80bda-b236-4f0b-8d19-bc22581ff1be" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="8bdc8ec5-d5da-4139-afa3-3254bd4e4e9b" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="ffcb17cb-3688-416b-afea-6bccd4b086ac" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="cdb111f0-58cc-48aa-82e0-c4b6def256dc" shortName="8. ED потенциал" defaultValue="8" type="double"/>
-<parameter id="28d11324-088c-4023-b2e8-1fbe8efe9249" shortName="9. Support потенциал" defaultValue="2" type="double"/>
-<parameter id="e24fcf8f-5d96-4fe4-9429-883f65e50294" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="40e2c745-a319-4101-8555-1cffd3b0456d" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="d8fc3539-f65d-42a6-91f0-3384f83cc436" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="0bff5773-aca8-4ff6-bf05-f6c9783bd77b" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="41a91d80-ffe4-47ae-a140-b588a3a767ed" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="bbea88a3-fcaa-48c7-bf3e-2174de260287" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="34f7f15b-7883-45b9-a8c9-34eabf25d068" shortName="1. Имя" defaultValue="Аста" type="string"/>
+<parameter id="692f9b3e-dfe2-4e9e-b0cf-3baf89aa3ceb" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="9d92b498-6749-472b-b25b-5df5d7edb335" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
+<parameter id="fe96954a-0c4d-4536-9376-6655efd96533" shortName="4. Путь" defaultValue="Гармония" type="string"/>
+<parameter id="6e0ff7c3-4b7a-423b-9305-5948679aed8c" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="acabf57e-9340-4e62-85f3-141c0b324107" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="2ae4d8ff-90cf-4c6a-967a-77c8cf7c6e06" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="45a79d21-7204-42d1-a2a6-af779991d61a" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="530e7c0b-385f-422a-87b1-1ee4f09d8327" shortName="9. Support потенциал" defaultValue="2" type="double"/>
+<parameter id="9c869bc0-b9c0-4083-9f95-25779fbd7def" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="679dc8fb-b9fe-4b86-8f67-28202f308442" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="6dc9a6f9-1f43-4f9d-be0b-5ecad635de72" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="830e56e3-763e-4921-aea1-bd821da687e2" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="24fbdf8e-b8ac-4efc-a02e-6fa6b2ea994a" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="2c681c10-5e60-41c5-b844-b74b1ff685ca" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -71,23 +71,23 @@
 <classes/>
 </class>
 
-<class id="c54392d1-766e-4651-ab5b-92ca043fc00b" shortName="Байлу">
+<class id="d7f905db-f865-493a-abf9-2e09acdc9f11" shortName="Байлу">
 <parameters>
-<parameter id="e55923b1-b552-4ca6-aa97-6eef3bf3f576" shortName="1. Имя" defaultValue="Байлу" type="string"/>
-<parameter id="d9a409cc-979b-4a74-8f94-66a45b59c368" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="381b52ab-a55e-41e6-8519-c2898811a5c6" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
-<parameter id="2c853de8-c066-4486-9446-5bcb05deab86" shortName="4. Путь" defaultValue="Изобилие" type="string"/>
-<parameter id="3b7eed9c-69d5-4211-90dd-504d90406c98" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="57d8d14a-5c7e-4061-9f25-2af789f8eb9a" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="097d8d09-58f2-4647-bde5-b0d61deedf26" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="59d64c29-1522-4784-8653-ef2d3f1787a9" shortName="8. ED потенциал" defaultValue="4" type="double"/>
-<parameter id="4b97fdbe-090d-4575-8b55-60c82df743b0" shortName="9. Support потенциал" defaultValue="8" type="double"/>
-<parameter id="34f3149a-a090-4376-91b5-5a6ad3fe4fe8" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="eb753c76-5946-41a5-b49c-90d4c46f6c44" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="ab604a09-5c49-4632-bb35-5f39986e314f" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="3e02f3db-b2a1-4041-9ee7-1230e0f9e280" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="27ac2b66-f8fc-4a2c-b86d-4b87226c716e" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="8b91cbc0-013c-402e-9f4e-21026eba5aeb" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="9b032d90-34b6-40e9-a053-fe52e9113f81" shortName="1. Имя" defaultValue="Байлу" type="string"/>
+<parameter id="1f5cbccc-16ad-401e-b4ec-6f2f6243cc0a" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="4dbad31a-c81a-467a-9823-14ce9b1a0faa" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
+<parameter id="1c1f4865-c1c7-4099-8bc4-d3252d00e560" shortName="4. Путь" defaultValue="Изобилие" type="string"/>
+<parameter id="613c6976-fd81-4617-abdb-f3cb179b639a" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="b821b2f8-282a-4a74-b88f-4654f8cf7834" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="7a16d2f3-2149-4915-8db0-bc289b924360" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="159deec3-0c2b-4916-91ad-98e531c6fa2e" shortName="8. ED потенциал" defaultValue="4" type="double"/>
+<parameter id="62806e63-0c38-4fe0-b40d-7d6c694d7f8c" shortName="9. Support потенциал" defaultValue="8" type="double"/>
+<parameter id="6c4a68dc-62ad-4be0-9d84-4f60bc511d39" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="1d390ab5-30a1-4fb7-8e7f-1b3d668490a6" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="8792127d-5e65-4097-8d9c-769e551bc787" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="46a9a722-909b-4896-9626-2b97f5320807" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="0be77bd5-c3b2-4ddc-85bf-5c924aaafe46" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="55eebaae-efb9-4500-bc69-33aa7c12f842" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -95,23 +95,23 @@
 <classes/>
 </class>
 
-<class id="73e541b9-3687-4852-8185-25228672e705" shortName="Блэйд">
+<class id="d7a5f195-357f-4033-9bfd-e3075044beab" shortName="Блэйд">
 <parameters>
-<parameter id="ce291e25-0477-4da8-9f8f-cbe922c7bdab" shortName="1. Имя" defaultValue="Блэйд" type="string"/>
-<parameter id="704fd39e-bd1e-4129-95d0-ccfa87db1cf2" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="e99715e5-07f2-4b29-a8ef-74a306d1b710" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
-<parameter id="b4206646-5f2f-4a87-a16b-62b81d4d0781" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
-<parameter id="5d43cdee-b00c-4cd0-bda5-474c64c8a6d7" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="136c723e-0118-447c-8023-01721fa5d0ea" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
-<parameter id="804c59d8-406a-412d-8794-260f38521bc7" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
-<parameter id="3c328cbb-443c-4a1d-9b93-216c85a9dcf3" shortName="8. ED потенциал" defaultValue="0" type="double"/>
-<parameter id="3dc08ba8-812e-41fc-b639-61973449b281" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="fe18aa96-f785-41bb-91f9-0e983d238710" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="a1340e59-32ca-4535-82ad-a8b4b1c8f8f6" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="32b8e5d0-651d-4be8-aca6-228666c7b92a" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="330ddf22-03b7-42bd-a985-4907fe1ff041" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="be8e9e7e-d03c-47a6-b0fe-d4dddac414ca" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="a7b2e67e-63ff-4fcd-9e54-b3795d3ffabe" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="c3cea982-98ee-4441-8942-c6167767a59d" shortName="1. Имя" defaultValue="Блэйд" type="string"/>
+<parameter id="42d0009a-4a13-449a-be56-3ee7be1bc235" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="d7fdd0e9-8c36-4eb1-94ca-2aee9662b08f" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
+<parameter id="5649a829-c2e6-4d54-b18a-9a04fa989ad4" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
+<parameter id="ac3038a1-ff11-4ce8-8dfd-1078f07e759a" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="39854a29-7805-42da-8594-cd2883b66e87" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
+<parameter id="a0e4b532-3950-4c4b-a765-cb1d6ec96af9" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
+<parameter id="bc1e9e78-6cf3-4f60-96e6-5c3c2d26089f" shortName="8. ED потенциал" defaultValue="0" type="double"/>
+<parameter id="8dbec437-dfb8-44e3-a292-166516688385" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="7938e18b-b29b-4efd-8a88-6139425be431" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="4c7cecc2-68af-4045-ad2d-172e6dee684b" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="f1beb7c2-462c-4f21-93dd-606bbc2c194a" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="a3a5eab9-d6a2-4db9-bbef-c7e9a869be88" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="7b60379a-5234-4a32-b0a8-8508c8c885cb" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="39e84850-c3bd-4852-a18d-295b6bf603b6" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -119,23 +119,23 @@
 <classes/>
 </class>
 
-<class id="211be4d6-4dcb-4159-8660-e7e051c1813b" shortName="Броня">
+<class id="68285cd2-c6ae-4635-a435-4d85d4cf098f" shortName="Броня">
 <parameters>
-<parameter id="ad3f11df-fd5d-4dea-a891-a3ad23ae0072" shortName="1. Имя" defaultValue="Броня" type="string"/>
-<parameter id="f953672d-3776-4873-a040-a841426c5f22" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="6b0bcf17-ec1f-4546-bc96-e7f11b27d1b0" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
-<parameter id="dfdde9ba-274e-4211-8876-fc2b9924344c" shortName="4. Путь" defaultValue="Гармония" type="string"/>
-<parameter id="a6def00f-b52b-4c3d-a640-825dd6db785d" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="a6d6fd5f-e08b-4e13-9698-199d4fe2f7c5" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="0d8bb434-6249-48d8-a58b-2be791ce366f" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="14a2e981-73f3-4d47-bb66-2212db4be256" shortName="8. ED потенциал" defaultValue="8" type="double"/>
-<parameter id="0be8ee5e-5497-4558-90b8-7df843226d9d" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="5d1453d1-81df-4bbc-9c82-1d20f0752b48" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="69d43f8b-5d18-4ad0-b06e-e3980b5446b3" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="164c1b98-0de5-4506-a80b-6722f7ba0a8a" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="107db6be-b86c-440c-8f61-77b3970e48df" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="b07f359d-ec69-468e-bdb5-7e71ecfbdbe0" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="cbcb6576-8ee3-4b73-b80b-51412b79639b" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="f2b6ca8c-d4e1-4824-9eba-c5fe22906b63" shortName="1. Имя" defaultValue="Броня" type="string"/>
+<parameter id="6faa5a01-cdd9-4a17-9785-a6d43e5dbb04" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="95ba178f-5dc7-4f95-90fc-e81a0ab876ab" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
+<parameter id="9705f762-f017-4153-97d2-a12c79bfaaeb" shortName="4. Путь" defaultValue="Гармония" type="string"/>
+<parameter id="339a6143-b6b0-4612-b2c2-e3c17361ba30" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="660fd210-5e3f-4303-aed8-1dcf707abb40" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="ec9baf6a-305c-4249-95f8-69bfd4b13532" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="41be45c6-bfb8-4d96-85e9-2341984aae1a" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="65f124c4-0aa4-4b73-bcf9-2a005af3af46" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="2b179fbb-f6a9-47df-8f20-a0323b7ad231" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="06db906b-a10f-40db-878b-39ab8dfb3467" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="de48710d-5ae7-42aa-800f-ca0c6c96ddb1" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="5c91482a-a430-4f11-9d3b-53966164ba2d" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="60a1a758-a54c-4f9a-892d-1a36f7298ae9" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="47bd256b-5474-416f-b2fe-55af37fd1d5f" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -143,23 +143,23 @@
 <classes/>
 </class>
 
-<class id="f0480e75-c476-4baa-8e1a-2285f04d2a40" shortName="Вельт">
+<class id="c6a124cb-9919-4c9e-bfc6-eb7d96fbded9" shortName="Вельт">
 <parameters>
-<parameter id="c668554c-9781-4197-a414-80feb57e68b5" shortName="1. Имя" defaultValue="Вельт" type="string"/>
-<parameter id="48c5de29-6e27-4cd0-a9e6-7f8424532570" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="65e168a5-a2c3-4e24-892f-1bce446d1926" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
-<parameter id="4952f76b-8e3a-4369-9643-9e52512e7dbe" shortName="4. Путь" defaultValue="Небытие" type="string"/>
-<parameter id="8f343f98-61f1-413f-bf98-2b747cc6e463" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="9f58b833-6dbb-4461-b7ad-e2e45f091fd1" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="290357df-80b4-4d11-99b3-48f6fee1ffda" shortName="7. Sub DD потенциал" defaultValue="2" type="double"/>
-<parameter id="9e80662a-14a2-4be3-aa98-c58bfcfc029d" shortName="8. ED потенциал" defaultValue="8" type="double"/>
-<parameter id="25c9de75-95e1-4295-83d1-7b691f9c41ba" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="a23b34d4-7a2b-40f6-a48d-48d130986d48" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="25e2baf3-422c-4162-bf16-133660b86b81" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="3594f3a7-107e-4406-899a-e36f36b17c40" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="28911061-d0d8-4191-9479-0f61feee323f" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="01d1a70d-c5eb-4105-8e07-41ac8007dded" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="4b3d7f64-da33-4073-b5af-bd77e463c37a" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="f81d4a6a-8c5a-4cfd-953b-492911e6437e" shortName="1. Имя" defaultValue="Вельт" type="string"/>
+<parameter id="6842a766-0c48-4a7f-b33c-b8b7cf9cd64c" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="8814ad74-7933-4b15-a325-dd511c27e221" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
+<parameter id="faefed2d-e338-4cb4-8c80-fb3573b0821d" shortName="4. Путь" defaultValue="Небытие" type="string"/>
+<parameter id="21668c77-e751-4065-8646-4e5f1cc01370" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="ec83cf8e-2eb4-40b0-839e-4d1c70b3d276" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="8105e8ef-5133-4a6a-8c0c-a302a9290c23" shortName="7. Sub DD потенциал" defaultValue="2" type="double"/>
+<parameter id="f6cd0c70-b530-4eb3-b8be-2b32ef2fa243" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="4ee2287b-c939-4c5a-a7cc-8463abcb6c2a" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="a9f20cb6-8983-45c5-a863-3df2cdb0b07c" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="de7d11cc-dc95-4abe-903f-cf38490336f4" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="6fd26825-58ef-475e-aa68-4119d35cf71b" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="712853c2-4806-462b-ae24-e4f99c4251c5" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="0266f153-9043-4c34-83e3-a88730a3b432" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="5fae1d20-390e-4c4b-b6f7-00797c81c9ac" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -167,23 +167,23 @@
 <classes/>
 </class>
 
-<class id="8d0b226d-805c-4692-a7b3-d6ba5d167614" shortName="Гепард">
+<class id="cb19ab39-e671-46ac-baf8-9e0e9c1f72b5" shortName="Гепард">
 <parameters>
-<parameter id="a3d943cc-53e3-4bb8-8695-1a6afb956dfa" shortName="1. Имя" defaultValue="Гепард" type="string"/>
-<parameter id="f065847b-ac28-41e9-9de0-d8809d3246f2" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="880feb3c-bcd8-465e-ae02-47d8b4a6ecfc" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
-<parameter id="16968de8-e398-447e-bb17-5b1217f3c123" shortName="4. Путь" defaultValue="Сохранение" type="string"/>
-<parameter id="9c8ea14c-38dd-488f-b6f8-b25678bc9733" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="d66365e5-91f4-4e83-8cb6-5a649121ce1f" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="f6c1871c-a45c-4de5-b37c-9d015d71da93" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="f5d8e605-0c7e-49f0-aac4-09c548bb1ac2" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="0633cb0d-3389-41ad-858c-1ca6818a8b2d" shortName="9. Support потенциал" defaultValue="8" type="double"/>
-<parameter id="afb903ad-eb50-4fda-a9b4-9b9c44ad819c" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="26560645-dc3b-4cf6-9c0e-d9a9bdc036e3" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="a294e0bc-0620-4eed-bdfa-f47ba3707750" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="d04f1202-b8c6-47dc-a679-b81248e8ab76" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="944107b9-4f3e-4c0a-b75d-4b218084719d" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="332fc81d-a1c2-418d-9ee4-fa9fecf822d7" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="ef9779f5-7749-4faa-9d3d-cb0e81f8243e" shortName="1. Имя" defaultValue="Гепард" type="string"/>
+<parameter id="eb184b2a-e6ed-4f9d-85e6-1dd8d055d74f" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="dfc73927-c367-4676-a35d-70a874b64491" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
+<parameter id="de457a4c-796f-4954-87e5-44fdccb27881" shortName="4. Путь" defaultValue="Сохранение" type="string"/>
+<parameter id="7dc5a5e0-0fae-4169-a056-292ba4d26cad" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="91a95d19-a3c2-498a-a60f-b10c793865aa" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="727bbc74-df33-4d82-955c-d9abd03cb57e" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="c85de86a-3b25-4e14-8b94-a918401e4840" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="d36c84ef-fa1b-4ee7-9092-08a61bc96fb3" shortName="9. Support потенциал" defaultValue="8" type="double"/>
+<parameter id="0261c569-ddd7-4331-8a8a-efdc9ca0a332" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="c9b4edea-fefb-43be-87ac-a690594a3cad" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="62dff4dd-1044-4323-8632-235947d96e46" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="10c428a5-0b13-4b07-80e2-08a17bc35b8c" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="d7f6faff-c5e2-4acb-94e5-cdd33c76ade9" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="29a18819-2007-440b-a9d7-8c6de20afd9d" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -191,23 +191,23 @@
 <classes/>
 </class>
 
-<class id="72ca3028-401d-4767-bc18-c80f9da5df3c" shortName="Герта">
+<class id="ed4a7975-be3c-4f3d-9443-55e98a8a2e4f" shortName="Герта">
 <parameters>
-<parameter id="81c1f95d-7b86-4c23-800f-c57b06653106" shortName="1. Имя" defaultValue="Герта" type="string"/>
-<parameter id="e90398b8-2045-4fcd-bc97-75bd71d96618" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="bbf9e5b5-910c-470f-b157-d6b1b4b13db7" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
-<parameter id="97de0cad-ee94-4731-b321-16e87d780dbe" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
-<parameter id="7c9faaf1-2b12-468d-abc1-ce1031318c8a" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="7ce429f0-cf31-43d7-b3b5-e52aa6c0dc1b" shortName="6. Main DD потенциал" defaultValue="4" type="double"/>
-<parameter id="f4e89c49-ee7a-4567-b6af-e5dfaab43736" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
-<parameter id="c8fae9cc-2dda-43f8-b8a9-e1ae635ad8ab" shortName="8. ED потенциал" defaultValue="0" type="double"/>
-<parameter id="b9830ce9-124c-412c-bb1d-a1491ef0c758" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="f05b89d1-239d-4af9-9806-a1e663251fe9" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="80435dd3-3cf8-48a8-8b29-ee8d5add216b" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="93db91f1-3689-4281-b85f-c89577d364f2" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="53de4439-362c-4e3b-99f2-f2e8eb029e79" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="5101edaa-8c43-47ea-9a61-19455f320f0c" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="2ec33a35-0bcf-4718-a792-150b745ad727" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="8cd58e3c-aeb5-4060-adb5-7f350e3937fd" shortName="1. Имя" defaultValue="Герта" type="string"/>
+<parameter id="25809258-e35e-483a-a37f-897534b81c6d" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="99630774-738e-40b6-b4fa-964f6f8e1eac" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
+<parameter id="31ea7d8f-15be-45d7-adbf-4653f8b20e13" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
+<parameter id="8b97ba69-e147-4f2f-a0d9-dd33fe0215d5" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="8f817648-e8dd-4d4e-bf37-5a7c9ac2903f" shortName="6. Main DD потенциал" defaultValue="4" type="double"/>
+<parameter id="ac0ba632-5081-4074-941a-046cded59ed4" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
+<parameter id="19e9e658-e4b9-4b1d-a11e-eeaac555f40c" shortName="8. ED потенциал" defaultValue="0" type="double"/>
+<parameter id="105d35c8-2450-464a-b9ba-7b287929dd16" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="b1789276-3a41-4543-8683-0d41bae5921b" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="83d592e4-ef0d-4eb7-875a-0fe1d7102b6d" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="1ef9183a-9bfb-4b77-9871-eb9d4202442b" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="ba535e23-4292-4a6f-a338-5a271a7de929" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="affb2def-25fe-463c-b7a7-b2e60e41a4f5" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="7f474ef2-c429-4a5b-b89e-b8fe7eb5ac93" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -215,23 +215,23 @@
 <classes/>
 </class>
 
-<class id="a38085d2-49ef-4f4e-b217-1eaa8d13d300" shortName="Гуйнайфэнь">
+<class id="c2e87e28-e700-4d8a-83b4-9d3d62289f0d" shortName="Гуйнайфэнь">
 <parameters>
-<parameter id="e46483e9-2cab-4bf5-b4a5-9a58a0dfe4f7" shortName="1. Имя" defaultValue="Гуйнайфэнь" type="string"/>
-<parameter id="f426f3ef-05bd-46f6-a79f-031c1fde4230" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="f2ba632a-e1d5-4959-83b1-6323b6c14c4f" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
-<parameter id="6ba95688-fa6e-4488-912a-05310905c686" shortName="4. Путь" defaultValue="Небытие" type="string"/>
-<parameter id="c5c7863f-b459-4f6b-a242-58fda43e7e6f" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="15505d5f-aef0-4cba-a02c-b50c07705219" shortName="6. Main DD потенциал" defaultValue="2" type="double"/>
-<parameter id="36c606a0-f478-4355-b1ec-fbcc35766573" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="be39979d-4424-46d1-b8d7-2a096557d42d" shortName="8. ED потенциал" defaultValue="8" type="double"/>
-<parameter id="9b79fae5-6320-453b-9104-43f09cdd5f48" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="5b75db3b-b2e1-4313-8d66-5df0fd62c8a9" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="4edcd71c-4f8e-4a19-9281-74d90684105b" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="4e5078b7-5649-46dc-a938-83151a984ebc" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="ed99e72d-2e67-4596-a63c-dc9597b52e28" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="fba01e6e-fa26-4de3-9104-5350fa8bd2c2" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="0d2e41a9-fffa-41f8-83e8-03595c6d9c9c" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="248bce92-1137-44b0-b62c-2ef185dd62d5" shortName="1. Имя" defaultValue="Гуйнайфэнь" type="string"/>
+<parameter id="9d7a6223-d4ce-41fe-baad-7b1be8605f3a" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="12945999-c141-40ff-9a37-0a337aeb8747" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
+<parameter id="84fd0805-15e0-46b5-a4a3-d7c03b32ba0e" shortName="4. Путь" defaultValue="Небытие" type="string"/>
+<parameter id="40919c0f-7209-45e4-a193-afb35d474855" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="72f08fea-8738-40e7-a5b9-c7e4402cfd47" shortName="6. Main DD потенциал" defaultValue="2" type="double"/>
+<parameter id="898ca8d5-ebf1-43c0-8ee7-cd26530edde1" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="ddc7c3b8-b60e-4c8f-98a2-c0377befc0e4" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="21dc0bd2-d40a-41e5-b12b-ee3c5524a812" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="90955937-7a8c-4bc0-a92e-3f6556a37ec3" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="38531454-13e3-43d2-abb9-fef96f0b519b" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="2a7e6ed7-f219-4ef0-b951-2f431846abb0" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="d7835f47-b273-4cfe-8b38-04cbbb8bfbf6" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="d9badb9f-436f-48e0-a278-aa10153833a9" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="9ebc00c3-2219-46dd-b946-e8bde899bb67" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -239,23 +239,23 @@
 <classes/>
 </class>
 
-<class id="bced0472-77b6-4ef3-8fe5-6ace8905a5d6" shortName="Дань Хэн">
+<class id="b8c3da47-cb71-460c-81f7-6de4f96ea599" shortName="Дань Хэн">
 <parameters>
-<parameter id="9b51b7b8-32f2-47f9-ada0-f84fbb5862af" shortName="1. Имя" defaultValue="Дань Хэн" type="string"/>
-<parameter id="677a2fb5-03a3-4a1e-8189-38b6983d2718" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="7003c2f2-553a-4852-b86c-4180bec6a5d1" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
-<parameter id="6446f5fc-1167-4de2-9e66-951bee30f001" shortName="4. Путь" defaultValue="Охота" type="string"/>
-<parameter id="813f45b6-2e31-46a0-86c9-870ffbd047fd" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="c292b237-641e-41ee-8dca-54e7fc0e65ab" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
-<parameter id="2a1e7d0e-bd4c-43a7-992f-7940ccc95048" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="ab856666-399b-4c44-bace-1f405b928230" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="ef28a41f-4d41-4c09-859f-586880b6ac4a" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="b1035ded-2862-45b9-9197-ced8a242a53f" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="73857ae8-078b-4aab-9ca7-92f5708362be" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="ad7a8770-5c02-47bc-aa97-00387fbe35a1" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="e4325a5b-5109-469d-98e6-ceec5229e5c8" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="922fc55b-b3b6-46a7-a4e8-2edbe2705e13" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="fcf17925-4769-4099-8104-04fe11266bf4" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="aea858b2-5288-4e08-8046-300a948c0bfe" shortName="1. Имя" defaultValue="Дань Хэн" type="string"/>
+<parameter id="cd55dbc5-823c-4cc8-9055-e1681926e3f4" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="7dc593ad-3953-4b1b-8148-e516426df12a" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
+<parameter id="af68c238-cd14-4190-861f-fcf0df50b3b2" shortName="4. Путь" defaultValue="Охота" type="string"/>
+<parameter id="f7b62cf6-3f3b-4912-a53e-1d85036661e0" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="5bfe2efb-1748-47dc-921c-52f4775cc40e" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="4cb7e83d-65c3-4524-96ae-3f83bb57144f" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="a0fbd604-ab1e-40a6-a9d1-a97526c09eb5" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="1fa7ae01-f094-46c4-a193-a76d0dd588cf" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="98eb6e86-8c0d-405b-8386-343132db1d70" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="00d973d8-b4ed-42c5-8633-2a7195b4c772" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="09951266-4d72-4e24-8508-7d0ee3445c71" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="ca334d10-61ac-46d6-8e8e-9d30274900f1" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="4e8939ea-d9d4-4a79-89ca-a6ba2e4416ff" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="12cc4fa2-8f3d-4b92-bcb0-4a570b13d770" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -263,23 +263,23 @@
 <classes/>
 </class>
 
-<class id="29245bb0-8a3c-4fca-a560-897e31d3b5b2" shortName="Пожиратель Луны">
+<class id="bf516751-124a-461c-9c7a-3eddd536535d" shortName="Пожиратель Луны">
 <parameters>
-<parameter id="cdabca3d-6f68-4692-bba8-6a0057c5c268" shortName="1. Имя" defaultValue="Пожиратель Луны" type="string"/>
-<parameter id="0215b802-175c-4245-a219-fb9a5cabfca0" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="68dc2bbd-7692-405d-9e8a-7b0d06e76da7" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
-<parameter id="149d2155-2b94-4788-96f1-ec1b25c803f7" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
-<parameter id="9348d085-35ad-4976-980c-dd7832800c32" shortName="5. SP голод" defaultValue="8" type="double"/>
-<parameter id="9915ff92-b717-4875-a31f-2802cd1b30fb" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
-<parameter id="7a9bc95c-82f2-4310-aa4c-e3ef26084cbc" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
-<parameter id="ba8357cd-ccd0-422e-ac6b-d9d139a13bc4" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="addb54c9-82bf-485f-80fe-b517d21313ec" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="618e6b7f-a0e4-40a9-839a-ad04ca869e5c" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="63b57cba-62a3-4d6e-a146-76e82d13783f" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="abaa0436-4ac0-4ba6-9c0e-66e70644fd94" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="fcdac8a7-8de0-444c-96fa-565534cbcd44" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="4e2bdbf2-d814-46e4-8563-f258b62ec0c1" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="ad387c46-7952-4a78-a1e6-a8fa61d94b06" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="67569be8-212e-4757-8eca-a3130b446efe" shortName="1. Имя" defaultValue="Пожиратель Луны" type="string"/>
+<parameter id="8c21ed32-0ea9-4f68-bfbb-10cc1d5d939f" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="39237dfd-21ee-46fc-8db5-9d34db91bcf7" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
+<parameter id="50e61948-2648-4532-b5e6-3190ccf7fab8" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
+<parameter id="e083e85a-7965-44ff-8086-f1e56ab22d05" shortName="5. SP голод" defaultValue="8" type="double"/>
+<parameter id="4a02f377-3b5c-4ed0-94d0-986b112827d2" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
+<parameter id="bd936b31-a0b9-46dd-a214-85307956e178" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
+<parameter id="6d04e4c0-f075-46b4-a6cc-7a2d1223534b" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="59cf3a83-d57f-45b7-bc16-f1d475149523" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="93592c80-7976-4d0a-a754-71c5bb61069d" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="b6330cb7-b89f-4f80-9f2e-edcbb4e56749" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="7390a54a-ed61-4a50-b2a1-bfa7b651062a" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="0038d989-93a6-4385-b153-e7ea5ab36ed4" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="8579977c-fc49-4282-b6e2-e6fa7f74c573" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="9aff4f05-fd18-4373-bed1-8d3fe62eaa7b" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -287,23 +287,23 @@
 <classes/>
 </class>
 
-<class id="a12c0933-f2aa-4a1b-a2fa-c16ead53e292" shortName="Доктор Рацио">
+<class id="c592310c-f730-4086-bd03-3fd42e2472c9" shortName="Доктор Рацио">
 <parameters>
-<parameter id="9823a814-c176-442e-a774-96134645524c" shortName="1. Имя" defaultValue="Доктор Рацио" type="string"/>
-<parameter id="181de4a5-ae38-46b9-925f-955f273bf456" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="51fd67fa-3c6c-4ddd-b4b6-a9d28e850b88" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
-<parameter id="0945d3d3-bb8b-4706-a21f-efe2da12adbf" shortName="4. Путь" defaultValue="Охота" type="string"/>
-<parameter id="f9167f02-e391-495d-abd1-9a047c70bba8" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="e89d07e5-d79f-4e6d-88ca-a4048aa258e4" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
-<parameter id="f8972bff-00f5-43bf-a1a7-e323d2ce4013" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
-<parameter id="6f74a1bf-9a44-4a1c-9992-d989e5d3283f" shortName="8. ED потенциал" defaultValue="4" type="double"/>
-<parameter id="1d4823f7-12a6-4b74-9188-a9fd5aa9ca73" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="8ad16891-3342-471c-88c4-30905474d926" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="4089e243-02c9-49b1-bc94-82898deee849" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="7c80dcf8-2c62-4ff1-99d2-e40d6ac6bf88" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="9fbad1fd-b5d5-4912-a38a-f7853d20871e" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="90b3af54-9ee6-4831-8a99-01196b3d2af6" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="acf36f1a-783f-4008-9606-dd91f27ba832" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="04c5f22d-fb8d-4614-9f4d-b4553a256657" shortName="1. Имя" defaultValue="Доктор Рацио" type="string"/>
+<parameter id="41842018-73f3-4988-bffe-7e244aac071d" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="6be1d55f-c85a-41c6-a11d-94744d968ef3" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
+<parameter id="accf0678-aeae-43a6-b486-907470fcc742" shortName="4. Путь" defaultValue="Охота" type="string"/>
+<parameter id="af3fd344-a41b-4991-a5c1-9c50c437d36b" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="21d4c02c-afef-4365-b05c-03d3b2ed9752" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="4f7aaf66-a2d5-4ea3-acd2-e2444f7e8397" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
+<parameter id="7ba70eed-75ae-49c8-82c3-e574e23aa483" shortName="8. ED потенциал" defaultValue="4" type="double"/>
+<parameter id="5b6e89bf-5b0a-4ea7-b08e-e36b6dec257e" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="40bf1016-2951-4ae3-9060-59fcf21c7471" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="c46fb8df-45fe-47e9-acf4-c3d9667ee41a" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="4e168e1b-0a6b-4c25-9b75-499a782530c5" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="1083efbd-26b5-45b3-8942-d31d205e0e3b" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="2c6991b9-8027-4cfc-96fc-69d640423949" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="7950c582-4f99-4198-b136-e58572e73082" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -311,23 +311,23 @@
 <classes/>
 </class>
 
-<class id="7c865d16-890a-4b24-ae57-d492028a437d" shortName="Жуань Мэй">
+<class id="dbd1fee3-f56e-44ff-9008-6d891b419609" shortName="Жуань Мэй">
 <parameters>
-<parameter id="4d95035e-17d7-47e3-8567-28dee0af44a0" shortName="1. Имя" defaultValue="Жуань Мэй" type="string"/>
-<parameter id="69070a0e-6c39-4d02-8c76-72bd96ce1705" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="ad7f040d-6517-4a5c-952d-712a4b10a17b" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
-<parameter id="0454a88a-2cd7-4587-b660-c238b99d8d09" shortName="4. Путь" defaultValue="Гармония" type="string"/>
-<parameter id="8f1d5044-e5b0-4248-8830-bbc2ee301203" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="66af9eca-2049-4e12-a2f2-8becbf30aaa3" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="9ba32dbc-a1e6-4a2f-a965-3b9900ef9332" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="debb94bf-2dfc-4a7b-a6a7-fef482bb1624" shortName="8. ED потенциал" defaultValue="8" type="double"/>
-<parameter id="05bd50db-4b6a-4a92-96cc-9568941d3bf1" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="b2780c59-f908-485f-a5b1-a1b550ea1223" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="169dafaa-e9af-4f04-9bf2-07e1cfd01d57" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="a2207f1d-345f-42c1-a491-d727f77846c5" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="b881626e-94bb-40aa-a73b-2874e664d086" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="9588cf41-5cf9-41ed-9e9a-0fe502fae33a" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="ccc8db4a-34c5-4b26-a973-d61eb3276853" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="8a37eeb8-02dc-45c1-be42-e02488598221" shortName="1. Имя" defaultValue="Жуань Мэй" type="string"/>
+<parameter id="77a9dc6b-08fd-47fa-bf6b-e821ccf8ab0c" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="7109c180-c078-4809-b31f-adc2dc1cb0f9" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
+<parameter id="8f335a3e-62b0-4ae2-bd22-a6cfd6cf00c2" shortName="4. Путь" defaultValue="Гармония" type="string"/>
+<parameter id="76d927de-f14d-4920-81ae-ec80b514fc8c" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="1fe2a59a-fb72-4e9d-a9cb-eab5aabf9d7d" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="9cd74163-69fb-4a43-9e14-7423c0668305" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="cb5cff48-0dce-4b2a-b9b5-f72178ba0f24" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="19228b6d-26ca-4ac2-85eb-9c40af62a6a0" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="b910fe24-5a6e-4950-9e49-0814065d7f20" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="7082f9a7-9677-4d0b-8e00-4802c56bc73a" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="bd8cfc07-6f43-436b-9275-db63af8d97ab" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="67989c75-ccc9-464b-9180-e3a942360a02" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="f073a272-c0fc-4ea7-b4b8-d82c74e91729" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="c1aa52fb-203f-4085-854b-57f63eb2520d" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -335,23 +335,23 @@
 <classes/>
 </class>
 
-<class id="2b6f946d-f05a-4722-b27c-4dabd02d14f7" shortName="Зеле">
+<class id="4dde3852-e4e5-4e15-b4cc-0bb7545083d9" shortName="Зеле">
 <parameters>
-<parameter id="518b3c0a-5580-4fda-8f7e-0347c494000a" shortName="1. Имя" defaultValue="Зеле" type="string"/>
-<parameter id="97b2ce6c-5b0f-48c2-9c3e-2e2c43697981" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="aa1cc6ea-4e7b-4d2f-8dd1-6dda0887ebc2" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
-<parameter id="1e4cf4fd-ced0-46bf-8bbe-038cdf25721d" shortName="4. Путь" defaultValue="Охота" type="string"/>
-<parameter id="34ebd1d4-aa19-4ddf-b5ed-66b386791266" shortName="5. SP голод" defaultValue="6" type="double"/>
-<parameter id="4d8c8f64-62a1-489d-8859-015f92325e8a" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
-<parameter id="7e7e1af6-7a01-486c-9d17-d6b3e01b0b20" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="542fb70f-5c58-4e08-9b32-728ff60ab7eb" shortName="8. ED потенциал" defaultValue="0" type="double"/>
-<parameter id="91dda1ae-43e5-4b7e-9888-c97a94839232" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="f6e06640-7545-4261-b24b-5bfd2330679e" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="9e134544-2a39-464a-b17d-298245bcf9f2" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="7954f516-de12-4aa8-a431-b9233ba8bc74" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="6cdbe37c-3924-4045-b986-4a24612d2e6b" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="4d887956-65dd-4696-9367-4366540f9a4e" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="495818f6-6fcc-4e7e-8e16-509636d0c1e7" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="0ded3612-e63e-4d55-80c0-a53b3adbba57" shortName="1. Имя" defaultValue="Зеле" type="string"/>
+<parameter id="0b2766a6-0947-4095-b57a-ffb0818f4e6b" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="c3eefb3c-1bbe-4960-ae88-58f167495efc" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
+<parameter id="69bad0fa-1b11-47d6-a702-abb6d0fa2557" shortName="4. Путь" defaultValue="Охота" type="string"/>
+<parameter id="810f79a0-d3bb-4a14-a703-dae81519a7ba" shortName="5. SP голод" defaultValue="6" type="double"/>
+<parameter id="27ca73d1-62ab-4b6c-9afd-0f608b2561a7" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
+<parameter id="413f313c-f6fc-44a0-ab95-e3a4e21d13b2" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="68c3400a-20d4-4314-903e-b049879fbf81" shortName="8. ED потенциал" defaultValue="0" type="double"/>
+<parameter id="f9f41050-8729-4818-a28c-0bc646471c00" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="ad4d3d49-1589-4596-a439-45df08c648d8" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="aaa10bf6-383d-48cc-940c-1a0e0ffcf91c" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="9d4f3418-baf6-4456-b81a-22cd3bf6d217" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="c884d0a0-d556-4cf2-b8d7-4b7cb4d87fb2" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="744bf143-c424-4edc-a21e-96dc2e76de34" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="4cc04596-1b14-4936-9927-14018252fa32" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -359,23 +359,23 @@
 <classes/>
 </class>
 
-<class id="6ce35cdc-ac0e-4226-bddd-2b9343a90ee5" shortName="Искорка">
+<class id="b608f4c5-53b8-455a-abac-d0251b7a63ff" shortName="Искорка">
 <parameters>
-<parameter id="f1e3f8d7-5712-4da2-9230-ded2a7d2b6c2" shortName="1. Имя" defaultValue="Искорка" type="string"/>
-<parameter id="ad481c4b-89b4-4c51-88a3-43963ab8e5c7" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="79f78e93-5e9a-4ad4-bd53-ec981970399c" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
-<parameter id="a53ba197-9025-49fa-bb08-6b540597d480" shortName="4. Путь" defaultValue="Гармония" type="string"/>
-<parameter id="213098cf-5740-462e-a752-ddf1417a9246" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="7b90c27e-d54d-4331-8c13-326446c77b73" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="7ffdd8c2-f5b1-4be3-8149-a4f42b76a15a" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="c56b50bd-e60c-439b-b01d-c069a6f8408f" shortName="8. ED потенциал" defaultValue="8" type="double"/>
-<parameter id="fbc4022f-9384-47c1-9370-678ff9b5f47e" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="26f2c74d-ce8e-40b9-8b73-75dd4b75fd3d" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="bde2cb92-e885-47b9-92b2-23bc95e202a2" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="8889f180-d7f4-484c-b8e8-0da4cf889e32" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="8694c981-a203-4889-bd9b-468a9aa59cd0" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="91f488df-6a03-4ebe-90f7-5af0cce9daa5" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="2079cbbb-48a5-4c5f-a79d-bd1b19377186" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="f6a8ad94-620b-4d61-82ae-a9e864767a72" shortName="1. Имя" defaultValue="Искорка" type="string"/>
+<parameter id="6ebdc36a-1ae0-489b-83b2-1fb2d8feea2c" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="eac05f94-34d0-4266-9f9f-9ce095490432" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
+<parameter id="7db651b3-49a8-461a-afcb-87c0d2cb4b0b" shortName="4. Путь" defaultValue="Гармония" type="string"/>
+<parameter id="099e7cab-8045-449a-ab87-f4e7ab5a22ba" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="95c0beed-dad6-42b1-a7f7-562dbcdc0e8d" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="2f162bf1-3111-44e9-a492-930085f6fa23" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="f71bfded-d75c-4dde-b929-a80c90714b99" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="49d99cc1-bcac-4212-a3e4-bce8089e1c38" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="c0d69df3-9bfa-4fa7-b41b-2fc45bd61e40" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="dbec4dcf-f383-4717-81b7-2959545575c8" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="c8d036a6-96b6-4e14-ab2b-88af06a94f85" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="b37183e4-cd1d-468d-97ef-15168de6b228" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="22cda2ea-deaa-429b-a528-8267f82af121" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="6d264e21-341f-40f3-8645-ab451a42882a" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -383,23 +383,23 @@
 <classes/>
 </class>
 
-<class id="7553c089-e671-4709-9d25-26067a42ade3" shortName="Кафка">
+<class id="d49f05a9-934a-475c-bac6-6aa3d5d506cd" shortName="Кафка">
 <parameters>
-<parameter id="4673bba9-f791-43b3-b5df-329b80595677" shortName="1. Имя" defaultValue="Кафка" type="string"/>
-<parameter id="185f7dd4-8f1b-40a4-9502-9761c75cccc2" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="53d0f452-f359-4347-b37a-7744a4653804" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
-<parameter id="885e3b86-f808-4e70-a14e-8ca7ab445e9d" shortName="4. Путь" defaultValue="Небытие" type="string"/>
-<parameter id="5c41b3e9-d506-4fc3-a2cf-f538bc2c5300" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="7c145bb9-dae4-4aaf-a8ab-439df82d33eb" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
-<parameter id="de280b7d-4a22-469e-b7fd-fe92ec712fca" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
-<parameter id="9a15f969-edae-4d03-a0ef-a63530671062" shortName="8. ED потенциал" defaultValue="8" type="double"/>
-<parameter id="12ac31a1-3b26-4f76-8961-015b09599285" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="33859d1b-1726-4201-85e0-8cb972d2f7bc" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="a2659141-6f89-4aae-95c1-6a1c122611b6" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="afbe8b5c-af4e-4218-a9d0-bd5cf81b6b2f" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="fdaaffe7-1a76-4325-8b8f-4d548006b8db" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="c50d9124-031c-44f3-8ac4-aaed4651c665" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="7c530bc4-331a-4fe4-a889-bbd26778a510" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="6a749a01-dc63-4885-be49-381ee066b5a6" shortName="1. Имя" defaultValue="Кафка" type="string"/>
+<parameter id="37495f0d-fbcd-491a-abbb-790c08ec4108" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="6636f0ef-a37b-4ec8-ad7a-702fe0713831" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
+<parameter id="650bcb90-4bcd-4936-ae43-6e1c87c74c0b" shortName="4. Путь" defaultValue="Небытие" type="string"/>
+<parameter id="51d10848-27c0-44bf-a8fa-1d0bbeafe0d9" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="ef7bdace-4d4b-4a13-ab91-96d2193a57d3" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="f06b8a1b-3db9-40ca-acd4-cd66d80301cb" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
+<parameter id="5fb74ddd-2fe6-4a06-bb71-bdd7cb207e22" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="f09e1e86-4cdd-415f-a9f1-8181b8230092" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="a1b67ae4-4c53-4bc9-af98-218220c5d25c" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="3486ab62-b643-408d-99b1-794a54ce12f7" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="87324f47-9e26-4279-ab27-2362a943df53" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="c348ff2e-9309-4e29-9784-80eb293e25bc" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="c2e77faf-0ef1-4111-9213-d53ceee3fcf9" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="056b890d-bea3-4be5-8cb7-d4aeb3103dad" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -407,23 +407,23 @@
 <classes/>
 </class>
 
-<class id="c74a44a9-7c0d-44b0-9e0f-d754e5523336" shortName="Клара">
+<class id="4ee299f4-1462-4b2d-b249-60f695190137" shortName="Клара">
 <parameters>
-<parameter id="c77d21b1-39ac-4a21-b43b-907637d43152" shortName="1. Имя" defaultValue="Клара" type="string"/>
-<parameter id="0493fbba-5b6b-4b73-8566-d3bb9930fedb" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="dddb0eb5-c8b9-424b-b0ef-74e548ddf4ae" shortName="3. Стихия" defaultValue="Физический" type="string"/>
-<parameter id="b93a1613-38b7-4ef8-83a5-93d52d204cf4" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
-<parameter id="2f9967c4-7de1-4662-963e-6131c737ba49" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="90b5266f-b7f9-42e3-8939-dd2b475dbd2b" shortName="6. Main DD потенциал" defaultValue="4" type="double"/>
-<parameter id="6090bbf0-d7b8-4094-9a8d-eeb1c1b8d84c" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="24cb751f-b3a8-49af-90e3-406ae5decc60" shortName="8. ED потенциал" defaultValue="0" type="double"/>
-<parameter id="f63b1957-043b-401a-a44a-c2daa3d76988" shortName="9. Support потенциал" defaultValue="2" type="double"/>
-<parameter id="7559e5fb-e502-47d2-a241-b7a4e9864f49" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="28d33c83-07c1-48a1-b2aa-d6ebe65d26c8" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="3444ad53-af9a-4fbc-9667-06f8a1ec0935" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="4295aeb6-954f-4e2a-bd33-5a20ef1c5228" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="c021ec76-0b2d-48ed-8d46-39ab0094368c" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="8e674a10-38fd-4e5e-bded-50e35b2933d8" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="d75df146-f4b5-44a7-a6c1-0e66e808903b" shortName="1. Имя" defaultValue="Клара" type="string"/>
+<parameter id="4d314da2-96a6-4e6d-a437-f94781342f1c" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="c8763257-9456-497b-bb46-4bfe2d1dc7cb" shortName="3. Стихия" defaultValue="Физический" type="string"/>
+<parameter id="e9665f5a-bb7a-4953-a3d5-4b3eed9488b8" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
+<parameter id="6507897e-d0bc-47ce-8c48-ff890e7c2ae4" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="aff6c7d4-4c1b-430a-a8ef-acd1c661ccb5" shortName="6. Main DD потенциал" defaultValue="4" type="double"/>
+<parameter id="137b0d0d-2d07-47e9-9ed7-eb16b72ddd0d" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="a60d12e1-d007-4490-b2a7-955586a65df2" shortName="8. ED потенциал" defaultValue="0" type="double"/>
+<parameter id="ee6d5af2-8498-4200-99a4-8c79af3286dc" shortName="9. Support потенциал" defaultValue="2" type="double"/>
+<parameter id="00afa89e-7c78-483d-adbd-8ae8236c8518" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="4a88d254-80e5-44f6-9961-01841b855117" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="f28cc5f9-7b88-43fe-aa23-a77d6df0defb" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="e8e2cac2-d5f3-4a4b-8b7b-231e037b7b99" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="44fe7acc-b671-4d56-a99c-e5b793283bc7" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="7f2e10cd-1f1f-4347-a1b5-cbefe031f235" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -431,23 +431,23 @@
 <classes/>
 </class>
 
-<class id="ce166ef0-1791-4b08-be5a-e336c50834bd" shortName="Лоча">
+<class id="3e344ee8-f95d-4dfc-af04-b640f210665a" shortName="Лоча">
 <parameters>
-<parameter id="b1dc97f8-a9f4-4dcb-b061-b7251addef1c" shortName="1. Имя" defaultValue="Лоча" type="string"/>
-<parameter id="52345fa4-da8b-4dce-b75d-0d98eb2fdb3f" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="80c7f45b-46db-4fbf-9e1f-49e9cf865150" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
-<parameter id="c531fdd0-ab56-4a1b-9b88-d0a925e87c66" shortName="4. Путь" defaultValue="Изобилие" type="string"/>
-<parameter id="d50c2b8d-0820-4a09-a22e-0be5c698a486" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="00a7387a-cfd6-49b9-bc41-5ebb67a19c30" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="f5bda53a-89ef-49d2-ba69-406e30a70246" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="70f7b4a2-3f41-4414-930b-11ad2b008acc" shortName="8. ED потенциал" defaultValue="6" type="double"/>
-<parameter id="e81465dc-7637-4574-924d-12a2a6b9d96d" shortName="9. Support потенциал" defaultValue="8" type="double"/>
-<parameter id="af88a03f-0b33-47d7-a203-bb639bd3bc4d" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="5a508767-3fe6-433b-b4e2-9fd480ee9a8a" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="cfced136-09d1-4b46-ac52-3f91fa8a844c" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="bdf7cb2d-152a-4b5e-a34e-f6eae61758ae" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="e84c4da0-545f-4d5c-83ce-424d4864ca07" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="f256f6af-2027-483e-8e7b-78623a089f93" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="96c79656-f8ac-440a-939e-baaab47afcef" shortName="1. Имя" defaultValue="Лоча" type="string"/>
+<parameter id="c3448a30-e2e6-4186-bd43-6a069ed9f937" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="c7cac4c4-c97a-41a2-af18-449641d6527a" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
+<parameter id="2b5a11d8-c09b-4c9b-8876-8ec53c0b85a1" shortName="4. Путь" defaultValue="Изобилие" type="string"/>
+<parameter id="f1388162-993f-488c-80dc-7aa9265abfa4" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="9fa20b46-53e6-4bce-b073-ed61110043b4" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="98584849-e803-4e95-8b7a-e57b2a346d35" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="3d6a72ae-1011-4bdf-a347-61e26636896e" shortName="8. ED потенциал" defaultValue="6" type="double"/>
+<parameter id="fd05b9de-997b-4583-94f5-a6f592304410" shortName="9. Support потенциал" defaultValue="8" type="double"/>
+<parameter id="10dcfb5f-1444-4f47-8eab-5fb970627443" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="fa40181c-097a-4b01-b177-9194e3acdd2f" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="f8a18e43-9e02-42b1-981f-2f059849587a" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="abf50ce2-e375-4826-a391-3101a6f0309f" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="a3edb180-545b-4834-b54e-3ae818c09644" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="852bab21-8a72-4d38-b6ad-dcd3c9a2a5ac" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -455,23 +455,23 @@
 <classes/>
 </class>
 
-<class id="b49c963f-20c5-4b11-8afe-95c9f332724d" shortName="Лука">
+<class id="5dafa09d-1a8a-4c9b-ad0b-4d22799b7223" shortName="Лука">
 <parameters>
-<parameter id="b50b42c7-b06c-4999-ba47-c4f9be857dee" shortName="1. Имя" defaultValue="Лука" type="string"/>
-<parameter id="9c79c4c9-0e17-4426-9639-6121e18bbdbf" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="c24c53c1-c01f-4db8-9756-1e41604aa938" shortName="3. Стихия" defaultValue="Физический" type="string"/>
-<parameter id="ec76478f-ed53-47f1-b86c-35ef153c5de3" shortName="4. Путь" defaultValue="Небытие" type="string"/>
-<parameter id="da532276-1963-4118-b81c-866674b1c373" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="7132f81b-3f23-44a8-82c1-68b596e0b73f" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="be147964-48e0-42da-876b-e083ff93e885" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="4f929b5e-96fe-4faa-bc07-b0a300a3e04b" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="b0e97683-448a-4328-8555-184f0965df2e" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="a06d2826-47df-4725-99a1-e1084a5136b6" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="fc6da9aa-0ecd-4fcc-bea8-f28ccce59701" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="6fcbfe48-0443-4350-8d9a-ce35147d7a10" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="2a562813-1daf-4a15-9084-3cf3f93b231b" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="7ca90931-f1db-4552-94c9-f0cbb49ec4a5" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="73355ea0-a2ec-4502-9cc9-9d6beadd440f" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="1dc9899f-8900-4b2a-9001-0edc860b9a7a" shortName="1. Имя" defaultValue="Лука" type="string"/>
+<parameter id="610b815c-1014-45c3-8632-ebacf8135c8f" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="4138b3ff-4716-4c91-8342-c669e2588358" shortName="3. Стихия" defaultValue="Физический" type="string"/>
+<parameter id="958c5c1d-6889-4da7-8181-dc33ab402faf" shortName="4. Путь" defaultValue="Небытие" type="string"/>
+<parameter id="3c16515d-abd7-4e8e-87ce-4704d348af8b" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="f1a99c33-a357-40c1-b4ff-c8a9063f5216" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="c53a805d-c39a-489b-9359-2fa26737cc00" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="7d1384dc-aa2a-4710-b48a-47ce7263e656" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="26bbc0f6-079a-410a-b26c-c297890f46bc" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="68b8c119-2352-4855-b3dc-4ba0d229126c" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="021ba1fa-bdf4-4711-9cc5-f29499441b21" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="102c2acf-3dd0-4b6e-9e05-8e98e0eb8e23" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="a928ef29-347f-4e92-ad7c-4eee55d7e938" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="be522ec7-cd0b-4869-bf09-6ba2536db625" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="91817b61-675c-44ad-bf1b-cfff1c9b1f7c" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -479,23 +479,23 @@
 <classes/>
 </class>
 
-<class id="7671fcbb-bde1-435b-baa7-3f16a51710b6" shortName="Март 7">
+<class id="31813f53-0b2c-4022-b34d-d22e6b3d549b" shortName="Март 7">
 <parameters>
-<parameter id="50d1093d-bdb0-43d9-9add-c38f44bf60e2" shortName="1. Имя" defaultValue="Март 7" type="string"/>
-<parameter id="f3431cf5-540b-4ac7-8b76-c735c8664b06" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="7602c630-be66-4be5-82ef-89dafdde6e78" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
-<parameter id="289b92e7-4538-48d4-9320-18a2f58ef916" shortName="4. Путь" defaultValue="Сохранение" type="string"/>
-<parameter id="21546dfb-e862-4a39-8ccb-cc0085d0d211" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="5c182523-e682-48bc-80b9-13ff9d979ccc" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="871a8417-f794-4047-bfca-057e42801c03" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="9aef3a37-9fdd-4543-9134-0452245dc7be" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="350081b7-ba39-4719-b1e6-7fcd35eebfd7" shortName="9. Support потенциал" defaultValue="6" type="double"/>
-<parameter id="c934e5a2-f5c0-43b2-8e6c-c018d8fd02ad" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="8d22818b-a963-4cae-8fe8-e5c9f967e8a3" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="0b4d560d-c220-4dec-b9e3-f006da543a5b" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="cdf3c822-3799-418a-8450-83fff16dde4f" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="80fc6719-0313-4351-892d-c34adde01af5" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="e4e615a9-36f9-46d1-b4d4-c536ada32592" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="ac539848-5ace-4a5e-8e97-19787ffadd3e" shortName="1. Имя" defaultValue="Март 7" type="string"/>
+<parameter id="ebab237e-7fa0-49e3-b4ab-fc44bca7e79f" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="66776e2d-71d7-4dc9-920c-44c99fada265" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
+<parameter id="67d7fcff-886a-425e-a799-f1b5aaa4cb31" shortName="4. Путь" defaultValue="Сохранение" type="string"/>
+<parameter id="9b268deb-7115-42dd-9df3-2e299076f2cb" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="065c9e5a-62fa-436a-b559-19a03e0c5061" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="6a926d86-a11b-42f6-8d46-9ed8f94afc18" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="9cdaca76-ecf5-46f3-b0e7-f86d5b45ea48" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="6a523dff-c318-46d4-96db-dbd1e6d06446" shortName="9. Support потенциал" defaultValue="6" type="double"/>
+<parameter id="5290e2c2-86e7-4d0f-b14f-99b363720c4e" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="65ef1a6a-3aa9-4504-ab52-ef5f0ac166f0" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="eb3d9ce3-2516-493b-88a4-2c57069b3800" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="780918c6-7301-4211-808d-66c2fd3a267c" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="29c59a88-de85-4ae9-9c87-087848e371e8" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="4fb2ffa6-55d6-42a9-829c-2365e035e415" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -503,23 +503,23 @@
 <classes/>
 </class>
 
-<class id="35f30e2c-b23c-4989-8871-f2968e636f11" shortName="Миша">
+<class id="7282ff81-bcff-4991-b2cf-ccbbf6b2faeb" shortName="Миша">
 <parameters>
-<parameter id="54c9499c-e6bd-4060-b3f7-1a909a42e4a0" shortName="1. Имя" defaultValue="Миша" type="string"/>
-<parameter id="ea889b37-f647-48f0-8168-1eca9dbb8971" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="5d3906be-6142-408e-98ae-831b464aaf17" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
-<parameter id="3b540ec8-fa3c-47af-98ef-7df61994835a" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
-<parameter id="14c5dc84-8863-45ec-be56-c8a3ade3ad86" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="5d014a29-3ab8-417c-8e75-1ab7d52666af" shortName="6. Main DD потенциал" defaultValue="4" type="double"/>
-<parameter id="ae5cf0a3-b5e2-4076-8bb3-481dbf5c4817" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
-<parameter id="f9d6bf3f-6f1b-4055-a366-7d4421eb5be2" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="7d30a9c3-75f3-4c8d-98fd-83f0787f5f55" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="097a9e09-a2e7-4d7d-a730-629c84240d7c" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="4f876817-1208-4cc9-a408-6c35bda1cf8a" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="c4156fbd-d122-4e24-9b83-0f4a49feaef6" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="bea01f8b-3e05-48af-97e8-5f8b3844ae4c" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="0812867d-50d5-4413-9531-a2a481a881a9" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="548a098c-71bb-4e2e-a415-e082c495d870" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="74f95eab-fff9-4e57-acea-8203097dc317" shortName="1. Имя" defaultValue="Миша" type="string"/>
+<parameter id="80213fff-2f48-46b4-84ac-52facb263a36" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="f65e38bc-9753-40a6-af0c-d64a1b9265cf" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
+<parameter id="9f6b7374-0b00-4ac5-8072-0df27d1b7ffc" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
+<parameter id="6f70fc24-8b1f-4c94-881d-81d6dc47a9b6" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="6d9c1f88-d6e6-41e5-b9a1-df5c7b5d94db" shortName="6. Main DD потенциал" defaultValue="4" type="double"/>
+<parameter id="ab7c9952-26b1-4a55-8e75-7955678d02de" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
+<parameter id="d1bde352-2c63-4175-92a7-3a2eeac09fa3" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="581d976b-f318-49a3-b1d3-83a88d03d698" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="18de6f53-acc9-4a20-ae63-41e75e1b89de" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="8c987730-f909-4321-bf9f-8eeea24c2449" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="b3896a2e-b9fc-4f17-bb00-5e7ed0eaa98e" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="d863d43c-46a2-439e-a06e-df78878fe4db" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="7b1b3a3f-40d1-42bc-89ae-20eaaf32cfaa" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="a97b78a0-9631-4968-a30d-ee120f2f649b" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -527,23 +527,23 @@
 <classes/>
 </class>
 
-<class id="3bfe3e6d-2828-47c1-a393-649a487e16d2" shortName="Наташа">
+<class id="89759e46-8ac2-4634-a762-b8118dcc7eae" shortName="Наташа">
 <parameters>
-<parameter id="d03f7a87-6388-4783-82e6-70e8f04c93e6" shortName="1. Имя" defaultValue="Наташа" type="string"/>
-<parameter id="3899916a-127c-4426-acee-5c5a9bf85d2f" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="118b6437-520d-4677-a802-f446f398c903" shortName="3. Стихия" defaultValue="Физический" type="string"/>
-<parameter id="1b2c736c-4376-4a0b-9a8c-c93e5e19f715" shortName="4. Путь" defaultValue="Изобилие" type="string"/>
-<parameter id="f9be64af-344a-45f5-a4a4-56bc81ee8298" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="094e409f-3bd2-4eb1-91ec-51e01f1ebd9e" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="7b080ad0-4460-4555-aa7b-a0ef261b111a" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="bfbc6bf1-c0a2-4cae-bc24-62b109ad40cc" shortName="8. ED потенциал" defaultValue="0" type="double"/>
-<parameter id="3bc9d016-82a2-4306-a485-ec8a74809025" shortName="9. Support потенциал" defaultValue="6" type="double"/>
-<parameter id="23328143-3813-4cbf-bb7a-10824facdee2" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="9c92e344-4330-4789-89e0-e01bd4113e49" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="8c01e0b7-75f6-46a5-a62a-aa19d652f7fc" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="96ff9c21-5f83-4cc6-9126-f1a2a3b797c8" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="90d199f4-1aad-4ddc-933f-d19cac0aee5b" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="1cc57f01-9d2c-45c3-ab93-d75c73e5db01" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="4dbb15d2-9d4e-4640-8221-5ddcf28339a7" shortName="1. Имя" defaultValue="Наташа" type="string"/>
+<parameter id="4aa553f4-36d7-4367-b4fc-cb797a18f23d" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="5ff32f21-3416-4ce5-bd81-61d6bad53171" shortName="3. Стихия" defaultValue="Физический" type="string"/>
+<parameter id="3e1e0da7-2ef9-4024-aa7a-869b02a6d0b7" shortName="4. Путь" defaultValue="Изобилие" type="string"/>
+<parameter id="9d3d16af-e91a-4ccd-8c26-6b092bb454c9" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="6f832f49-7a9d-4583-a0e2-6be4d7ad925b" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="44dc43b4-c5a0-416c-ad41-3938f7d2771a" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="3a314879-df17-4cce-8992-73a11bdde312" shortName="8. ED потенциал" defaultValue="0" type="double"/>
+<parameter id="d7895b51-609e-4cef-b4ee-07f1c6d91505" shortName="9. Support потенциал" defaultValue="6" type="double"/>
+<parameter id="8236c97f-7bd0-4b21-928e-2a95bbe3c94c" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="57d9239c-2f15-42fb-86db-06475bdf0964" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="b3b93779-ec45-4dd8-8ef8-171c4f1f7d7a" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="37d2d388-8ad6-4400-b1bd-408ca5b979ac" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="07aa3619-7790-41b1-9807-ce20db91bb9d" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="bf90a4b5-7060-4ea7-a395-f27484e09dcd" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -551,23 +551,23 @@
 <classes/>
 </class>
 
-<class id="e2440432-b1b9-4412-af71-21c9f08340cc" shortName="Пела">
+<class id="40055d85-3fc6-4e20-8f7a-d325841648a5" shortName="Пела">
 <parameters>
-<parameter id="245e7d13-fba0-441c-aec0-d2d243611373" shortName="1. Имя" defaultValue="Пела" type="string"/>
-<parameter id="4123d7ff-4268-4431-8353-5807e32bb7d4" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="3894ba07-1826-40ef-a567-9dd0f3a4d508" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
-<parameter id="60946d95-f7ea-4710-98d4-fb2b0c1d6901" shortName="4. Путь" defaultValue="Небытие" type="string"/>
-<parameter id="e7481d83-e25c-4a8c-a56c-b59a53fd582f" shortName="5. SP голод" defaultValue="3" type="double"/>
-<parameter id="0bb32026-c8cd-45f1-a3fd-a72c5c40a09d" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="f0062ba5-bae9-4108-a4a6-24bbdd55c351" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="c6a0cb6c-0c7d-42ae-abeb-de540db653e1" shortName="8. ED потенциал" defaultValue="6" type="double"/>
-<parameter id="7f13d878-5f5c-456a-ac51-1b972ec395c5" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="ab3023c9-05e4-440a-a5dd-ea0033f2a9f6" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="c8294a45-8a6a-410d-95f8-e8bec64d0a7e" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="bc307b84-a5c7-437c-9d69-44bc6131cb22" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="cb279711-6dab-4724-8a93-1d6bd389aa30" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="546a2fbe-cc2d-4f08-a949-ca9413fc6a86" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="5921adb3-0ef8-477c-bbcd-0f872ebe5f54" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="01650ee1-239e-4432-8186-589c4c9a54bb" shortName="1. Имя" defaultValue="Пела" type="string"/>
+<parameter id="ced3efd6-89b9-4ad5-a8f0-ae9bab043973" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="ba805563-f846-4706-83af-c2be2d8a2a48" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
+<parameter id="28a953e7-c7b9-4a58-8d1b-7b489141eb30" shortName="4. Путь" defaultValue="Небытие" type="string"/>
+<parameter id="c89db24e-c9ba-47a9-9b9a-991551d58ea5" shortName="5. SP голод" defaultValue="3" type="double"/>
+<parameter id="e7705644-f096-4e19-af97-2ccfe1a1f571" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="cb28de85-3d18-49ef-934a-1bfd86aadc10" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="0dd0203c-83bc-4e0f-ad18-ce632585eac0" shortName="8. ED потенциал" defaultValue="6" type="double"/>
+<parameter id="04530c6e-f446-4e8e-8bb0-b6d2da3726aa" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="932a62d4-46bf-4542-8223-717ff73a0ddf" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="17359765-c0de-4a74-993f-2868bd3cc3b3" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="de8267df-95f8-4bab-902d-dffe5da14087" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="c36fb1d3-54da-48b8-b5c1-477aa63fb26e" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="aa8b77c1-7bb0-4d12-95e4-d2a5bbfb9b83" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="43fcbb88-5321-4a7a-8c48-e2a899265f2a" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -575,23 +575,23 @@
 <classes/>
 </class>
 
-<class id="8d7134ab-c68e-4cb5-b28d-d841cdec267c" shortName="Первопроходец">
+<class id="27538ada-2536-4461-9555-1b01ed899bee" shortName="Первопроходец">
 <parameters>
-<parameter id="f3b97a7f-3b2b-4b8e-bc64-ab8afce6486f" shortName="1. Имя" defaultValue="Первопроходец" type="string"/>
-<parameter id="75561b5d-bf2f-46f1-b6d0-a63cf4f4905d" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="3a9a1fd1-c460-4f8f-be3e-9f8071730c6b" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
-<parameter id="46b975b0-c24d-459b-a8e7-ce5aebc2c049" shortName="4. Путь" defaultValue="Сохранение" type="string"/>
-<parameter id="25a76eb0-9ac0-4952-9888-8ecc8a7a0d21" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="b67905d6-8914-421e-90cd-ba50918de530" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="bebe4ca5-43e3-4112-97aa-4e7786f3eb78" shortName="7. Sub DD потенциал" defaultValue="2" type="double"/>
-<parameter id="32996756-660a-497f-9272-6b54977d36a1" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="eabb58f2-fed4-4f21-aae0-e0ed3b8ea04b" shortName="9. Support потенциал" defaultValue="6" type="double"/>
-<parameter id="bff46ff5-d7c0-408e-b634-54ed55e4b84a" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="e4ce0e96-e5e2-484c-b924-260dbe626058" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="7aa193fd-c660-4f39-a32f-5a2063e92208" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="a4c85ef1-bf3f-410e-b509-a7cbc5400e08" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="c34cc6d5-f27b-488a-89da-5ac0990cbce6" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="8c3b7ea7-7e41-43da-9242-a29573670510" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="42acbcd9-bd0a-4e2f-923d-97944982d3f5" shortName="1. Имя" defaultValue="Первопроходец" type="string"/>
+<parameter id="9d36c415-40c1-42c4-b953-ec644c38d800" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="68e0230d-595c-4bc0-9446-87c6dd2e02fb" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
+<parameter id="e453a7ba-da9c-468c-89a2-26971fc43528" shortName="4. Путь" defaultValue="Сохранение" type="string"/>
+<parameter id="630f2704-2d61-4b18-82fe-70a5e17444ed" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="e52b7545-8a1b-4436-9276-5618e29cc9c4" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="3092777a-51ff-4525-84ff-32a852ebbb50" shortName="7. Sub DD потенциал" defaultValue="2" type="double"/>
+<parameter id="38fb66f2-bb1b-4a95-bfe7-90bbbde0846b" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="1fc4079d-0974-4dd1-a208-7be08cbf90bb" shortName="9. Support потенциал" defaultValue="6" type="double"/>
+<parameter id="53acd89a-6ce2-4c0e-bd59-ea5d0764f3a3" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="b2d23948-ebef-41c0-a2e1-a13716d738d6" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="5c46224a-378f-448e-ac2c-9ac0275d1c15" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="9a0f2eb1-8581-4cdc-b512-9529363dadaa" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="f03980e9-80c9-46dd-9f17-b157b41391a4" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="d1792090-bf7b-4ce1-9a49-8e510cb661aa" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -599,23 +599,23 @@
 <classes/>
 </class>
 
-<class id="a32d70ee-2742-48eb-84a5-b3d4c1d5a351" shortName="Рысь">
+<class id="c15339aa-abef-4a9e-99af-727cad8fd952" shortName="Рысь">
 <parameters>
-<parameter id="614f2be6-0248-4f55-a143-d914502cbd4b" shortName="1. Имя" defaultValue="Рысь" type="string"/>
-<parameter id="19b97938-c0c2-475b-baa0-26d49822b259" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="d2c52949-27ab-466e-9fe5-002d328ce0ef" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
-<parameter id="f1f0dbe8-87b1-4758-8107-9fae89d0fae2" shortName="4. Путь" defaultValue="Изобилие" type="string"/>
-<parameter id="4a8104e0-e328-4a99-880a-01a3a66a6f06" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="bb8586d1-20ed-49bf-83ce-003437dc2483" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="13a1ed4c-19fc-49a9-879a-cc42f8022166" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="d89a8e80-6521-4b73-a698-2a75cc93ce54" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="a140ecc7-bebe-44a1-9694-24b5cb4d826d" shortName="9. Support потенциал" defaultValue="6" type="double"/>
-<parameter id="f1567c8d-c1b9-4a83-b354-72a4e728d0a9" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="60788d56-a2dd-43ce-a0b6-d2447a8ce4d6" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="6b0a1b69-5ed8-4f0b-91b2-35a519968a36" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="2ccb483c-20c7-4f18-b667-3e5aa46b9649" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="8f667117-06fb-4add-91a1-93b2f7bcc0d1" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="e9dd367b-7892-470b-9127-d1af4fa6d4d6" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="fdf39adb-9a55-4f29-b8ed-7a6c3007961d" shortName="1. Имя" defaultValue="Рысь" type="string"/>
+<parameter id="039888bc-3c8e-4380-bb18-eab39d9da7c8" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="4dd1e24b-4983-4842-9238-c357ef6c08b6" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
+<parameter id="40515113-ee36-4737-8b8c-21747e8cdeeb" shortName="4. Путь" defaultValue="Изобилие" type="string"/>
+<parameter id="0cf5ad6c-d152-44f3-b4b7-0cff0552991b" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="6c4cc91a-6e4f-4a94-a9e0-a719e09a26c6" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="05b1a0b5-52c7-4a6b-bd62-f5cd4aeb644b" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="fe4da1f0-f530-41a4-b277-d04f1114c1f7" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="b7a68734-6508-48c6-a883-2ad207c3e31d" shortName="9. Support потенциал" defaultValue="6" type="double"/>
+<parameter id="699ea150-0178-43e6-a403-b743089a6380" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="cfbeb746-ba6a-4c98-9737-55e415331e5f" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="7554af40-18a9-4cdd-96b1-9cc7b1c34dd6" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="06c71fac-66c9-4cef-96cb-570379a30638" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="f982cc7f-3ffd-43dc-8c39-115ebeda80d5" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="37cbfc62-c56f-4025-87ce-b8150288b07f" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -623,23 +623,23 @@
 <classes/>
 </class>
 
-<class id="f5b812c1-86b9-4c15-b1e5-e1fc0a999b85" shortName="Сампо">
+<class id="283f2669-66ee-4074-883a-3e86c7d538d3" shortName="Сампо">
 <parameters>
-<parameter id="cd517296-5d79-49a8-ba0a-d3def0790238" shortName="1. Имя" defaultValue="Сампо" type="string"/>
-<parameter id="e6fc5bb7-0784-4ce0-aa18-b03cdaecac3f" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="b41a0f8a-a4ef-4a75-9a82-38d8a9c1c432" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
-<parameter id="f79ecd49-3ff4-46c0-ad3f-0e09aaa0895f" shortName="4. Путь" defaultValue="Небытие" type="string"/>
-<parameter id="312403c1-69f3-44c4-ada2-c65911b00e2d" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="904ae772-2380-4a82-b63f-2c6edb8ca756" shortName="6. Main DD потенциал" defaultValue="2" type="double"/>
-<parameter id="8bcb4d7e-e749-46cf-8d7c-f161842ff900" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="8a59a80e-1b2f-4bfd-be39-5d3935ab4889" shortName="8. ED потенциал" defaultValue="6" type="double"/>
-<parameter id="a9be10c7-8c2e-40ae-b725-0e117e94f338" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="603959b0-f9ab-471a-b8ca-92c9a87674af" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="08dc2810-0270-48ec-88fb-dd340804499e" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="26791962-bdfc-440a-acba-a476661d68f0" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="3f3fa03f-4743-42ba-b618-4b2d86dac94b" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="70b2281a-0834-4595-9168-a2e2ee968c19" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="f42425e0-5490-4130-94d8-1355a668ceb6" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="9c7a9238-97fe-42dd-bc3e-18fd73cdb99c" shortName="1. Имя" defaultValue="Сампо" type="string"/>
+<parameter id="f61a7da5-4147-4780-bb3e-45f8d195a40c" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="abfa50a9-57e0-47a4-a006-36f9403e6e43" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
+<parameter id="24ca2d78-01cc-48f9-a773-f6a26bb48684" shortName="4. Путь" defaultValue="Небытие" type="string"/>
+<parameter id="569c9e45-473e-4577-853b-9e7eec70bd8d" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="e833117f-debd-48e5-a56b-36a53b63565a" shortName="6. Main DD потенциал" defaultValue="2" type="double"/>
+<parameter id="2deaee1d-c995-44d6-a4bb-d813c32c994a" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="16ae28ee-253c-4458-ba74-404b2bfc9663" shortName="8. ED потенциал" defaultValue="6" type="double"/>
+<parameter id="09d2b646-474c-4fc9-a0e8-8a2ad3a6fbb2" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="0f41f8a4-2785-4058-af3e-f0cecd3502e2" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="9ecf4ee2-2477-42a4-b372-c2c713b8fbf9" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="bbf7efb2-708f-4ff5-8ed3-357bfa1e0318" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="201f2490-b7e1-4956-a259-847bdc5f9fc9" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="77fdc97b-69c9-45da-bd06-b22125170621" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="aa8017d6-d3d6-4c0d-84df-8df7f8580323" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -647,23 +647,23 @@
 <classes/>
 </class>
 
-<class id="d531295b-07af-4444-b463-2dd0507c3d97" shortName="Сервал">
+<class id="917a15a4-f702-4d80-8450-f22195db5d5c" shortName="Сервал">
 <parameters>
-<parameter id="5d544827-8784-410b-ac8c-394096b51725" shortName="1. Имя" defaultValue="Сервал" type="string"/>
-<parameter id="f645590e-4097-4a70-a39c-e720b1b525c0" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="7d97b709-a5a5-4500-b61b-9f6051a075ec" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
-<parameter id="a00e9b47-39c1-4599-999b-cc5379c634d2" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
-<parameter id="f9326b7f-029a-4ac3-b221-2d5ea31f1363" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="3a21ed5d-8038-403a-b5d0-3f317bcadd54" shortName="6. Main DD потенциал" defaultValue="2" type="double"/>
-<parameter id="9ee9a20c-3e0e-4646-893a-7b62abfa08e9" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
-<parameter id="c479646d-81a6-42fa-a274-b91747516394" shortName="8. ED потенциал" defaultValue="6" type="double"/>
-<parameter id="8a0206e3-dfcf-4462-9de8-23242e3eceb2" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="3f62222d-c6c3-4d0f-869d-b8535b6f1530" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="5fa9f79c-c67e-4dbd-bef8-a04b65939d84" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="1cbe46aa-027a-48d2-ab77-8506ad958baf" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="b4f48fcd-8002-4e59-bb91-680ada64a6ca" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="3d8383ec-22eb-4c31-b860-2a2b1b2705cf" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="cc1c86b5-43d7-43b9-a40c-ad678401a9bc" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="8d6069a5-07de-40d4-8fb7-90f9f0a79018" shortName="1. Имя" defaultValue="Сервал" type="string"/>
+<parameter id="cb267666-0b88-4d6c-adca-0dc8623ade73" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="eb2d9dec-410d-42a5-add3-4af0d5b8031e" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
+<parameter id="48cd9783-c9e3-4957-86cb-ebb9baaec981" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
+<parameter id="52830cdc-0951-4098-8a03-628b451b3380" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="2b43b313-eafd-4ce1-9a54-86e5d3290df9" shortName="6. Main DD потенциал" defaultValue="2" type="double"/>
+<parameter id="cae7271d-457a-49ea-ac46-65d8097c7429" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
+<parameter id="699dfd9f-a02f-4abc-b6eb-4699eed63980" shortName="8. ED потенциал" defaultValue="6" type="double"/>
+<parameter id="8323dbdb-75cc-4e8b-85cc-d98e4e0be557" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="65f4ac53-a382-460d-a15d-a378cf82c4ad" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="e0806644-65f5-4bfe-9e6b-26fb83506e43" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="53178e84-f9db-4535-ac69-75c1a6db2b27" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="69a6a8f3-fc96-405a-b07c-53f8f6895136" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="53018817-2701-4da6-b310-601b5fa770a1" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="fd02d79b-2772-49bc-af37-58bb30aef550" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -671,23 +671,23 @@
 <classes/>
 </class>
 
-<class id="291eab9e-f204-40ca-8c6b-c4d08488667b" shortName="Серебряный Волк">
+<class id="3e3e19c1-2651-47e4-b919-c1bd8bc0269b" shortName="Серебряный Волк">
 <parameters>
-<parameter id="61a76aaa-90f6-4cbb-b156-c9274f7b325f" shortName="1. Имя" defaultValue="Серебряный Волк" type="string"/>
-<parameter id="7d99d5ea-b944-4608-a3ea-19c4572a737a" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="40ffbcb9-9932-4857-a6ff-beb75a858eda" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
-<parameter id="c755f7aa-9d0e-4bba-9144-f01ce675fa56" shortName="4. Путь" defaultValue="Небытие" type="string"/>
-<parameter id="e324a7f4-acc5-420a-bca8-df80820c7f23" shortName="5. SP голод" defaultValue="3" type="double"/>
-<parameter id="937e19d2-6e25-4a32-bf8b-6b4ad672af3c" shortName="6. Main DD потенциал" defaultValue="4" type="double"/>
-<parameter id="7c12eaf6-c4d2-4aa9-839e-fb7ed635654d" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
-<parameter id="848c5f95-fc36-489a-ad33-bb34732ac76f" shortName="8. ED потенциал" defaultValue="8" type="double"/>
-<parameter id="f788e671-2c0a-40bc-883c-ced5eef8385b" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="2b2a1a1c-1cf3-4f56-afae-7337b93ae656" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="a41bacdf-354b-4a52-ac51-865a8712ee91" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="209509c1-91f7-4736-88af-22eac2c02d4d" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="37f975b5-95e3-4a0c-b290-c82c000a801f" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="0fc7b4b2-1a78-4172-a039-e26eea62d48a" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="5eacf041-00bf-4240-af56-252c7ae96bc5" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="932c6ecb-bfca-4ef3-81e8-2bb743064617" shortName="1. Имя" defaultValue="Серебряный Волк" type="string"/>
+<parameter id="844f7ae5-3c04-493e-9211-5b3de894b430" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="e46f438a-7c0d-4a94-885f-ea46e995f58f" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
+<parameter id="68bb0514-29ec-4aab-9f56-1e8f12d0e1a2" shortName="4. Путь" defaultValue="Небытие" type="string"/>
+<parameter id="1694f701-946b-4a6e-aefa-8807fdb60456" shortName="5. SP голод" defaultValue="3" type="double"/>
+<parameter id="23fa94fa-3f64-4da6-8c7f-071b39a3ce41" shortName="6. Main DD потенциал" defaultValue="4" type="double"/>
+<parameter id="f1ce010c-3240-473d-88c4-584daab06c1c" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
+<parameter id="63080cbe-f45c-4e47-b654-cf7f1b3ec0e3" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="923cca89-9c37-4996-861b-c00f99f321ae" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="443f9e25-fc2e-41d0-bf46-375d21fae818" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="913a6639-6475-4542-a0ac-1109d6e95c86" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="7b590adc-ce06-4432-9d39-d21c75befa6e" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="a4083607-5dde-4a03-b08c-59760c69b8b7" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="d57f5c8e-2ee7-43da-b6ac-272ae41e8c64" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="726bb46d-7325-47bd-baa8-968cc43d279c" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -695,23 +695,23 @@
 <classes/>
 </class>
 
-<class id="07271e9c-f98f-4dd4-a0a4-06a3a1900f81" shortName="Сушан">
+<class id="0913c719-a8bb-410b-830a-e43926c3dca8" shortName="Сушан">
 <parameters>
-<parameter id="862e8979-bfa1-4439-8187-46cdd6e16b1b" shortName="1. Имя" defaultValue="Сушан" type="string"/>
-<parameter id="47392591-bb04-47c2-ab39-5c411674a8d2" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="c97473c8-6196-4279-b447-728c4ed21ba9" shortName="3. Стихия" defaultValue="Физический" type="string"/>
-<parameter id="cba8bf31-1df2-49b9-9308-4e4d752451d8" shortName="4. Путь" defaultValue="Охота" type="string"/>
-<parameter id="f1de562f-a913-4bee-91be-f7e2658cace5" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="6a106784-7d18-47c3-9f86-feb2998cac2c" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
-<parameter id="2e05dd0a-ed4b-44b1-b07f-c9ccd4d40e45" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="a693dfbb-d574-44e6-8231-cf913dc556ff" shortName="8. ED потенциал" defaultValue="0" type="double"/>
-<parameter id="80d8e77b-28d7-4466-ad4b-cab6713b8a54" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="86786211-c9f1-4e55-9fef-6a3138f364a1" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="46330ecb-602a-4e77-ba8b-fc413c2a8f4c" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="65bf90e1-06d9-4361-9149-45bbf5cc5863" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="4c8dd783-310c-409f-8d59-26de880c28af" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="2d821395-d6e3-447b-991a-9050399bf188" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="cf825aa3-409d-4c05-aeb4-916cc0d65c62" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="705f05cf-b9ae-46c9-82a7-c86d79996366" shortName="1. Имя" defaultValue="Сушан" type="string"/>
+<parameter id="fb126af1-0a0a-4d50-8587-44cb9657ece2" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="ad21453f-8574-408f-b51b-fddb057498e4" shortName="3. Стихия" defaultValue="Физический" type="string"/>
+<parameter id="93eca83f-7cb6-48bb-87e6-98aa9d1cdb64" shortName="4. Путь" defaultValue="Охота" type="string"/>
+<parameter id="43fee674-9104-4cba-83b8-5802a5920189" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="783684a6-4add-4991-89c9-1b337ff93799" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="e07cc015-0979-4e4f-81d6-2ebdcea08adf" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="153d978b-a4dd-401d-bf28-37b055c8e403" shortName="8. ED потенциал" defaultValue="0" type="double"/>
+<parameter id="7689dea3-328b-4e69-91d7-5ecd28936db6" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="790b706f-3db0-49d3-97be-6f86254f3f5e" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="451c7def-2346-4e76-a972-182eaeaa556e" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="d0805b9e-cc87-40c4-bb89-8155c48a491a" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="d17ad2aa-5c4f-4cc4-9a70-8d8fd237c581" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="b975dc13-c401-4b7a-916a-e9407536f7fc" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="5ee8b1df-8491-4b0d-ae6e-6342964a54a8" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -719,23 +719,23 @@
 <classes/>
 </class>
 
-<class id="c06b919d-5cb0-4ffc-b49e-9a4791302d71" shortName="Сюэи">
+<class id="245fd434-80a1-4c39-bb1c-f8675e420cd6" shortName="Сюэи">
 <parameters>
-<parameter id="0efda5bb-f25e-431c-b72f-da01848dc9df" shortName="1. Имя" defaultValue="Сюэи" type="string"/>
-<parameter id="ada18576-dda1-4e25-a121-9ea4aac52898" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="c5295aa5-8cf3-43c5-84ed-3cbf70d281c4" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
-<parameter id="69e3e053-fb12-4d3d-b7b3-cb6de84bcd51" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
-<parameter id="ca7cf40b-f4a3-4130-b828-b1d508a65a52" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="05056dfd-29a2-4267-9368-567e161f64ab" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
-<parameter id="18ae2887-8cfe-46c0-b6dd-57737e89a2e6" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="6b3ee032-f4b7-4b96-bbf8-55c32725306a" shortName="8. ED потенциал" defaultValue="0" type="double"/>
-<parameter id="af65f65d-d60b-4c7c-8a82-d59b08000218" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="2b9395d6-7cb4-4b16-a51a-29c2073ae332" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="0ebbf137-5d1d-4947-8413-0b2c45064131" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="7a790f94-39ee-47f5-88de-623e8c139c58" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="5724ec24-3855-4faf-88ad-6ecd6b5e4a9f" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="2be5a237-a856-4ad8-b614-2c21c25d644d" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="3a1f07cb-5349-4475-8efe-663d2cc0b8ce" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="ea366ce7-3adc-4105-91ff-0996442d0cf1" shortName="1. Имя" defaultValue="Сюэи" type="string"/>
+<parameter id="7f018117-2418-4519-98b9-e5db591c7c7c" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="93165bbf-08f9-4c2b-92c2-3ef59a1cd650" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
+<parameter id="b947e530-e329-4dcd-b208-8704d10cbc89" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
+<parameter id="2019286a-44e8-48aa-a369-ab82209e3123" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="98591e39-a327-42b4-a674-f53611ad28ec" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
+<parameter id="bb306f83-62d4-4458-b386-706af8b16fd2" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="5847ad8a-f325-4ee8-9247-5ff23238f65c" shortName="8. ED потенциал" defaultValue="0" type="double"/>
+<parameter id="2abefbed-80ae-4b3c-ab78-9611611ca285" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="8ac859b4-d61e-4ec8-9509-f0e854c9ffef" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="30438b74-9a57-4834-bbee-f5485dee85ce" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="7b7a22ce-a7fd-4184-bb24-0e12561d0ad7" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="a9a8d384-91f6-4f2d-8a64-1471e99d7f84" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="a2aaf1e2-03a9-46a9-95dd-18fed344ea65" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="f3ed31fa-5bf1-4ea1-adbd-b46e5568558f" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -743,23 +743,23 @@
 <classes/>
 </class>
 
-<class id="4377d527-08b9-47b2-8d7f-1e81b746c309" shortName="Тинъюнь">
+<class id="5eab0877-900e-4357-bfe8-36538f04af15" shortName="Тинъюнь">
 <parameters>
-<parameter id="f74eafc8-fcf9-4225-8359-4234b314f1ec" shortName="1. Имя" defaultValue="Тинъюнь" type="string"/>
-<parameter id="85d31baa-4c51-406e-8749-b5f45a1bd9b2" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="2f289c1d-a2e6-4d52-b67d-e7ffaa3dffd2" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
-<parameter id="6c42fedc-532e-4fbe-a227-fe3f409d8ff3" shortName="4. Путь" defaultValue="Гармония" type="string"/>
-<parameter id="090436a7-3218-4758-8860-110e85ef2916" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="fd0dec0d-40c8-4ece-aa82-c6a332a3ef05" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="c1c996a1-1649-48d2-8e61-8881c49f4860" shortName="7. Sub DD потенциал" defaultValue="2" type="double"/>
-<parameter id="81a1fca2-e8db-4910-b689-001357eeb72d" shortName="8. ED потенциал" defaultValue="6" type="double"/>
-<parameter id="a1922fe8-79a8-4375-a635-54d0a16a6439" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="da784726-c28f-449c-ac05-22fd9057196d" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="0739bce5-cd1b-4adc-98ee-bf9863dfdd07" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="073c5d94-1528-4e30-b0fe-48fa9e5262fd" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="f61fdb03-3f38-48e1-8bc7-238b540b6e19" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="410f85d5-8308-43fc-a4e1-2f0dc1c7c0ba" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="4ac4d79d-6963-42d9-945f-30266823e46a" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="adf8c781-44cb-4437-8fbc-0aaf34a08bae" shortName="1. Имя" defaultValue="Тинъюнь" type="string"/>
+<parameter id="664ad7d6-6f2f-4f86-95e0-e187ca727e87" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="caeef921-1e3c-4217-a0d9-080d91e58892" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
+<parameter id="9d1b974d-163e-4552-aed7-9cc31b21b58f" shortName="4. Путь" defaultValue="Гармония" type="string"/>
+<parameter id="9403d23c-8ccf-4eff-803f-877f032520b7" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="46a9acda-2fd0-4881-9326-09ad678822d8" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="ae635277-bc7a-4cfd-9521-8945afeb7bd9" shortName="7. Sub DD потенциал" defaultValue="2" type="double"/>
+<parameter id="d5636c1c-c166-4233-8e57-9a619757a8aa" shortName="8. ED потенциал" defaultValue="6" type="double"/>
+<parameter id="52715924-0b18-4905-81b7-12f5b1974fc3" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="3ddb006d-bb7d-4369-b833-9607506f9181" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="671e4644-e971-469c-90fb-8a6af9b3589e" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="a739fb3b-e7c7-4eaf-894d-4b7dfebf4e88" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="5d2cc268-eb9d-4b0b-97de-eec1a2fcdd4f" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="722812c0-51ea-4ca0-af8f-9e0ed347b972" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="b9b34241-fe0b-4bda-bfd2-6d07aacc4b37" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -767,23 +767,23 @@
 <classes/>
 </class>
 
-<class id="7a20f228-5352-4901-8daf-5ccaa7503585" shortName="Топаз">
+<class id="f57bee47-4b1c-4257-8160-97a551faaad0" shortName="Топаз">
 <parameters>
-<parameter id="dc923298-8e76-4155-912f-238b954c9f68" shortName="1. Имя" defaultValue="Топаз" type="string"/>
-<parameter id="85f6fab7-bb38-4426-8af7-55af04ded302" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="cbd5adf0-88fe-4c63-bffc-fcb13af9376e" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
-<parameter id="5c067864-2ba5-4f1d-b33e-14763cc7350c" shortName="4. Путь" defaultValue="Охота" type="string"/>
-<parameter id="ae7f31c9-2447-428e-9204-87a50f8ffa26" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="73ed802f-8ad9-4575-84a8-c287d2f2d897" shortName="6. Main DD потенциал" defaultValue="4" type="double"/>
-<parameter id="65c12eea-85b0-431e-8df9-c52627b4c4f9" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="de8bc340-b381-48d8-bb04-d4e5ede26f66" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="326b85df-7d7b-4700-ab9b-f1693b2b497c" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="d0a12e25-e4bd-457d-b0c9-7adbd4e60b42" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="4a524013-2588-4963-98eb-faaeecf0748f" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="98bd9574-8af4-44ce-a500-59cacb3559bc" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="b3b3625f-2e99-4b47-b672-ef00e44cdd7a" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="282e0625-474c-4444-8f09-a4643ce93111" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="77ef47bd-a9f8-47ed-bce8-07984f67b5ad" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="cafec859-5287-44c7-af70-693970e4cbae" shortName="1. Имя" defaultValue="Топаз" type="string"/>
+<parameter id="21152529-a3f1-4cb7-867b-65484bfe40ea" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="704698e7-e283-4604-ba7e-0f99f056e830" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
+<parameter id="b23dcb75-5aa1-409f-a841-7a39bd6470c2" shortName="4. Путь" defaultValue="Охота" type="string"/>
+<parameter id="6bc0968d-4b1d-406f-90db-8d52d1b8dc2c" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="244c4c4b-2de3-4c86-b934-b72307468bc6" shortName="6. Main DD потенциал" defaultValue="4" type="double"/>
+<parameter id="79304800-011c-4c16-b0f7-3ddb3a728b39" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="64133f8d-6a62-4ae3-953a-e1ef1d96410b" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="f8701a25-fde0-4bc5-8826-b0a91012f7a6" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="d065ac46-cd1e-4b22-b871-7c945e6f2e56" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="0ebd6404-1714-4a2a-9318-27d19308cc83" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="28df3a3b-de9c-41b1-85c0-05ba6ee6cd08" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="a87fa496-fcee-4818-88d5-b22427213561" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="52fbf64c-e810-4f68-a27f-e317f282031a" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="9ff78e61-29ac-46a4-a1be-3ad7c515dc1b" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -791,23 +791,23 @@
 <classes/>
 </class>
 
-<class id="8e81d28b-312e-4690-8ce8-18cab8050eac" shortName="Фу Сюань">
+<class id="37575a08-3acd-47aa-9537-4f0e55423798" shortName="Фу Сюань">
 <parameters>
-<parameter id="69a13541-4be5-44e8-8244-d284bcc85806" shortName="1. Имя" defaultValue="Фу Сюань" type="string"/>
-<parameter id="81aac103-a4f7-4580-885a-924343fd4c37" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="8b7f3abe-7500-47e8-b22b-d93b5014d7a3" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
-<parameter id="ba7fc261-841c-4b84-b714-02a0514e3180" shortName="4. Путь" defaultValue="Сохранение" type="string"/>
-<parameter id="1a514cb8-a263-45ac-b966-79d118eda7d6" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="a11db2c9-d580-426b-8648-140e54b4676a" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="62cc3fe1-74fd-4870-a5af-64db690e0f78" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="83824f21-75ca-4741-9fcc-f17585a584c7" shortName="8. ED потенциал" defaultValue="8" type="double"/>
-<parameter id="5941166a-0d04-46b4-96dd-5ba1b3501831" shortName="9. Support потенциал" defaultValue="8" type="double"/>
-<parameter id="d87706f4-d671-48a0-a9c0-80323ad6fe06" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="d0bfecd5-401a-4016-89fd-653a14b78dad" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="c3d087cb-f901-458e-b220-e0833d25ad13" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="c3c8a8b9-541e-4505-bf38-9c03fe404c2c" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="cc4c48a8-8d1c-48b9-8abc-e40e75fb344b" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="1c5caad6-db1a-4553-8da6-1d47fa51cffa" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="c8190598-0161-46d4-ad55-8b78dddef561" shortName="1. Имя" defaultValue="Фу Сюань" type="string"/>
+<parameter id="af67542f-0465-44f6-affa-d4f3ca0f99c4" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="6f39ef1f-fb96-403c-8c04-86394d0803c1" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
+<parameter id="2de83fef-a8a1-4f41-a752-07767e9f1b7c" shortName="4. Путь" defaultValue="Сохранение" type="string"/>
+<parameter id="39b3517b-d57f-40f3-a6ba-e01ff333e8ad" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="480487c5-8214-4e84-93b4-8a5037593416" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="fda015c3-a688-4fdf-a4f8-90d8e43818b2" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="684c889e-64c7-4b32-b76c-988f131eeb3d" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="3adb4e66-9147-4ecd-b57a-4e4765aa8428" shortName="9. Support потенциал" defaultValue="8" type="double"/>
+<parameter id="7217c6d8-5cd6-4bb0-865a-5522ca00898d" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="4de71983-4504-4488-b135-3e1798c2f8c0" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="ca937bc5-228c-4194-a54d-c4fa47be6773" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="fb447156-0adf-4731-b251-44352e798f96" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="fa756af5-64ac-45ad-ac74-588f4cafecb9" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="a8514373-a040-4469-8b58-2366041b1c84" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -815,23 +815,23 @@
 <classes/>
 </class>
 
-<class id="5899a506-d654-4249-9183-4b175a87be3e" shortName="Ханья">
+<class id="f854c6c9-3d6c-4fd7-87a7-355dc72ddf37" shortName="Ханья">
 <parameters>
-<parameter id="9788d362-ebcd-4dc7-8981-b2dfc956970a" shortName="1. Имя" defaultValue="Ханья" type="string"/>
-<parameter id="798ac867-179d-4e1f-8344-33158a56b6b4" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="2c92ef5b-b135-4248-b3de-c6d2a0d49f61" shortName="3. Стихия" defaultValue="Физический" type="string"/>
-<parameter id="50e51aae-b38f-48ae-b685-de83fdcdd3b4" shortName="4. Путь" defaultValue="Гармония" type="string"/>
-<parameter id="6a580bb0-7902-4a60-bfcb-532cc57dc202" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="8f803278-42b8-4f89-b91d-d5b2a984ccd2" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="c3adb5f9-902a-4fda-b34b-7f22757ca3fe" shortName="7. Sub DD потенциал" defaultValue="2" type="double"/>
-<parameter id="db6b4555-dfed-4177-a825-26afe8db883f" shortName="8. ED потенциал" defaultValue="6" type="double"/>
-<parameter id="06ca9e2b-c057-4cad-9df7-649a3f4c5961" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="56b8ab5d-9cad-4144-8b31-8021506bb886" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="9b035f88-bbd7-41fe-a977-5a27375d4fa2" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="c45d7eb1-4285-4b0c-a5e9-3453a51e3ed4" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="f118557a-194a-4879-abcd-2f3f9afb43a0" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="f79ee37f-33ac-4b5f-a184-c07428a72b11" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="e6a9cc37-dd61-4117-a666-e2fee518ad79" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="be247f35-c33a-4434-b79f-ed74590676d1" shortName="1. Имя" defaultValue="Ханья" type="string"/>
+<parameter id="79ca79d0-d6f2-4731-ae4d-336e03bc866c" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="6a52ce50-2b7b-4faa-bf2a-d593bc6c70dc" shortName="3. Стихия" defaultValue="Физический" type="string"/>
+<parameter id="3eb9714b-82f8-4b01-a718-1c3678d76eee" shortName="4. Путь" defaultValue="Гармония" type="string"/>
+<parameter id="dcbffac3-fe60-4ce9-9443-f5d7bc653c09" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="88ebe082-5aaf-43f8-888a-869986cb1899" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="c099a893-2b01-4d8f-b037-ba7c59034622" shortName="7. Sub DD потенциал" defaultValue="2" type="double"/>
+<parameter id="dafc33b8-a56e-404b-86a9-ff1e3fe8e37c" shortName="8. ED потенциал" defaultValue="6" type="double"/>
+<parameter id="bfbc84aa-91af-4242-9af2-93c43fd1f79d" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="090e9ec7-6973-4392-b16f-ecb328ff98bf" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="859220d6-dc15-453c-be34-259a56c843c6" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="f7639611-4840-4154-a0a3-6e377a948ad4" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="9453714c-63b9-42ce-962e-41f5d1fe796e" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="fe7feb04-46ba-4e2c-b922-6b1d5001d756" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="ed4ddfb2-6f00-4186-b7d9-f6ea4f6088d5" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -839,23 +839,23 @@
 <classes/>
 </class>
 
-<class id="50c0221a-a25e-4a50-9102-bbba9e734a73" shortName="Химеко">
+<class id="cffc595a-58a9-479b-9fed-d4cb1f5c8aec" shortName="Химеко">
 <parameters>
-<parameter id="750ca67d-8bfb-4c07-84fb-488efd182aa8" shortName="1. Имя" defaultValue="Химеко" type="string"/>
-<parameter id="4b3f68e7-8d50-4862-9bf1-22327bd3c2c6" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="b51a60cb-02fb-438f-83ee-f36da1043699" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
-<parameter id="6c6c9bd3-839c-4d42-bc61-ecc66c043b22" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
-<parameter id="5e52c5b7-8249-47de-9b1c-e943062865e1" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="c2266d5c-aaeb-4a0e-bfc2-efdf19176876" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
-<parameter id="8930d03c-fa36-4c4d-a76b-99ec9fff8816" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="a3c8c504-385a-4f4d-af89-ed39dff69a96" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="7e857cb4-22a4-4edb-b96e-90b253ada3c8" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="04b6812c-c1cb-449c-9386-ee534b79b34f" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="758bcda8-d5a3-4ca8-8cb6-e81431d1184f" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="3f9649fb-68e9-43c3-bdac-71d5283f7f5b" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="a716b339-41ad-439a-bf36-1acb09b29131" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="018d1efd-6e6d-40f2-9aab-8c0d8ce14da7" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="f7100b74-aa36-4410-8542-24c13e3c9ba2" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="f70423b3-8498-4271-bfc3-47b2630c60df" shortName="1. Имя" defaultValue="Химеко" type="string"/>
+<parameter id="7d77c055-490c-476f-8bb9-b3adc60065bb" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="c47f22e6-68ee-4a63-b223-03b523420738" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
+<parameter id="7acdd4c1-872c-4b99-ad2c-c8e0c0bcb67b" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
+<parameter id="c20983cf-8156-4dd7-8e10-6e9ecc7ac5ed" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="3845a83d-ea9f-4dab-8127-61b3f13c46ef" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="d86b179f-678c-4019-9da0-c78fb899cb2c" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="6a60708f-813a-44da-a58d-a6403be5850a" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="3bccea51-9bed-4201-8618-6b8fcde27ceb" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="c8213ed1-71ee-43a2-8491-b054bc693a1d" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="47a76e98-7789-4896-b083-3290e6048ff2" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="30f1773b-6b41-4817-83e0-64833874550c" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="4511fa58-7143-4be3-b1a1-b42873d9b33a" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="3dfbc8f5-9ea0-4afe-b756-e0064fa84d35" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="8f7ea648-6c59-498b-8e79-0175a170d387" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -863,23 +863,23 @@
 <classes/>
 </class>
 
-<class id="b49253c6-c878-4204-a189-333495cd8eb4" shortName="Хохо">
+<class id="33e934ee-98cf-4fca-a9ab-333c349e3af3" shortName="Хохо">
 <parameters>
-<parameter id="6c8b3676-1fa8-4db2-a876-5a36863bba6e" shortName="1. Имя" defaultValue="Хохо" type="string"/>
-<parameter id="7c032cda-526c-4ce3-8966-696a8edce04f" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="34aabaed-020e-4b08-a7d4-22eec717c4ae" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
-<parameter id="4c9ba161-f256-463e-909a-56de01d0b257" shortName="4. Путь" defaultValue="Изобилие" type="string"/>
-<parameter id="3d33aa2b-2d70-46cb-bb41-5a696001cf21" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="f2ef11dc-8fbd-4e9a-809d-a3118202f926" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="6829823d-c0b4-49f1-a80f-53cd44c79fc4" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
-<parameter id="e89a577f-c3f4-4395-a520-a62560f9a524" shortName="8. ED потенциал" defaultValue="6" type="double"/>
-<parameter id="860292ac-ac60-440f-bc3b-88e6e9199d16" shortName="9. Support потенциал" defaultValue="6" type="double"/>
-<parameter id="d00e5150-575a-40c8-beaf-e06900c82fc6" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="310fd326-8114-42fa-acd1-eb91abc5f0ff" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="12081b72-b74b-4afe-826c-b50f9e41b134" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="42c46dd5-2da9-4823-8d51-898cb9683df3" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="07588b56-abba-4302-9e37-3c7bf97ca7c9" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="40e86c82-546c-4b06-a1e5-cfc3190b68a5" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="ace834d8-13f8-4168-ad8f-a6fd605ac084" shortName="1. Имя" defaultValue="Хохо" type="string"/>
+<parameter id="c0afff02-082d-44b4-aa22-093f905c473f" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="5bdb2773-b178-4e6f-b660-5211d554ae16" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
+<parameter id="8d0a6bd7-279f-4c6f-95ed-1a2b32f6dcec" shortName="4. Путь" defaultValue="Изобилие" type="string"/>
+<parameter id="c5f047da-e3c5-4ba6-85a3-37176ad84915" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="5697c163-4e9c-4625-9c75-fa997aeaa972" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="2e5df425-adb0-476e-a1b6-349a9dbcd44f" shortName="7. Sub DD потенциал" defaultValue="0" type="double"/>
+<parameter id="285429e6-da77-431a-82b2-ac16ef4a2550" shortName="8. ED потенциал" defaultValue="6" type="double"/>
+<parameter id="daf4b79c-eafc-482a-b158-28a3c87da15e" shortName="9. Support потенциал" defaultValue="6" type="double"/>
+<parameter id="1263d9fc-f21f-4ff2-b20b-bcc124120e38" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="06b3bbed-8449-436a-a504-f75f4154c19f" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="9828ae2b-c9df-424a-8ab2-343efda1e9fb" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="3814291f-1fc1-4722-a044-459f80b6b569" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="1a5c032a-6efd-46fa-9299-e2d00e4575a6" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="71fee24b-a848-49cf-a3ca-ccc940a0fe98" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -887,23 +887,23 @@
 <classes/>
 </class>
 
-<class id="fd40468c-8645-4e45-b29a-2d0ccbab7111" shortName="Хук">
+<class id="f9348f2f-af38-4f19-aaac-7ebfac813eb1" shortName="Хук">
 <parameters>
-<parameter id="63afdab7-5212-441f-b0bf-8782255e3bfd" shortName="1. Имя" defaultValue="Хук" type="string"/>
-<parameter id="55e9149b-4b87-49d9-860a-89a5769c7004" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="963b01ba-f957-4703-9de1-4a7f75b47cfa" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
-<parameter id="ba892f1b-32c3-496e-813d-979eee33e206" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
-<parameter id="ea6c182b-e24f-4e73-8b0b-90709c681dfe" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="a6edb62d-b39c-4341-9444-6199a46e7c1b" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
-<parameter id="244d8ff2-9b31-497e-95b0-592e0cd98f40" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
-<parameter id="a06001f0-9a7b-49e6-8ed8-86a430775a5f" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="3cffdbd9-5ce4-45b4-8d13-b3c78ffd5082" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="0a1a662b-a613-4cc7-980e-3bfb846faded" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="f299cdea-6f3e-4c47-a6fd-4b4ec14942e1" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="04960661-7848-4563-a2de-0934e44126b5" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="93e86e5e-94bf-48ed-b51d-ef0dda32850b" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="7d8b0473-fd71-449c-bf7c-6642df337d34" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="74be0175-bbf5-446e-9dc3-ff8744717d1d" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="ab0fcfde-4533-4b24-9579-6af73d88b7fc" shortName="1. Имя" defaultValue="Хук" type="string"/>
+<parameter id="1adc5f9d-feb0-4463-b78a-5ff5c1102561" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="979c9811-c683-407c-b749-df2370ce3204" shortName="3. Стихия" defaultValue="Огненный" type="string"/>
+<parameter id="1f069707-2fd8-4b66-a39c-927a8345c077" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
+<parameter id="23737fd7-50c0-46b0-9797-fd762e88a5d6" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="24a20ac4-e9c6-4bfd-b174-0999514afb7a" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="f1ee7648-11fc-4082-9464-6a6c637813c1" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
+<parameter id="5bb55719-4900-4f22-96b9-772d845b12c6" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="bbec7920-0adf-4c67-a25d-5c0d0f4f47c9" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="91941354-b820-41d9-90e2-e0515b408ba3" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="cab48c22-cb8a-43f9-9909-11387d9153ba" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="a9ef9c99-7630-41b1-9097-df7a2691170a" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="34e63f9a-e777-46c2-8f10-46efabeb50f9" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="0e17f19f-a7d3-49ee-bf70-aa70e35e8786" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="bdf3da78-4cc0-41a8-b643-41fbac0e8774" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -911,23 +911,23 @@
 <classes/>
 </class>
 
-<class id="dfdb86d2-ca30-45c6-b217-9dd909aec145" shortName="Цзин Юань">
+<class id="95d8702c-226a-41bc-8296-048f6af697e2" shortName="Цзин Юань">
 <parameters>
-<parameter id="bb18e181-d096-4742-b556-e9a0a33208f1" shortName="1. Имя" defaultValue="Цзин Юань" type="string"/>
-<parameter id="465052ec-26d5-48d7-a9d8-9c935af7d2dc" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="1121133b-b37a-499f-bc1f-84394a01aad7" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
-<parameter id="30de9718-63ec-44e8-8238-04dcba879f01" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
-<parameter id="aedffa21-cda9-478c-806e-bff8cd6a55d3" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="bbd9d4cd-5f44-442c-a997-36f21806c70e" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
-<parameter id="216f6b97-b43e-4f69-a68e-a72eab636934" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="e9bcfcb7-4584-4dc3-8adf-c9d79747d593" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="b913e29f-a2c6-48a6-81b1-9d1efb79af88" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="af198c22-4b8c-4a82-8948-faebc494c5dd" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="34ec414b-c91a-4bcf-b935-b864e9709056" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="c258276f-5871-434c-abae-7f2d8ee7e028" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="b5c0b2f4-3670-4639-b4b9-e787a8f05aec" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="fd1f0f94-ebd7-44f7-9bb3-98808e59e33c" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="5526e3da-a2f6-42f1-ba99-a8305464801d" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="e5ab2700-4c2c-483e-a76a-cb6901ee7bc6" shortName="1. Имя" defaultValue="Цзин Юань" type="string"/>
+<parameter id="d325103f-9d5b-4158-8855-70b0376feb21" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="47c65efe-f641-41f3-8b5f-1ef263b2c354" shortName="3. Стихия" defaultValue="Электрический" type="string"/>
+<parameter id="c3ebc09a-b515-4757-b0b0-d8baf44997e5" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
+<parameter id="2138c1de-b753-4ed2-9771-e01d7153256d" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="ea168880-bce0-4b67-b68f-68ebb049e6e3" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="f3fafbb8-5336-478b-8bc2-4adbd029751f" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="f6a6a476-8f8c-4622-81c5-3c126651276c" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="9ec31255-6872-4faa-b621-7ab446fb5f50" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="05f54069-7d0b-4c8f-a7c6-cc501e9779b3" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="68c23bbe-b3c0-4698-9ad7-ffdf465bba7e" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="d5e692cb-4074-4814-8f29-81061fcfc5aa" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="785e620f-85d7-49d8-aa97-15e8de9b5cf5" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="0ff3ac06-ff47-41d4-bdb1-f7d7079ff57b" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="b9c18c27-056a-4fdd-9ca6-768876281cd9" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -935,23 +935,23 @@
 <classes/>
 </class>
 
-<class id="9d0107ec-bbf3-4682-8b56-75e0b08edcc4" shortName="Цзинлю">
+<class id="716ca057-52d6-458d-8422-84f8d9e26f77" shortName="Цзинлю">
 <parameters>
-<parameter id="5256af59-a461-469e-bb19-f3fb4b749bec" shortName="1. Имя" defaultValue="Цзинлю" type="string"/>
-<parameter id="491ace67-a5cf-4966-bed3-9330ed7f1461" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="f46df480-416e-470b-8f0f-ada919ababae" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
-<parameter id="e69b1d88-88e0-4c4a-bfec-e9afb42ba85c" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
-<parameter id="cc6b1247-2eb4-4573-8f58-9057eefa183b" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="3b681931-2994-4b97-9560-6fdacf5eea46" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
-<parameter id="dd6cc75f-69e9-4de8-87b7-a7866be698ca" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
-<parameter id="de7b4e7c-4ec7-4f7f-87bc-0aa060f7ee5e" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="c2cce6a5-69b0-4f30-8b9b-271fb740ed8f" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="b3c7b288-9cb9-47a3-b39b-c43a49fc3958" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="e4871509-cefa-47ac-8e17-3ab300790018" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="2126274f-8fd1-49ee-a2de-0fc374677f87" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="829a5bc4-ffb3-4016-98a3-e16c81863e33" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="641bcba0-e0d5-4b22-b199-ccc19537b3f7" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="a96d7d08-3ac9-43c9-90d9-2f66879aedca" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="af65fbf1-8d14-483a-8f9e-69574f6286ce" shortName="1. Имя" defaultValue="Цзинлю" type="string"/>
+<parameter id="a9c7124f-e57c-41ae-bf1b-4c1565a4b36e" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="7b21e5b8-daf9-40e7-a26a-d5cd058e3c94" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
+<parameter id="fa3c8598-1cdc-4f95-9bdc-804c693c24ca" shortName="4. Путь" defaultValue="Разрушение" type="string"/>
+<parameter id="10731fd8-acbf-4ba1-bbf8-c1a5524088d6" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="c3713123-c4cb-471d-85f4-6d0ce99c3aa6" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
+<parameter id="0d361ef7-658d-4e47-b112-f2f22e9fc3c3" shortName="7. Sub DD потенциал" defaultValue="4" type="double"/>
+<parameter id="ae361cd9-51da-40fe-b1a2-da5e35bd54dc" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="b958518d-c8ab-4932-8350-c12a1766ac98" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="44e64ead-1b0e-462f-9208-3832c296c11f" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="7b30500b-b715-44fb-9048-6710d4c750b9" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="8933d8d4-6bc2-4a2c-83db-412d5b993fba" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="2378660d-1de5-49a1-98c1-271df89882af" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="15a79b2c-b8ca-4912-bdce-7ee55514726a" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="6c080509-518d-4e32-becb-e9d3d0b8492a" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -959,23 +959,23 @@
 <classes/>
 </class>
 
-<class id="89472d60-8759-4412-9e1b-6745d059da51" shortName="Цинцюэ">
+<class id="aff4849e-48e8-4d05-b355-d4cbe70e9f05" shortName="Цинцюэ">
 <parameters>
-<parameter id="1cd2ba17-06b8-4ef2-9169-6882c51296f2" shortName="1. Имя" defaultValue="Цинцюэ" type="string"/>
-<parameter id="52ed9911-75a0-4d55-8fd4-998a07a6cec9" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="1cd232be-8f00-47e4-b699-282284826913" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
-<parameter id="6e60de2d-643f-4b16-ac21-a35f850c3bd0" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
-<parameter id="8fec93ae-a50a-4aa0-83a4-92b933e0b734" shortName="5. SP голод" defaultValue="8" type="double"/>
-<parameter id="d648e06c-fb85-43f7-9f0f-3da13a86cae8" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
-<parameter id="ceed7575-66aa-463e-947b-4e62decfb629" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
-<parameter id="9a9acc8b-6d31-4fd0-a151-6e2c626adcb8" shortName="8. ED потенциал" defaultValue="0" type="double"/>
-<parameter id="1bac4ff1-4b0c-4f78-b139-b9a24d819e43" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="a580cb31-cb82-4e4e-9db5-3a567554feec" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="e88b9a69-13a4-4645-b309-cfa38f969baf" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="14072fbf-287a-40bb-95fe-d77b4027a9f9" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="86b066ca-fe38-4060-96a5-b8fd85ea5d6c" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="e96856c6-1683-4326-af13-1d1fae4502e2" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="7aed7d28-5807-44f3-a399-811ca8600c46" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="ff242391-9364-4a08-b244-1c340bff5176" shortName="1. Имя" defaultValue="Цинцюэ" type="string"/>
+<parameter id="6a00e639-b410-4066-ac03-219aec234fed" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="03e3f943-b697-4a2b-9a0f-d06444bfcca8" shortName="3. Стихия" defaultValue="Квантовый" type="string"/>
+<parameter id="614eff93-a6ff-410a-b069-1c24911ceb6d" shortName="4. Путь" defaultValue="Эрудиция" type="string"/>
+<parameter id="cf128ce6-0a64-4b89-8a45-356bbe49aaf9" shortName="5. SP голод" defaultValue="8" type="double"/>
+<parameter id="d8024d15-255c-4d2e-8174-a8335fca7a7c" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
+<parameter id="775eee0f-ebe9-41af-9ef1-1529c69e5b3a" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
+<parameter id="24ae89bb-7d31-4d39-958e-d233618dbb89" shortName="8. ED потенциал" defaultValue="0" type="double"/>
+<parameter id="801a7271-b6d6-4c9d-b88c-70492991b0bb" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="35de4675-edd9-40fd-a074-7e377d39ba0e" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="18be18c0-da6d-41fb-8490-9f9890a89025" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="82c4b743-2803-40d7-a742-50a50eaf82a8" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="20f14914-665c-4f4a-8e86-540ddedac560" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="3f3226ca-b20a-42fa-9fa6-c3356d889654" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="2c58e612-f1d7-4622-afd3-21c7cfe61141" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -983,23 +983,23 @@
 <classes/>
 </class>
 
-<class id="e0aeed86-1f65-42f3-a300-773ea7e9473d" shortName="Черный Лебедь">
+<class id="f77019f9-39d9-4b48-a187-027381fbfb1d" shortName="Черный Лебедь">
 <parameters>
-<parameter id="5a4f0139-cb77-46ef-aa56-eeccf2e2947b" shortName="1. Имя" defaultValue="Черный Лебедь" type="string"/>
-<parameter id="bb8ea3eb-873d-460c-8e42-62a79d492b7f" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="dd714828-bd76-4f95-837e-2730a2ced883" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
-<parameter id="925fd92b-867b-471a-990d-5cd31665a316" shortName="4. Путь" defaultValue="Небытие" type="string"/>
-<parameter id="726ab4ca-c56c-4678-916b-f8c1afe6783c" shortName="5. SP голод" defaultValue="2" type="double"/>
-<parameter id="0c98bbec-aef5-45b2-b8b8-e2da0a6c98a1" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
-<parameter id="64046e41-64d2-4fa0-82d0-1504d06a69bd" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="4fff0291-193a-4971-a100-73298679b7c4" shortName="8. ED потенциал" defaultValue="6" type="double"/>
-<parameter id="58547362-6248-4b65-b0ed-ac07e6954834" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="7c1ee0c2-8ad2-4e8a-aefe-a590d4cdd5c6" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="d7b88c65-01a6-4f95-8204-41ba11a9c46f" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="aaf46551-fc12-47a7-bcd7-99fdd55cb624" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="02f32586-bc5d-4c58-ba6a-b084b2d1b899" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="f21f896c-b2f2-4841-9b47-7f01be29cf05" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="d9d1e099-cae1-4d03-9477-41e2bb74936f" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="bd8a87a2-8930-49f1-959c-eb7626b5a3f6" shortName="1. Имя" defaultValue="Черный Лебедь" type="string"/>
+<parameter id="28e8464e-91fe-4237-8934-1416523322a6" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="b775ac31-cf6e-4397-a1a5-f610e20dd1b2" shortName="3. Стихия" defaultValue="Ветряной" type="string"/>
+<parameter id="b317aa78-9eb8-4fef-8ca3-29c8c8caad2b" shortName="4. Путь" defaultValue="Небытие" type="string"/>
+<parameter id="0132d5e5-897b-4c7c-89da-474798151ca8" shortName="5. SP голод" defaultValue="2" type="double"/>
+<parameter id="1f540fbf-5372-414e-ac8d-1ab77af27771" shortName="6. Main DD потенциал" defaultValue="6" type="double"/>
+<parameter id="e72d8a0c-f15d-4321-b268-e2d8c956103b" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="7e3f00aa-0c79-4142-b165-775ca6e718aa" shortName="8. ED потенциал" defaultValue="6" type="double"/>
+<parameter id="a5d8bf3d-5102-4df1-b275-413961f0d1ed" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="7525988b-9523-4939-a1f7-892a117433cc" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="9e436f02-6c38-4ad9-804e-7a02cc8c226f" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="7f73d67d-22c5-4b75-8458-4e40c1ba4b39" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="187106b2-85df-417b-abc3-c34b0dd9f03c" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="a8b3e99c-b3fd-430f-b639-0f30837503e4" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="a813f521-c0fb-4008-a60c-d74edb50c607" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -1007,23 +1007,23 @@
 <classes/>
 </class>
 
-<class id="ccf59b10-c9c5-4e17-ad2e-e3b85758915f" shortName="Юйкун">
+<class id="40411e53-5d49-4674-879a-ab47207f93c9" shortName="Юйкун">
 <parameters>
-<parameter id="f71b5712-4f9f-4921-926c-673b0aea3638" shortName="1. Имя" defaultValue="Юйкун" type="string"/>
-<parameter id="5bb69f53-9976-47ff-b59e-eec895d7dcd6" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="1b72f27f-1c88-4c02-85c9-9b92b202f0fd" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
-<parameter id="77f6daf3-18b7-4bd2-b4f0-a4222aecc899" shortName="4. Путь" defaultValue="Гармония" type="string"/>
-<parameter id="f80274d1-e0af-47dc-8434-76d731772b96" shortName="5. SP голод" defaultValue="3" type="double"/>
-<parameter id="6b3cca8b-34fe-4404-acc2-95544091ac3c" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
-<parameter id="12036a13-0401-43b3-8b79-20fb6d95f1a3" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
-<parameter id="fa8f1496-b420-4f92-b091-35efe4e81fea" shortName="8. ED потенциал" defaultValue="8" type="double"/>
-<parameter id="382bfdf5-e047-4b9b-942b-e813302e6949" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="e28a10be-9ae4-4f29-b58c-d226edf55173" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="978bdf80-124f-4a68-a6d6-c4afde8e2053" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="64af723e-9f9c-45f4-bfbe-a4caeca1de8b" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="4ca94acd-da2b-435f-8959-a93a82e2d569" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="aba2cd83-de95-447b-a800-ef39a234b471" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="b2a29c7e-155c-4af8-8e4d-0f0dbf99fe82" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="086a9a7b-81a1-43f6-82c1-fb3b014da546" shortName="1. Имя" defaultValue="Юйкун" type="string"/>
+<parameter id="55dc3507-6160-4596-8508-93821c3883ea" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="5e766388-d223-40a1-b5fc-7600f333fdf8" shortName="3. Стихия" defaultValue="Мнимый" type="string"/>
+<parameter id="5372101b-706e-404a-91b9-6ae2dd500664" shortName="4. Путь" defaultValue="Гармония" type="string"/>
+<parameter id="1b89ff71-5982-4643-ae81-821050914344" shortName="5. SP голод" defaultValue="3" type="double"/>
+<parameter id="5a28f632-61f0-4505-972f-e3afa9eb1927" shortName="6. Main DD потенциал" defaultValue="0" type="double"/>
+<parameter id="7d8d7764-1da6-4984-924d-0d1b03152b7e" shortName="7. Sub DD потенциал" defaultValue="6" type="double"/>
+<parameter id="3dd68824-9990-4b52-81ab-5a19f22d8c3b" shortName="8. ED потенциал" defaultValue="8" type="double"/>
+<parameter id="86cccc50-b6f9-4f8d-b5ef-2549f0590892" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="854b29eb-0ef9-4566-84cc-5615a34e8c31" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="23dd9154-488c-4172-9177-56008a2958ab" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="a4033ca4-e195-4430-ba86-5fd11af7f6d8" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="ed60622b-06c9-4c66-9103-5adbf6fe8f06" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="50c923c8-d23e-4547-abf8-82303785be0f" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="29526276-140a-4631-bd4d-7d13abeda649" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
@@ -1031,23 +1031,23 @@
 <classes/>
 </class>
 
-<class id="064fba8f-c3dc-44e3-81dc-a872ca86bb40" shortName="Яньцин">
+<class id="abe11cdb-8a25-424b-b109-b934942c1c45" shortName="Яньцин">
 <parameters>
-<parameter id="72bec517-9b26-42d9-95b4-a145ab92643e" shortName="1. Имя" defaultValue="Яньцин" type="string"/>
-<parameter id="fa82f6a4-0352-4d15-afe5-dc74d106fae5" shortName="2. В коллекции" defaultValue="0" type="double"/>
-<parameter id="e0ef8949-f40e-43c5-a116-438688bf898d" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
-<parameter id="11f1c5bb-9465-44ea-bc02-aeafa52136b2" shortName="4. Путь" defaultValue="Охота" type="string"/>
-<parameter id="eb7f0391-04b9-4649-b8e1-42e90d692592" shortName="5. SP голод" defaultValue="4" type="double"/>
-<parameter id="929ab5bb-d1d8-4f01-9cc0-9695173bec75" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
-<parameter id="e48cddfe-5a6e-4bcc-bc86-21bb7eabecc0" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
-<parameter id="8e248ce1-f61c-4a21-9681-6036deb7c138" shortName="8. ED потенциал" defaultValue="2" type="double"/>
-<parameter id="aff8d327-3d8b-4079-9278-8e8fce537270" shortName="9. Support потенциал" defaultValue="0" type="double"/>
-<parameter id="d3a4a9de-a785-49c9-85e7-656710ec7b17" shortName="91. Main DD ранг" defaultValue="" type="double"/>
-<parameter id="55290bf7-c0e8-4a9f-90a1-72ce578a9b1c" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
-<parameter id="5b6e3ce7-bfa9-484e-b77a-ccd61a697b29" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
-<parameter id="1f59993a-02bc-4e89-81c8-52d2c3950b74" shortName="94. Support ранг" defaultValue="" type="double"/>
-<parameter id="c202d9d7-7d2c-460a-ad0f-13f2c0f8249f" shortName="95. Бонус стихии" defaultValue="" type="double"/>
-<parameter id="17e74c1f-2944-47dc-b74f-684e27609d13" shortName="Ранг" defaultValue="" type="double"/>
+<parameter id="28020f08-6aae-4b59-b21d-8706ba2b1d2e" shortName="1. Имя" defaultValue="Яньцин" type="string"/>
+<parameter id="4c74876e-005e-4089-9359-afe8a32e4d3d" shortName="2. В коллекции" defaultValue="0" type="double"/>
+<parameter id="b2f917a4-26e6-4cf8-8dcb-39ef451eb4cc" shortName="3. Стихия" defaultValue="Ледяной" type="string"/>
+<parameter id="33fea586-39cc-4442-8e71-d80bcb3edc63" shortName="4. Путь" defaultValue="Охота" type="string"/>
+<parameter id="47476ff0-c645-48e1-8735-23693342b81f" shortName="5. SP голод" defaultValue="4" type="double"/>
+<parameter id="d6fbe5ba-0efd-4c84-aa63-0dc7fa24e824" shortName="6. Main DD потенциал" defaultValue="8" type="double"/>
+<parameter id="2f9d0181-e90e-443b-986b-232441517b01" shortName="7. Sub DD потенциал" defaultValue="8" type="double"/>
+<parameter id="148c666d-45e5-4904-81ec-4069006ded9d" shortName="8. ED потенциал" defaultValue="2" type="double"/>
+<parameter id="3c813972-b140-4ac3-9bcd-81c959fee080" shortName="9. Support потенциал" defaultValue="0" type="double"/>
+<parameter id="fa01fa09-e46d-4678-8d63-19c5718c01aa" shortName="91. Main DD ранг" defaultValue="" type="double"/>
+<parameter id="cdff8231-60c9-4d83-932e-70b2709a744c" shortName="92. Sub DD ранг" defaultValue="" type="double"/>
+<parameter id="3be10e61-f1af-4048-b594-d5842ff7d2f7" shortName="93. Effect Dealer ранг" defaultValue="" type="double"/>
+<parameter id="45f30979-9fae-42cf-b681-e1142df46d35" shortName="94. Support ранг" defaultValue="" type="double"/>
+<parameter id="5f71147f-8b9c-4e97-beed-e2def9259db5" shortName="95. Бонус стихии" defaultValue="" type="double"/>
+<parameter id="c1add19d-e44c-476a-b546-3d308e479025" shortName="Ранг" defaultValue="" type="double"/>
 </parameters>
 <rules>
 </rules>
