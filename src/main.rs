@@ -301,22 +301,37 @@ fn super_iterator(characters: Vec<Character>){
 
 
     let relation = &format!(
-        "<relation id=\"{}\" shortName=\"RANG_ITERATOR\" inObj=\"{}\" relationType=\"prog\" outObj=\"rang:double;name:string\">\n",
+        "<relation id=\"{}\" shortName=\"RANG_ITERATOR\" inObj=\"{}\" relationType=\"prog\" outObj=\"rang:double;name:string;top2:string\">\n",
         relation_id,(&chars_input.remove_last()).to_string());
 
 
     let DDrule=&format!(
-        "<rule id=\"{}\" shortName=\"{}\" relation=\"{}\" resultId=\"rang:a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64;name:50145a28-17ad-424b-9dfc-446f9e46a9fc\" initId=\"{}\"/>\n",
+        "<rule id=\"{}\" shortName=\"{}\" relation=\"{}\" resultId=\"rang:a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64;name:50145a28-17ad-424b-9dfc-446f9e46a9fc;top2:3a598f64-fe54-44e2-b63f-2537fc79ff70\" initId=\"{}\"/>\n",
             uuid::Uuid::new_v4().to_string(), "DD_Iterator".to_string(), relation_id,(&chars_init_DD.remove_last()).to_string());
     let SubDDrule=&format!(
-        "<rule id=\"{}\" shortName=\"{}\" relation=\"{}\" resultId=\"rang:b79cde9e-a5fe-45ce-b219-f99d9a723860;name:db8d7e84-529b-40b5-b511-2441aa181e37\" initId=\"{}\"/>\n",
+        "<rule id=\"{}\" shortName=\"{}\" relation=\"{}\" resultId=\"rang:b79cde9e-a5fe-45ce-b219-f99d9a723860;name:db8d7e84-529b-40b5-b511-2441aa181e37;top2:da93cfbf-f63d-44d9-ac45-34b286fbdde2\" initId=\"{}\"/>\n",
             uuid::Uuid::new_v4().to_string(), "SubDD_Iterator".to_string(), relation_id,(&chars_init_SubDD.remove_last()).to_string());
     let EDrule=&format!(
-        "<rule id=\"{}\" shortName=\"{}\" relation=\"{}\" resultId=\"rang:4b17ade7-fd99-4f52-ae63-fcaeee5e59a7;name:55e9fb79-9614-4b65-bb77-bf70824a3dd5\" initId=\"{}\"/>\n",
+        "<rule id=\"{}\" shortName=\"{}\" relation=\"{}\" resultId=\"rang:4b17ade7-fd99-4f52-ae63-fcaeee5e59a7;name:55e9fb79-9614-4b65-bb77-bf70824a3dd5;top2:7214a3b4-d7f0-400c-8ecd-4362a59758ba\" initId=\"{}\"/>\n",
             uuid::Uuid::new_v4().to_string(), "ED_Iterator".to_string(), relation_id,(&chars_init_ED.remove_last()).to_string());
     let Supportrule=&format!(
-        "<rule id=\"{}\" shortName=\"{}\" relation=\"{}\" resultId=\"rang:cdf8b4e7-b1d3-4b59-ae1c-5f2952cbe2a9;name:861739f8-b139-4cc9-a26f-69ba989961bd\" initId=\"{}\"/>\n",
+        "<rule id=\"{}\" shortName=\"{}\" relation=\"{}\" resultId=\"rang:cdf8b4e7-b1d3-4b59-ae1c-5f2952cbe2a9;name:861739f8-b139-4cc9-a26f-69ba989961bd;top2:ac884de5-ba02-4b0d-9bb8-257220e17c0b\" initId=\"{}\"/>\n",
             uuid::Uuid::new_v4().to_string(), "Support_Iterator".to_string(), relation_id,(&chars_init_Support.remove_last()).to_string());
+
+
+
+    // let DDrule=&format!(
+    //     "<rule id=\"{}\" shortName=\"{}\" relation=\"{}\" resultId=\"rang:a37e36b9-f334-4bd0-8bd6-1bd8b7b30d64;name:50145a28-17ad-424b-9dfc-446f9e46a9fc\" initId=\"{};onn1:db8d7e84-529b-40b5-b511-2441aa181e37;onn2:55e9fb79-9614-4b65-bb77-bf70824a3dd5;onn3:861739f8-b139-4cc9-a26f-69ba989961bd\"/>\n",
+    //         uuid::Uuid::new_v4().to_string(), "DD_Iterator".to_string(), relation_id,(&chars_init_DD.remove_last()).to_string());
+    // let SubDDrule=&format!(
+    //     "<rule id=\"{}\" shortName=\"{}\" relation=\"{}\" resultId=\"rang:b79cde9e-a5fe-45ce-b219-f99d9a723860;name:db8d7e84-529b-40b5-b511-2441aa181e37\" initId=\"onn1:50145a28-17ad-424b-9dfc-446f9e46a9fc;onn2:55e9fb79-9614-4b65-bb77-bf70824a3dd5;onn3:861739f8-b139-4cc9-a26f-69ba989961bd{}\"/>\n",
+    //         uuid::Uuid::new_v4().to_string(), "SubDD_Iterator".to_string(), relation_id,(&chars_init_SubDD.remove_last()).to_string());
+    // let EDrule=&format!(
+    //     "<rule id=\"{}\" shortName=\"{}\" relation=\"{}\" resultId=\"rang:4b17ade7-fd99-4f52-ae63-fcaeee5e59a7;name:55e9fb79-9614-4b65-bb77-bf70824a3dd5\" initId=\"onn1:50145a28-17ad-424b-9dfc-446f9e46a9fc;onn2:db8d7e84-529b-40b5-b511-2441aa181e37;onn3:861739f8-b139-4cc9-a26f-69ba989961bd{}\"/>\n",
+    //         uuid::Uuid::new_v4().to_string(), "ED_Iterator".to_string(), relation_id,(&chars_init_ED.remove_last()).to_string());
+    // let Supportrule=&format!(
+    //     "<rule id=\"{}\" shortName=\"{}\" relation=\"{}\" resultId=\"rang:cdf8b4e7-b1d3-4b59-ae1c-5f2952cbe2a9;name:861739f8-b139-4cc9-a26f-69ba989961bd\" initId=\"onn1:50145a28-17ad-424b-9dfc-446f9e46a9fc;onn2:db8d7e84-529b-40b5-b511-2441aa181e37;onn3:55e9fb79-9614-4b65-bb77-bf70824a3dd5{}\"/>\n",
+    //         uuid::Uuid::new_v4().to_string(), "Support_Iterator".to_string(), relation_id,(&chars_init_Support.remove_last()).to_string());
     
     let mut rangRules=String::new();
     rangRules.push_str(&DDrule);
@@ -326,8 +341,8 @@ fn super_iterator(characters: Vec<Character>){
 
     let mut res = &format!(
     "{} \n {} \n {} \n
-var tmp_name = \"Noone\"; 
-var tmp_rang=0; 
+var tmp_name = \"Noone\", tmp_name1 = \"Noone\"; 
+var tmp_rang=0, tmp_rang1=0; 
 var size = Object.keys(list).length; 
 for (var i = 0; i &lt; size; i+=1) {{ 
     if (tmp_rang&lt;list[i].rang){{ 
@@ -335,9 +350,15 @@ for (var i = 0; i &lt; size; i+=1) {{
         tmp_name=list[i].name; 
     }} 
 }}; 
+for (var i = 0; i &lt; size; i+=1) {{ 
+    if (tmp_rang1&lt;=list[i].rang &amp;&amp; list[i].name!=tmp_name){{ 
+        tmp_rang1=list[i].rang; 
+        tmp_name1=list[i].name; 
+    }} 
+}}; 
 var name = tmp_name; 
 var rang = tmp_rang;
-
+var top2 = tmp_name1;
 </relation>",
         relation,
         chars_declaration,
